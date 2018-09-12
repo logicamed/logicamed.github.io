@@ -42,9 +42,10 @@ body{
 }
 
 #titolo{
-
-    grid-column-start: 2;
-    text-align: center;
+	
+	grid-area:titolo;
+	
+	
     user-select: none;
     font-size: 40px;
 	font-family:CaviarDreamsB;
@@ -53,25 +54,33 @@ body{
 
 }
 
-#titoloRicadute, #titoloAttributi{
-
-    grid-column-start: 1;
-    grid-row-start: 2;
+#titoloRicadute{
+	
     text-align: center;
     font-family: CaviarDreamsB;
+	
+	grid-area:titRicadute;
+	
+}
+
+#titoloAttributi{
+
+    text-align: center;
+    font-family: CaviarDreamsB;
+	
+	grid-area:titAttributi;
 
 }
 
 #logoAzienda{
-
-    grid-column-start: 2;
-    grid-row-start: 2;
+	
+	grid-area:logoAzienda;
 	
 	background-image:url(imm/logo_aerospaziale.png);
 	background-size:150px;
 	background-repeat:no-repeat;
 	position:relative;
-	top:80px;
+	top:20px;
 	z-index:-1;
 	display:block;
 	width:150px;
@@ -84,8 +93,7 @@ body{
 
 	display:block;
 	
-    grid-column-start: 1;
-    grid-row-start: 4;
+	grid-area:telefono;
 	
 	background-image:url(imm/numero_logicamed.png);
 	background-size:cover;
@@ -96,9 +104,8 @@ body{
 }
 
 #logoLogicamed{
-
-    grid-row-start: 4;
-    grid-column-start: 3;
+	
+	grid-area:logoLogica;
 	
 	background-image:url(imm/logo_logicamed.png);
 	background-size:250px;
@@ -112,12 +119,6 @@ body{
 	width:300px;
 	height:170px;
 
-}
-
-#titoloAttributi{
-
-    grid-column-start: 3;
-    
 }
 
 #personale::-webkit-scrollbar {
@@ -148,8 +149,17 @@ body{
     right: 0px;
 	
     display: grid;
-    grid-template-columns:  33% auto auto;
-    grid-template-rows: 5% 5% auto 10%;
+	
+    grid-template-areas:
+	"pulsanti pulsanti pulsanti"
+    "titolo titolo titolo"
+    "titRicadute logoAzienda titAttributi"
+    "ricadute dipendenti attributi"
+    "telefono vuoto logoLogica";
+	
+	grid-template-columns:  33% 33% 33%;
+    grid-template-rows: 2% 5% 150px auto 10%;
+	
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     align-items: center;
@@ -161,17 +171,19 @@ body{
 
 #personale{
     
-    grid-row-start: 3;
+	
+	grid-area:dipendenti;
+	
 	position: relative;
 	
-    margin-top: 60px;
-    margin-bottom: -100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 	
 	width: 400px;
 	
     font-size: 17px;
     min-height: 200px;
-    max-height:80%;
+    max-height:90%;
 	
     display: grid;
     grid-template-columns: auto;
@@ -192,14 +204,14 @@ body{
 }
 
 #ricadute{
-    
-    grid-row-start: 3;
-
-    margin-left: 30px;
+	
+	grid-area:ricadute;
 
 	position: relative;
 	
-	max-width: 500px;
+	width: 400px;
+	
+	text-align:center;
 	
     overflow-y: scroll;
     -ms-overflow-style: none;
@@ -220,10 +232,13 @@ body{
 
 #attributi{
 
-    grid-row-start: 3;
+	grid-area:attributi;
+	
     position: relative;
 	
-    width: 420px;
+	width:420px;
+	
+	text-align:center;
 	
     font-size: 13px;
 	
@@ -258,7 +273,9 @@ body{
     position: relative;
     margin-top: -20px;
     margin-left: 80%;
-    grid-column-start: 3;
+	
+	grid-area:pulsanti;
+	
 	background-image:url(imm/ricarica_out.svg);
 	background-size: cover;
 	
