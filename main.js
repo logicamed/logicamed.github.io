@@ -12,10 +12,10 @@ aggiornaAttributi();
 
 aggiungiDipendente(new Dipendente(1, "Roberto Gigli"));
 aggiungiDipendente(new Dipendente(2, "Mario Rossi"));
-aggiungiDipendente(new Dipendente(3, "Franco Neri"));
-aggiungiDipendente(new Dipendente(4, "Marcello Angeli"));
+// aggiungiDipendente(new Dipendente(3, "Franco Neri"));
+// aggiungiDipendente(new Dipendente(4, "Marcello Angeli"));
 aggiungiDipendente(new Dipendente(5, "Luciano Monzi"));
-aggiungiDipendente(new Dipendente(6, "Marco Giovannelli"));
+/* aggiungiDipendente(new Dipendente(6, "Marco Giovannelli")); */
 aggiungiDipendente(new Dipendente(7, "Giuseppe Trimarco"));
 aggiungiDipendente(new Dipendente(8, "Lorenzo Follo"));
 aggiungiDipendente(new Dipendente(9, "Luigi Casalone"));
@@ -138,39 +138,39 @@ aggiungiRelazioneDipAttr(new RelazioneDipAttr(2,"u",16));
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(2,"z",25));
 
 
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"b",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"c",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"e",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"g",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"i",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"m",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"p",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"r",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"t",1));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"v",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"b",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"c",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"e",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"g",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"i",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"m",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"p",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"r",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"t",1));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(3,"v",1));
 
 
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"a",30));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"b",29));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"c",28));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"d",27));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"e",26));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"f",25));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"g",24));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"h",23));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"i",22));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"l",21));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"m",20));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"n",19));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"o",18));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"p",17));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"q",16));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"r",15));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"s",10));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"t",9));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"u",8));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"v",7));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"z",6));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"a",30));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"b",29));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"c",28));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"d",27));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"e",26));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"f",25));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"g",24));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"h",23));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"i",22));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"l",21));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"m",20));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"n",19));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"o",18));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"p",17));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"q",16));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"r",15));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"s",10));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"t",9));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"u",8));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"v",7));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(4,"z",6));
 
 
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(5,"a",30));
@@ -187,8 +187,8 @@ aggiungiRelazioneDipAttr(new RelazioneDipAttr(5,"u",20));
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(5,"v",10));
 
 
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(6,"f",30));
-aggiungiRelazioneDipAttr(new RelazioneDipAttr(6,"u",30));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(6,"f",30));
+// aggiungiRelazioneDipAttr(new RelazioneDipAttr(6,"u",30));
 
 
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(7,"a",30));
