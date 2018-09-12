@@ -49,7 +49,45 @@ body{
     font-size: 40px;
 	font-family:CaviarDreamsB;
     color:#011538;
+    
 
+}
+
+#titoloRicadute, #titoloAttributi{
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+    text-align: center;
+    font-family: CaviarDreamsB;
+
+}
+
+#logoAzienda{
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+}
+
+
+#numeroLogicamed{
+
+    grid-column-start: 1;
+    grid-row-start: 4;
+
+}
+
+#logoLogicamed{
+
+    grid-row-start: 4;
+    grid-column-start: 3;
+
+}
+
+#titoloAttributi{
+
+    grid-column-start: 3;
+    
 }
 
 #personale::-webkit-scrollbar {
@@ -81,7 +119,7 @@ body{
 	
     display: grid;
     grid-template-columns:  33% auto auto;
-    grid-template-rows: 10% auto;
+    grid-template-rows: 5% 5% auto 5%;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     align-items: center;
@@ -93,7 +131,7 @@ body{
 
 #personale{
     
-    grid-row-start: 2;
+    grid-row-start: 3;
 	position: relative;
 	
     margin-top: 30px;
@@ -102,6 +140,7 @@ body{
 	width: 400px;
 	
     font-size: 17px;
+    min-height: 200px;
     max-height:80%;
 	
     display: grid;
@@ -124,13 +163,13 @@ body{
 
 #ricadute{
     
-    grid-row-start: 2;
+    grid-row-start: 3;
 
     margin-left: 30px;
 
 	position: relative;
 	
-	width: 500px;
+	max-width: 500px;
 	
     overflow-y: scroll;
     -ms-overflow-style: none;
@@ -151,7 +190,7 @@ body{
 
 #attributi{
 
-    grid-row-start: 2;
+    grid-row-start: 3;
     position: relative;
 	
     width: 420px;
@@ -187,6 +226,8 @@ body{
 #plt_ricarica{
     
     position: relative;
+    margin-top: -20px;
+    margin-left: 80%;
     grid-column-start: 3;
 	background-image:url(imm/ricarica_out.svg);
 	background-size: cover;
@@ -432,9 +473,7 @@ body{
 	padding: 15px 0;
 	width: 140px;
     text-align: center;
-	margin:40;
-	margin-top:70px;
-    margin-left: 50px;
+    margin: 15px;
 	border-color:00225a;
 	border-style:solid;
 	border-width:0px;
@@ -450,9 +489,9 @@ body{
     
     content: '';
 	display: block;  
-	position: absolute;
+	position: relative;
 	left: 0;
-	bottom: 100%;
+	bottom: 15px;
 	width: 0;
 	height: 0;
 	border-top: 0px solid transparent;
@@ -466,9 +505,9 @@ body{
 
     content: '';
 	display: block;  
-	position: absolute;
+	position: relative;
 	left: 0;
-	top: 100%;
+	bottom: 15px;
 	width: 0;
 	height: 0;
 	border-top: 50px solid #011538;
