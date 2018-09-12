@@ -118,7 +118,7 @@ body{
 	
     /* box-shadow: 5px 10px 14px 5px var(--coloreOmbra); */
 	
-    filter: drop-shadow(5px 5px 10px black);
+    box-shadow: 3px black;
 	
 }
 
