@@ -67,25 +67,55 @@ body{
 
     text-align: center;
     font-family: CaviarDreamsB;
-	
+    margin-right: 115px;
 	grid-area:titAttributi;
 
 }
 
+.sottotitolo{
+
+    user-select: none;
+    margin-top: 30px;
+    display:none;
+
+}
+
+.sottotitolo[visibile="true"]{
+
+    display: block;
+
+}
+
 #logoAzienda{
-	
-	grid-area:logoAzienda;
-	
-	background-image:url(imm/logo_aerospaziale.png);
-	background-size:150px;
-	background-repeat:no-repeat;
+    
+    
+    user-select: none;
+    grid-area:logoAzienda;
+    display: grid;
+    grid-template-areas: "logo testo testo";
+    grid-column-gap: 10px;
 	position:relative;
-	top:20px;
+	top:10px;
 	z-index:-1;
-	display:block;
-	width:150px;
-	height:150px;
+	width:300px;
+	height:100px;
 	
+}
+
+#testoLogoAzienda{
+
+    grid-area: testo;
+
+
+}
+
+#immagineLogoAzienda{
+
+    grid-area: "logo";
+    margin-top: 20px;
+    width: auto;
+    height: 80px;
+
 }
 
 
@@ -93,7 +123,9 @@ body{
 
 	display:block;
 	
-	grid-area:telefono;
+    grid-area:telefono;
+    
+    margin-right: 100px;
 	
 	background-image:url(imm/numero_logicamed.png);
 	background-size:cover;
@@ -111,13 +143,22 @@ body{
 	background-size:250px;
 	background-repeat:no-repeat;
 	position:relative;
-	top:-30px;
+    top:-30px;
+    margin-left: 70px;
 	z-index:-1;
 	
 	display:block;
 	
 	width:300px;
 	height:170px;
+
+}
+
+#linkLogicamed{
+
+    user-select: none;
+    margin-top: 20px;
+    grid-area: link;
 
 }
 
@@ -155,10 +196,10 @@ body{
     "titolo titolo titolo"
     "titRicadute logoAzienda titAttributi"
     "ricadute dipendenti attributi"
-    "telefono vuoto logoLogica";
+    "link logoLogica telefono";
 	
 	grid-template-columns:  33% 33% 33%;
-    grid-template-rows: 2% 5% 150px auto 10%;
+    grid-template-rows: 2% 5% 50px 80% 5px;;
 	
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -216,7 +257,7 @@ body{
     overflow-y: scroll;
     -ms-overflow-style: none;
 	
-    max-height: 70%;
+    max-height: 90%;
 	
 	font-size:15px;
 	
@@ -236,7 +277,7 @@ body{
 	
     position: relative;
 	
-	width:420px;
+	width:360px;
 	
 	text-align:center;
 	
@@ -244,8 +285,7 @@ body{
 	
     overflow-y: scroll;
     -ms-overflow-style: none;
-	
-    max-height: 80%;
+	max-height: 90%;
 	
     word-break: break-word;
 	

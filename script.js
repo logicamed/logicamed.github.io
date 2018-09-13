@@ -8,6 +8,7 @@ var ricaduteHTML 	= document.querySelector("#ricadute");
 var dipendentiHTML 	= document.querySelectorAll(".dipendente");
 var personaleHTML 	= document.querySelector("#personale");
 var corpoHTML = document.querySelector('#corpo');
+var sottotitoliHTML = document.querySelectorAll(".sottotitolo");
 
 //COLORI
 var coloreDipSfondo_1="black";
@@ -251,6 +252,7 @@ function aggiornaRicadute(){
 //MOUSE CLICK Dipendente
 function mClickDip(e){
 
+	visibilitaSottotitoli(true);
 	cercaRelazioniDipAttr(e.target.id);
 	aggiornaRicadutePerDipendente();
 	modalitaSelezionato = true;
@@ -271,6 +273,7 @@ function mOverDip(e){
 	
 	if(!modalitaSelezionato){
 
+		visibilitaSottotitoli(true);
 		cercaRelazioniDipAttr(e.target.id);
 		aggiornaRicadutePerDipendente();
 
@@ -283,7 +286,7 @@ function mOverDip(e){
 function mOutDip(e){
 
 	if(!modalitaSelezionato){
-
+		visibilitaSottotitoli(false);
 		visibilitaAttributi(false);
 		visibilitaRicadute(false);
 		aggiornaRicadute();
@@ -611,6 +614,16 @@ function aggiornaRicadutePerDipendente(){
 			cercaRelazioniAttrRic(attributi[i].id);
 
 		}
+
+	}
+
+}
+
+function visibilitaSottotitoli(b){
+
+	for(var i = 0; i < sottotitoliHTML.length; i++){
+
+		sottotitoliHTML[i].setAttribute("visibile", b);
 
 	}
 
