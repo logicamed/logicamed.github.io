@@ -97,7 +97,7 @@ body{
 	position:relative;
 	top:10px;
 	z-index:-1;
-	width:300px;
+	width:350px;
 	height:100px;
 	
 }
@@ -105,7 +105,7 @@ body{
 #testoLogoAzienda{
 
     grid-area: testo;
-
+	font-family:CaviarDreams;
 
 }
 
@@ -160,6 +160,26 @@ body{
     margin-top: 20px;
     grid-area: link;
 
+}
+
+/* unvisited link */
+a:link {
+    color: #011538;
+}
+
+/* visited link */
+a:visited {
+    color: #011538;
+}
+
+/* mouse over link */
+a:hover {
+    color: var(--colore2);
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 #personale::-webkit-scrollbar {
