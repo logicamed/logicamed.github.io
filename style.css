@@ -103,9 +103,10 @@ body{
 }
 
 #testoLogoAzienda{
-
+	
+	margin-top:25px;
     grid-area: testo;
-	font-family:CaviarDreams;
+	font-size:16px;
 
 }
 
