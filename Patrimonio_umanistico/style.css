@@ -272,7 +272,7 @@ a:active {
 	
 	
     overflow-y: scroll;
-    /* -ms-overflow-style: none; */
+    -ms-overflow-style: none;
 	
     /* box-shadow: 5px 10px 14px 5px var(--coloreOmbra); */
 	
