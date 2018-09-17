@@ -508,7 +508,7 @@ a:active {
 
     border-color: var(--colore3);
 
-    /* box-shadow: 5px 5px 14px 7px transparent; */
+    /* box-shadow: 0px 0px 14px 7px white inset; */
     filter: drop-shadow(5px 5px 10px transparent);
 	
     /* color:var(--colore1); */
@@ -570,6 +570,7 @@ a:active {
     border-color: var(--colore3);
 
     /* box-shadow: 5px 5px 14px 7px transparent; */
+    background-image: linear-gradient(to top left, #1ba2ef  0%, #003695  50%, #1ba2ef   100%);
     filter: drop-shadow(5px 5px 10px transparent);
 	
     /* color:var(--colore1); */
