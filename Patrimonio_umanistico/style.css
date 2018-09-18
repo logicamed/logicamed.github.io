@@ -122,18 +122,13 @@ body{
 
 
 #numeroLogicamed{
-
-	display:block;
 	
     grid-area:telefono;
     
     margin-right: 100px;
+    user-select: none;
+    margin-top: 20px;
 	
-	background-image:url(imm/numero_logicamed.png);
-	background-size:200px;
-	
-	width:200px;
-	height:100px;
 	
 }
 
