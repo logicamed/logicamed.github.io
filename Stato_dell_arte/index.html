@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>GraficoRadiale</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <canvas id="grafico"></canvas>
+
+    </div>
+
+    <div id="logologica">
+
+      <img id="immlogologica" src="imm/logoLogica.png" alt="">
+
+    </div>
+
+    <script type="text/javascript">
+
+      let grafico = document.getElementById('grafico').getContext('2d');
+
+      var chartOptions = {
+        responsive:true,
+        scale: {
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 30,
+            stepSize: 5,
+            fontSize: 10,
+            fontColor:'white',
+            display:false
+          },
+          gridLines: {
+            color: "gray",
+            lineWidth: 0.2
+          },
+          angleLines: {
+            color: "gray",
+            lineWidth: 0.2
+          },
+          pointLabels: {
+            fontSize: 11,
+            fontFamily:'calibri',
+            fontColor:'black'
+          }
+        },
+
+        title:{
+          position:'top',
+          fontSize: 20,
+          fontFamily:'calibri',
+          fontStyle:'normal',
+          fontColor:'black',
+          display: true,
+          text: "STATO dell'ARTE dell'AZIENDA",
+          backgroundColor: "blue",
+          padding:40
+        },
+
+        legend: {
+          position:'right',
+          labels:{
+            fontSize: 10,
+            fontColor:'black',
+            padding:50,
+            usePointStyle:true
+          }
+        }
+      };
+
+
+      let obj_Grafico = new Chart(grafico,{
+
+        type:'radar',//bar, horizontalBar, pie, line, doughnut, radar, polarArea
+
+        data:{
+
+          labels:[
+            [' ','Senso di appartenenza all\' azienda'],
+            'Ambiente di lavoro - Pulizia-clima',
+            'Sicurezza sul lavoro',
+            'Responsabilità del ruolo ricoperto  e motivazione',
+            'Sensibilità  ai processi di innovazione',
+            'Capacita di assumere iniziative migliorative',
+            'Capacità  di interagire tra ruoli',
+            'Capacità  dei leader  di comandare',
+            'Stima verso la proprietà',
+            'Esigenze di crescita dei dipendenti - Formazione',  
+            'Capacità di riconoscere le proprie attitudini e i propri limiti',
+            [' ','Disponibilità alla flessibilità di lavoro'],
+            'Soddisfaziione nel ruolo e incarichi',
+            'Spazi di miglioramento nell\' ambito lavorativo',
+            'Welfare aziendale - iniziative e comunicazioni',
+            'Clima aziendale - atmosfera- tensioni',
+            'Rapporti con i colleghi- contrasti - conflitti - dissidi',
+            'Sensibilizzazione agli sprechi',
+            'Meritocrazia',
+            'Coinvolgimento su nuovi programmi ',
+            'Rapporto incarico/contratto',
+            'Disposto alla carriera interna'
+            ],
+
+          datasets:[
+            {
+              label:'Marzo 2017',
+              backgroundColor: "rgba(255,225,0,0)",
+              borderColor: "rgba(255,225,0,1)",
+              radius: 1,
+              borderWidth:3,
+              //lineTension:0.8,
+              pointRadius: 2,
+              pointHoverRadius: 5,
+              pointBorderWidth: 0,
+              pointBackgroundColor: "rgba(255,255,255,1)",
+              pointBorderColor: "rgba(255,225,0,1)",
+              data:[18,16,22,11,9,8,7,11,16,10,12,10,22,4,3,8,16,9,6,4,19,14]
+            },
+            {
+              label:'Gennaio 2018',
+              backgroundColor: "rgba(240,63,28,0)",
+              borderColor: "rgba(240,63,28,1)",
+              radius: 1,
+              borderWidth:3,
+              pointRadius: 2,
+              pointHoverRadius: 5,
+              pointBorderWidth: 0,
+              pointBackgroundColor: "rgba(255,255,255,1)",
+              pointBorderColor: "rgba(240,63,28,1)",
+              data:[25,28,22,16,12,18,7,12,22,16,22,15,21,8,11,5,13,11,11,12,20,16]
+            },
+            {
+              label:'Giugno 2018',
+              backgroundColor: "rgba(28,98,240,0)",
+              borderColor: "rgba(28,98,240,1)",
+              radius: 1,
+              borderWidth:3,
+              pointRadius: 2,
+              pointHoverRadius: 5,
+              pointBorderWidth: 0,
+              pointBackgroundColor: "rgba(255,255,255,1)",
+              pointBorderColor: "rgba(28,98,240,1)",
+              data:[30,30,23,18,20,19,11,19,25,18,30,21,26,14,13,18,21,13,17,15,26,19]
+            }
+          ]
+        },
+
+        options:chartOptions
+
+      });
+
+    </script>
+
+  </body>
+
+</html>

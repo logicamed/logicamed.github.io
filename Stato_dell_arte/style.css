@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: CaviarDreamsB;
+    src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: Gravity;
+    src: url(fonts/Gravity-Light.otf);
+}
+
+@font-face {
+    font-family: GravityB;
+    src: url(fonts/Gravity-Bold.otf);
+}
+
+body{
+
+  background-color: white/*rgb(1, 21, 56)*/;
+
+}
+
+.container{
+
+
+
+}
+
+#grafico{
+
+  width: 100%;
+  height: 100%;
+
+}
+
+#logologica{
+
+  position:absolute;
+  top: 5px;
+  left: 5px;
+  width: 300px;
+  height: 300px;
+
+}
+
+#immlogologica{
+
+
+  width: 100px;
+  height:100px;
+
+
+}
