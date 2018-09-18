@@ -102,22 +102,22 @@ aggiungiRicaduta(new Ricaduta("r19", "Disorientamento", "negativa"));
 aggiungiRicaduta(new Ricaduta("r20", "Processi Decisionali", "positiva"));
 aggiungiRicaduta(new Ricaduta("r21", "Ruoli", "negativa"));
 aggiungiRicaduta(new Ricaduta("r22", "Processi", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Innovazione", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Formazione", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Spreco Tempo", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Priorit&agrave", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Riconoscimenti", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Premi", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Comunicazione", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Carichi di lavoro", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Discrepanza Esigenze", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Sovra Affaticamento", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Carenza", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Soddisfazione Lavorativa", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Trasparenza", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Integrit&agrave", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Stima", "positiva"));
-aggiungiRicaduta(new Ricaduta("r22", "Problemi Sindacali", "positiva"));
+aggiungiRicaduta(new Ricaduta("r23", "Innovazione", "positiva"));
+aggiungiRicaduta(new Ricaduta("r24", "Formazione", "positiva"));
+aggiungiRicaduta(new Ricaduta("r25", "Spreco Tempo", "positiva"));
+aggiungiRicaduta(new Ricaduta("r26", "Priorit&agrave", "positiva"));
+aggiungiRicaduta(new Ricaduta("r27", "Riconoscimenti", "positiva"));
+aggiungiRicaduta(new Ricaduta("r28", "Premi", "positiva"));
+aggiungiRicaduta(new Ricaduta("r29", "Comunicazione", "positiva"));
+aggiungiRicaduta(new Ricaduta("r30", "Carichi di lavoro", "positiva"));
+aggiungiRicaduta(new Ricaduta("r31", "Discrepanza Esigenze", "positiva"));
+aggiungiRicaduta(new Ricaduta("r32", "Sovra Affaticamento", "positiva"));
+aggiungiRicaduta(new Ricaduta("r33", "Carenza", "positiva"));
+aggiungiRicaduta(new Ricaduta("r34", "Soddisfazione Lavorativa", "positiva"));
+aggiungiRicaduta(new Ricaduta("r35", "Trasparenza", "positiva"));
+aggiungiRicaduta(new Ricaduta("r36", "Integrit&agrave", "positiva"));
+aggiungiRicaduta(new Ricaduta("r37", "Stima", "positiva"));
+aggiungiRicaduta(new Ricaduta("r38", "Problemi Sindacali", "positiva"));
 
 
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r1"));
@@ -649,5 +649,3 @@ aggiungiRelazioneDipAttr(new RelazioneDipAttr(32,"r",30));
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(32,"s",20));
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(32,"t",20));
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(32,"u",20));
-
-
