@@ -1,12 +1,12 @@
 :root{
-	
+
 	--colore1:black;
 	--colore2:#c49000;
 	--colore3:white;
 	--colore4:#af8b53;
 	--coloreOmbra:black/* #2c3e50 */;
 	--coloreSfondo:white/* #011538 */;
-	
+
 }
 
 @font-face {
@@ -30,10 +30,10 @@
 }
 
 body{
-	
+
     font-size: 20px;
     font-family: CaviarDreams, sans-serif;
-	
+
 	background-color: var(--coloreSfondo);
 	/* background-image: linear-gradient(to top left, #0e2487  0%, white   100%); */
 	/* background-image: url(imm/lineare.png); */
@@ -42,25 +42,25 @@ body{
 }
 
 #titolo{
-	
+
 	grid-area:titolo;
-	
-	
+
+
     user-select: none;
     font-size: 40px;
 	font-family:CaviarDreamsB;
     color:#011538;
-    
+
 
 }
 
 #titoloRicadute{
-	
+
     text-align: center;
     font-family: CaviarDreamsB;
-	
+
 	grid-area:titRicadute;
-	
+
 }
 
 #titoloAttributi{
@@ -87,8 +87,8 @@ body{
 }
 
 #logoAzienda{
-    
-    
+
+
     user-select: none;
     grid-area:logoAzienda;
     display: grid;
@@ -100,11 +100,11 @@ body{
 	z-index:-1;
 	width:350px;
 	height:100px;
-	
+
 }
 
 #testoLogoAzienda{
-	
+
 	margin-top:25px;
     grid-area: testo;
 	font-size:16px;
@@ -122,20 +122,20 @@ body{
 
 
 #numeroLogicamed{
-	
+
     grid-area:telefono;
-    
+
     margin-right: 100px;
     user-select: none;
     margin-top: 20px;
-	
-	
+
+
 }
 
 #logoLogicamed{
-	
+
 	grid-area:logoLogica;
-	
+
 	background-image:url(imm/logo_logicamed.png);
 	background-size:250px;
 	background-repeat:no-repeat;
@@ -143,9 +143,9 @@ body{
     top:-30px;
     margin-left: 70px;
 	z-index:-1;
-	
+
 	display:block;
-	
+
 	width:300px;
 	height:170px;
 
@@ -180,7 +180,7 @@ a:active {
 }
 
 #personale::-webkit-scrollbar {
-    
+
     width: 10px;
 
 }
@@ -201,126 +201,126 @@ a:active {
 }
 
 #attributi::-webkit-scrollbar {
-    
+
     width: 10px;
 
 }
 
 #ricadute::-webkit-scrollbar {
-    
+
     display: none;
 
 }
 
 #corpo{
-	
+
     position: absolute;
-	
+
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-	
+
     display: grid;
-	
+
     grid-template-areas:
 	"pulsanti pulsanti pulsanti"
     "titolo titolo titolo"
     "titRicadute logoAzienda titAttributi"
     "ricadute dipendenti attributi"
     "link logoLogica telefono";
-	
+
 	grid-template-columns:  33% 33% 33%;
-    grid-template-rows: 0px 50px 80px auto 60px;;
-	
+    grid-template-rows: 0px 50px 80px auto 60px;
+
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     align-items: center;
     justify-items: center;
     padding-bottom: 30px;
-	
-	
+
+
 }
 
 #personale{
-    
-	
+
+
 	grid-area:dipendenti;
-	
+
 	position: relative;
-	
+
     margin-top: 0px;
     margin-bottom: 0px;
-	
+
 	width: 400px;
-	
+
     font-size: 17px;
     min-height: 200px;
     max-height:90%;
-	
+
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     justify-items: center;
-	
+
 	background-color:transparent;
 	/* background-image: linear-gradient(to top left, #198ccd  0%, #126a9b  50%, #198ccd   100%); */
-	
-	
+
+
     overflow-y: scroll;
     -ms-overflow-style: none;
-	
+
     /* box-shadow: 5px 10px 14px 5px var(--coloreOmbra); */
-	
+
     box-shadow: 3px black;
-	
+
 }
 
 #ricadute{
-	
+
 	grid-area:ricadute;
 
 	position: relative;
-	
+
 	width: 400px;
-	
+
 	text-align:center;
-	
+
     overflow-y: scroll;
     -ms-overflow-style: none;
-	
+
     max-height: 90%;
-	
+
 	font-size:15px;
-	
+
 	font-family:CaviarDreamsB;
-	
+
     user-select: none;
-	
+
 	color:#011538;
-	
+
 	min-height:200px;
-	
+
 }
 
 #attributi{
 
 	grid-area:attributi;
-	
+
     position: relative;
-	
+
 	width:360px;
-	
+
 	text-align:center;
-	
+
     font-size: 13px;
-	
+
     overflow-y: scroll;
     -ms-overflow-style: none;
 	max-height: 90%;
-	
+
     word-break: break-word;
-	
+
     transition: 0.1s ease-in-out;
 
 }
@@ -334,76 +334,76 @@ a:active {
 #attributi[scorrimento="true"]{
 
     overflow-y: scroll;
-	
+
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
 
 #plt_ricarica{
-    
+
     position: relative;
     margin-top: 30px;
     margin-left: 80%;
-	
+
 	grid-area:pulsanti;
-	
+
 	background-image:url(imm/ricarica_out.svg);
 	background-size: cover;
-	
+
 	top:10px;
 	right:10px;
-	
+
 }
 
 #plt_ricarica:hover{
-	
+
 	background-image:url(imm/ricarica_over.svg);
 	background-size: cover;
-	
+
     cursor: pointer;
-	
+
 }
 
 .pulsante{
-	
+
 	position:absolute;
 	width:40px;
 	height:40px;
-	
+
 	display:block;
-	
+
 }
 
 .dipendente{
-	
+
     background-color: #011538;
-	
+
     width: 250px;
-	
+
     color: var(--colore3);
-	
+
     border-style: solid;
     border-width: 1px;
     border-color: var(--colore3);
     border-radius: 30px;
-	
+
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
-	
+
 	margin : 5px;
-	
+
     cursor: pointer;
-	
+
     user-select: none;
 
     /* box-shadow: 5px 5px 14px 7px var(--coloreOmbra); */
-	
+
     filter: drop-shadow(5px 5px 2px black);
 
 	transition: 0.1s ease-in-out;
-	
+
 	font-family: CaviarDreamsB;
 
 }
@@ -417,7 +417,7 @@ a:active {
 .dipendente[selezionato="true"]{
 
     background-color: var(--colore4);
-	
+
 	color:var(--colore1);
 
 }
@@ -426,11 +426,11 @@ a:active {
 
 	/* background-image: linear-gradient(to bottom left, #e5c100  0%,  #dfd6a5  50% , #a48a00   100%); */
 	background-color:var(--colore4);
-    
+
     text-align: center;
-    
+
 	color:00225a;
-	
+
     transform: scale(1.3);
 
 }
@@ -439,36 +439,36 @@ a:active {
 .attributo{
 
 	float:left;
-	
+
     display: table;
-	
+
     margin : 10px;
     padding-left: 15px;
     padding-right: 15px;
     padding: 5px;
-	
+
     text-align: center;
-	
+
     height: 110px;
     width: 110px;
-	
+
     border-radius: 100%;
     border-style: solid;
     border-width: 1px;
     border-color : var(--colore3);
-	
+
     /* background-color: transparent; */
 	background-image: linear-gradient(to top left, #198ccd  0%, #011538  50%, #198ccd   100%);
-	
+
     color:var(--colore3);
-    
-    
+
+
     /* box-shadow: 5px 5px 14px 7px var(--coloreOmbra); */
-	
+
     filter: drop-shadow(5px 5px 10px black);
-	
+
 	transition: 0.1s ease-in-out;
-	
+
 }
 
 .attributo[visibile="false"]{
@@ -479,20 +479,20 @@ a:active {
 
 .attributo[esteso="true"]{
 
-	
+
 
 }
 
 .testoAtt{
 
     display: table-cell;
-	
+
 	vertical-align:middle;
-	
+
     cursor: pointer;
-	
+
     user-select: none;
-	
+
 }
 
 .attributo:hover {
@@ -506,9 +506,9 @@ a:active {
 
     /* box-shadow: 0px 0px 14px 7px white inset; */
     filter: drop-shadow(5px 5px 10px transparent);
-	
+
     /* color:var(--colore1); */
-	
+
 	font-family:CaviarDreamsB;
 	font-size:60px;
 
@@ -518,41 +518,41 @@ a:active {
 
     width: 60px;
     height: 60px;
-	
+
     border-radius: 100%;
 
 }
 
 .attributo[grandezza="piccolo"]{
-	
+
 	width:100px;
 	height:100px;
 	font-size:13px;
-	
+
 }
 
 .attributo[grandezza="medio"]{
-	
+
 	width:120px;
 	height:120px;
 	font-size:16px;
-	
+
 }
 
 .attributo[grandezza="grande"]{
-	
+
 	width:140px;
 	height:140px;
 	font-size:18px;
-	
+
 }
 
 .attributo[grandezza="predefinito"]{
-	
+
 	width:90px;
 	height:90px;
 	font-size:13px;
-	
+
 }
 
 
@@ -568,9 +568,9 @@ a:active {
     /* box-shadow: 5px 5px 14px 7px transparent; */
     background-image: linear-gradient(to top left, #1ba2ef  0%, #003695  50%, #1ba2ef   100%);
     filter: drop-shadow(5px 5px 10px transparent);
-	
+
     /* color:var(--colore1); */
-	
+
 	font-family:CaviarDreamsB;
 	font-size:17px;
 
@@ -578,7 +578,7 @@ a:active {
 
 .testoAtt:hover{
 
-	
+
 
 }
 
@@ -586,7 +586,7 @@ a:active {
 
     background-color:red;
     filter: drop-shadow(5px 5px 10px black);
-	
+
 	display: inline-block;
 	position: relative;
 	background: transparent;
@@ -598,17 +598,17 @@ a:active {
 	border-style:solid;
 	border-width:0px;
 	border-radius:10%;
-	
+
 	font-size:16px;
-	
-    
+
+
 }
 
 .ricaduta[valore="positiva"]::before{
 
-    
+
     content: '';
-	display: block;  
+	display: block;
 	position: relative;
 	left: 0;
 	bottom: 15px;
@@ -624,7 +624,7 @@ a:active {
 .ricaduta[valore="negativa"]::before{
 
     content: '';
-	display: block;  
+	display: block;
 	position: relative;
 	left: 0;
 	bottom: 15px;
