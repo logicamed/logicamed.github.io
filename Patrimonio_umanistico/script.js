@@ -193,7 +193,7 @@ function aggiornaAttributi(){
 		
 		//AGGIUNTA ELEMENTO ATTRIBUTO
 
-		if(a.mostraValori){
+		if(a.mostraValori || true){
 
 			contenitoreAttributiHTML.innerHTML += "<div id='"+a.id+"' class='attributo' esteso='"+a.esteso+"' visibile='"+a.visibile+"' grandezza='"+a.grandezza+"'><div class='testoAtt'>"+a.nome+"<br> "+a.valore+"</div></div>";
 
