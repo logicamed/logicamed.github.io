@@ -193,14 +193,14 @@ function aggiornaAttributi(){
 		
 		//AGGIUNTA ELEMENTO ATTRIBUTO
 
-		if(a.mostraValori || true){
+		if(a.mostraValori && false){
 
-			contenitoreAttributiHTML.innerHTML += "<div id='"+a.id+"' class='attributo' esteso='"+a.esteso+"' visibile='"+a.visibile+"' grandezza='"+a.grandezza+"'><div class='testoAtt'>"+a.nome+"<br> "+a.valore+"</div></div>";
+			contenitoreAttributiHTML.innerHTML += "<div id='"+a.id+"' class='attributo' esteso='"+a.esteso+"' visibile='"+a.visibile+"' grandezza='"+a.grandezza+"' valore='"+a.valore+"'><div class='testoAtt'>"+a.nome+"<br> "+a.valore+"</div></div>";
 
 		}
 		else{
 
-			contenitoreAttributiHTML.innerHTML += "<div id='"+a.id+"' class='attributo' esteso='"+a.esteso+"' visibile='"+a.visibile+"' grandezza='"+a.grandezza+"'><div class='testoAtt'>"+a.nome+"</div></div>";
+			contenitoreAttributiHTML.innerHTML += "<div id='"+a.id+"' class='attributo' esteso='"+a.esteso+"' visibile='"+a.visibile+"' grandezza='"+a.grandezza+"' valore='"+a.valore+"'><div class='testoAtt'>"+a.nome+"</div></div>";
 
 		}
 
@@ -318,7 +318,7 @@ function mClickAtt(e){
 
 	visibilitaDipendenti(false);
 	aggiornaRicadute();
-	selezionaDipendenti(e.target.parentElement.id, e.target.innerHTML);
+	selezionaDipendenti(e.target.parentElement.id, e.target.parentElement.getAttribute('valore'));
 
 }
 
@@ -426,8 +426,8 @@ function cercaRelazioniAttrRic(id){
 //SELEZIONA DIPENDENTI
 function selezionaDipendenti(id, contenutoAtt){
 
-	var valoreAtt = contenutoAtt[contenutoAtt.length - 2] + contenutoAtt[contenutoAtt.length - 1];
-
+	var valoreAtt = contenutoAtt;
+	console.log(valoreAtt);
 
 	try {
 		valoreAtt = eval(valoreAtt);
