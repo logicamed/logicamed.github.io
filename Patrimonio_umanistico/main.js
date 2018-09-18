@@ -45,27 +45,28 @@ aggiungiDipendente(new Dipendente(32, "Giovanni Verga"));
 
 
 
-aggiungiAttributo(new Attributo("a", "Benessere"));
-aggiungiAttributo(new Attributo("b", "Alimentazione"));
-aggiungiAttributo(new Attributo("c", "Sport"));
-aggiungiAttributo(new Attributo("d", "Stima"));
-aggiungiAttributo(new Attributo("e", "Distanza"));
-aggiungiAttributo(new Attributo("f", "104"));
-aggiungiAttributo(new Attributo("g", "Lavoro"));
-aggiungiAttributo(new Attributo("h", "Hobby"));
-aggiungiAttributo(new Attributo("i", "Denaro"));
-aggiungiAttributo(new Attributo("l", "Preoccupazioni"));
-aggiungiAttributo(new Attributo("m", "Decisioni"));
-aggiungiAttributo(new Attributo("n", "Difficolt&agrave"));
-aggiungiAttributo(new Attributo("o", "Carattere"));
-aggiungiAttributo(new Attributo("p", "Temperamento"));
-aggiungiAttributo(new Attributo("q", "Affidabilit&agrave"));
-aggiungiAttributo(new Attributo("r", "Integrit&agrave"));
-aggiungiAttributo(new Attributo("s", "Flessibilit&agrave di orario"));
-aggiungiAttributo(new Attributo("t", "Lavoro da casa"));
-aggiungiAttributo(new Attributo("u", "Fumo"));
-aggiungiAttributo(new Attributo("v", "Figli"));
-aggiungiAttributo(new Attributo("z", "Single"));
+aggiungiAttributo(new Attributo("a", "Autonomia"));
+aggiungiAttributo(new Attributo("b", "Coesione"));
+aggiungiAttributo(new Attributo("c", "Fiducia"));
+aggiungiAttributo(new Attributo("d", "Pressione"));
+aggiungiAttributo(new Attributo("e", "Sostegno"));
+aggiungiAttributo(new Attributo("f", "Riconoscimento"));
+aggiungiAttributo(new Attributo("g", "Valorizzazione"));
+aggiungiAttributo(new Attributo("h", "Equit&agrave"));
+aggiungiAttributo(new Attributo("i", "Innovazione"));
+aggiungiAttributo(new Attributo("l", "Dinamismo"));
+aggiungiAttributo(new Attributo("m", "Remunerazione"));
+aggiungiAttributo(new Attributo("n", "Emotivit&agrave"));
+aggiungiAttributo(new Attributo("o", "Comfort Fisico"));
+aggiungiAttributo(new Attributo("p", "Comfort Ambientale"));
+aggiungiAttributo(new Attributo("q", "Organizzazione"));
+aggiungiAttributo(new Attributo("r", "Leadership"));
+aggiungiAttributo(new Attributo("s", "Valori"));
+aggiungiAttributo(new Attributo("t", "Cultura"));
+aggiungiAttributo(new Attributo("u", "Integrit&agrave"));
+aggiungiAttributo(new Attributo("v", "Distanza"));
+aggiungiAttributo(new Attributo("z", "Sport"));
+aggiungiAttributo(new Attributo("aa", "Hobby"));
 
 
 aggiungiRicaduta(new Ricaduta("r1", "Ric.Benessere1", "positiva"));
