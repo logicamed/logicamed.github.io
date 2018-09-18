@@ -94,8 +94,8 @@ body{
     display: grid;
     grid-template-areas: "logo testo testo";
     grid-column-gap: 10px;
-	position:relative;
-	top:10px;
+    top: -20px;
+    position:relative;
 	z-index:-1;
 	width:350px;
 	height:100px;
@@ -235,14 +235,14 @@ a:active {
     "link logoLogica telefono";
 	
 	grid-template-columns:  33% 33% 33%;
-    grid-template-rows: 2% 5% 50px 80% 5px;;
+    grid-template-rows: 0px 50px 80px auto 60px;;
 	
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     align-items: center;
     justify-items: center;
+    padding-bottom: 30px;
 	
-    padding: 30px;
 	
 }
 
@@ -347,7 +347,7 @@ a:active {
 #plt_ricarica{
     
     position: relative;
-    margin-top: -20px;
+    margin-top: 30px;
     margin-left: 80%;
 	
 	grid-area:pulsanti;
