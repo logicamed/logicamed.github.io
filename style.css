@@ -23,6 +23,7 @@ a:active {
 #intestazione{
 
   position: fixed;
+  z-index: 100;
   top: 30px;
   left: 0px;
 
