@@ -419,7 +419,7 @@ a:active {
 
 	grid-area:pulsanti;
 
-	background-image:url(imm/ricarica_out_border.svg);
+	background-image:url(imm/ricarica_out_tondo.svg);
 	background-size: cover;
 
 	top:10px;
@@ -429,7 +429,7 @@ a:active {
 
 #plt_ricarica:hover{
 
-	background-image:url(imm/ricarica_over_border.svg);
+	background-image:url(imm/ricarica_over_tondo.svg);
 	background-size: cover;
 
     cursor: pointer;
