@@ -34,10 +34,10 @@ body{
     font-size: 20px;
     font-family: CaviarDreams, sans-serif;
 
-	background-color: var(--coloreSfondo);
+	/*background-color: var(--coloreSfondo);*/
 	/* background-image: linear-gradient(to top left, #0e2487  0%, white   100%); */
-	/* background-image: url(imm/lineare.png); */
-	background-size: cover;
+	background-image: url(imm/sfondo4.png);
+	background-size: 100% 100%;
 
 }
 
@@ -50,7 +50,7 @@ body{
     -ms-user-select: none;
     -moz-user-select: none;
     font-size: 40px;
-	font-family:CaviarDreamsB;
+		font-family:CaviarDreamsB;
     color:#011538;
 
 
@@ -141,7 +141,7 @@ body{
 
 #logoLogicamed{
 
-    background-color: white; 
+    background-color: white;
     grid-area:logoLogica;
     display: grid;
     grid-template-areas: "link" "numero" "logo";
@@ -150,7 +150,7 @@ body{
     justify-items: center;
     box-shadow: 3px 3px 10px black;
     border-radius: 60px;
-	
+
 
 }
 
@@ -176,7 +176,7 @@ body{
     width:auto;
     height:60px;
     margin: 20px;
-    
+
 
 }
 
@@ -287,14 +287,14 @@ a:active {
     display: grid;
 
     grid-template-areas:
-	"pulsanti pulsanti pulsanti"
+	"vuoto vuoto pulsanti"
     "titolo titolo titolo"
     "titRicadute logoAzienda titAttributi"
     "ricadute dipendenti attributi"
-    "vuoto vuoto logoLogica";
+    "ricadute dipendenti logoLogica";
 
 	grid-template-columns:  33% 33% 33%;
-    grid-template-rows: 0px 50px 80px auto 60px;
+    grid-template-rows: 0px 50px 80px auto 100px;
 
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -345,7 +345,7 @@ a:active {
 	position: relative;
 
     text-align:center;
-    
+
     display: grid;
 
     align-items: center;
@@ -378,7 +378,7 @@ a:active {
     position: relative;
 
     width: auto;
-    
+
     max-width: 60%;;
 
 	text-align:center;
@@ -414,8 +414,8 @@ a:active {
 #plt_ricarica{
 
     position: relative;
-    margin-top: 30px;
-    margin-left: 80%;
+    margin-top: 50px;
+
 
 	grid-area:pulsanti;
 

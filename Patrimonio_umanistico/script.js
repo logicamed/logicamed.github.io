@@ -17,7 +17,7 @@ var coloreAttTesto_1="white";
 var coloreAttTesto_2="#ff6600";
 
 //ALTRE
-var personale = []; 
+var personale = [];
 var attributi = [];
 var ricadute = [];
 var relazioniDipAttr = [];
@@ -53,7 +53,7 @@ function Attributo(id, nome, valore, valoreMin, valoreMax){
 	this.id = id;
 	this.nome = nome;
 	if(valore != null){
-		this.valore = valore;	
+		this.valore = valore;
 	}
 	else
 	{
@@ -113,7 +113,7 @@ function aggiungiDipendente(d){
 	personale.push(d);
 	aggiornaDipendenti();
 	aggiornaGestoreEventi();
-	
+
 }
 
 function aggiungiAttributo(a){
@@ -127,9 +127,9 @@ function aggiungiAttributo(a){
 
 
 function aggiungiRelazioneAttrRic(rl){
-	
+
 	relazioniAttrRic.push(rl);
-	
+
 }
 
 
@@ -147,11 +147,11 @@ function aggiungiRicaduta(r){
 }
 
 function aggiornaDipendenti(){
-	
+
 	personaleHTML.innerHTML = "";
 	for(var i=0; i < personale.length; i++){
-		
-		
+
+
 		var d = personale[i];
 		if(d.visibile){
 
@@ -160,37 +160,37 @@ function aggiornaDipendenti(){
 		}
 
 	}
-	
+
 }
 
 function aggiornaAttributi(){
 
 	contenitoreAttributiHTML.innerHTML = "";
 	for(var i = 0; i < attributi.length; i++){
-		
+
 		//CONTROLLO QUALI ELEMENTI ATTRIBUTO SONO VISIBILI
-		
+
 
 		var a = attributi[i];
 
 		if(modalitaSelezionato){
 
 			if(a.valore<=10){
-					
+
 				a.grandezza = "grande";
-				
+
 			}else if(a.valore>20){
-				
+
 				a.grandezza = "piccolo";
-				
+
 			}else{
-				
+
 				a.grandezza = "medio";
-				
+
 			}
 
 		}
-		
+
 		//AGGIUNTA ELEMENTO ATTRIBUTO
 
 		if(a.mostraValori && false){
@@ -209,25 +209,25 @@ function aggiornaAttributi(){
 }
 
 function aggiornaGestoreEventi(){
-	
+
 	dipendentiHTML = document.querySelectorAll(".dipendente");
 	testoAttributiHTML = document.querySelectorAll(".testoAtt");
 	attributiHTML = document.querySelectorAll(".attributo");
 
 	for(var i=0; i < dipendentiHTML.length; i++){
-	
+
 		dipendentiHTML[i].addEventListener("mouseover", mOverDip);
 		dipendentiHTML[i].addEventListener("mouseout", mOutDip);
 		dipendentiHTML[i].addEventListener("click", mClickDip);
-	
+
 	}
-	
+
 	for(var i=0; i < testoAttributiHTML.length; i++){
-	
-		testoAttributiHTML[i].addEventListener("mouseout", mOutAtt);
-		testoAttributiHTML[i].addEventListener("mouseover", mOverAtt);
-		testoAttributiHTML[i].addEventListener("click", mClickAtt);
-		
+
+		testoAttributiHTML[i].parentElement.addEventListener("mouseout", mOutAtt);
+		testoAttributiHTML[i].parentElement.addEventListener("mouseover", mOverAtt);
+		testoAttributiHTML[i].parentElement.addEventListener("click", mClickAtt);
+
 	}
 
 	//window.addEventListener("resize", aggiornaPosizioni);
@@ -238,8 +238,8 @@ function aggiornaRicadute(){
 
 	ricaduteHTML.innerHTML = "";
 	for(var i=0; i < ricadute.length; i++){
-		
-		
+
+
 		var r = ricadute[i];
 
 		ricaduteHTML.innerHTML += "<div id='"+r.id+"' class='ricaduta' visibile='"+r.visibile+"' valore='"+r.valore+"'>"+r.nome+"</div>";
@@ -270,7 +270,7 @@ function mClickDip(e){
 
 //MOUSE OVER Dipendente
 function mOverDip(e){
-	
+
 	if(!modalitaSelezionato){
 
 		visibilitaSottotitoli(true);
@@ -300,17 +300,17 @@ function mOutDip(e){
 function mOverAtt(e){
 
 	visibilitaRicadute(false);
-	cercaRelazioniAttrRic(e.target.parentElement.id);
-	
+	cercaRelazioniAttrRic(e.target.id);
+
 }
 
 //MOUSE OUT Attributo
 function mOutAtt(e){
-	
+
 	visibilitaRicadute(false);
 	aggiornaRicadutePerDipendente();
 	aggiornaRicadute();
-	
+
 }
 
 //MOUSE CLICK Attributo
@@ -318,7 +318,7 @@ function mClickAtt(e){
 
 	visibilitaDipendenti(false);
 	aggiornaRicadute();
-	selezionaDipendenti(e.target.parentElement.id, e.target.parentElement.getAttribute('valore'));
+	selezionaDipendenti(e.target.id, e.target.getAttribute('valore'));
 
 }
 
@@ -330,7 +330,7 @@ function aggiornaPosizioni(){
 	if(window.innerWidth > 1200){
 		larghezzaFinestra = window.innerWidth;
 	}
-	
+
 
 	var larghezzaAttributi = contenitoreAttributiHTML.offsetWidth/2;
 	var larghezzaPersonale = personaleHTML.offsetWidth;
@@ -343,9 +343,9 @@ function aggiornaPosizioni(){
 
 
 	contenitoreAttributiHTML.style.left = posizioneAttributi + "px";
-	personaleHTML.style.left = posizionePersonale +"px";		
+	personaleHTML.style.left = posizionePersonale +"px";
 	/* personaleHTML.style.top = verticalePersonaleTop + "px"; */
-	
+
 
 }
 
@@ -384,7 +384,7 @@ function cercaRelazioniDipAttr(id){
 		}
 	}
 
-	
+
 	aggiornaAttributi();
 	//aggiornaPosizioni();
 	aggiornaGestoreEventi();
@@ -416,7 +416,7 @@ function cercaRelazioniAttrRic(id){
 		}
 	}
 
-	
+
 	aggiornaRicadute();
 	//aggiornaPosizioni();
 	aggiornaGestoreEventi();
@@ -434,14 +434,14 @@ function selezionaDipendenti(id, contenutoAtt){
 	} catch (error) {
 		valoreAtt = null;
 	}
-	
+
 	if(valoreAtt == null){
 
 		return;
 
 	}
 	else{
-		
+
 		resettaDipSelezionati();
 
 		for(var i = 0; i < attributi.length; i++){
@@ -451,7 +451,7 @@ function selezionaDipendenti(id, contenutoAtt){
 				attributi[i].visibile = false;
 
 			}
-			
+
 			var dipSelezionati = [];
 
 			var min_v = valoreAtt - gapSelezioneDip;
@@ -492,13 +492,13 @@ function selezionaDipendenti(id, contenutoAtt){
 }
 
 function resettaDipSelezionati(){
-	
+
 	for(var i = 0; i < personale.length; i++){
-		
+
 		personale[i].selezionato = false;
-	
+
 	}
-	
+
 }
 
 function visibilitaAttributi(b){
@@ -512,7 +512,7 @@ function visibilitaAttributi(b){
 }
 
 function visibilitaValoreAttributi(b){
-	
+
 	for(var i = 0; i < attributi.length; i++){
 
 		attributi[i].mostraValori = b;
@@ -540,7 +540,7 @@ function interruttoreScorrimentoAttributi(b){
 function visibilitaDipendenti(b, id_inverso){
 
 	if(id_inverso != null){
-		
+
 		for(var i = 0; i < personale.length; i++){
 
 			if(personale[i].id == id_inverso){
