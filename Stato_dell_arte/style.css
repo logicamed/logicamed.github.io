@@ -91,7 +91,6 @@ body{
 
     right: 50px;
     bottom: 50px;
-
 }
 
 #logoLogicamed:hover > #numeroLogicamed, #logoLogicamed:hover > #linkLogicamed{
@@ -117,7 +116,6 @@ body{
     height:60px;
     margin: 20px;
 
-
 }
 
 #linkLogicamed{
@@ -129,5 +127,41 @@ body{
     -moz-user-select: none;
     margin-top: 20px;
     grid-area: link;
+
+}
+
+#caratteristicheAzienda{
+
+  background-color: #383838;
+  position: fixed;
+  right: 50px;
+  top:40px;
+  width: auto;
+  height:  120px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 3px 3px 10px black;
+
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+
+}
+
+#logoAzienda{
+
+  position: fixed;
+  left: 50px;
+  top:40px;
+
+}
+
+#immagineLogoAzienda{
+
+  width: 120px;
+  height:  120px;
+
+  box-shadow: 3px 3px 10px black;
 
 }
