@@ -19,15 +19,39 @@
     src: url(fonts/Gravity-Bold.otf);
 }
 
+
+/* unvisited link */
+a:link {
+    color: #011538;
+}
+
+/* visited link */
+a:visited {
+    color: #011538;
+}
+
+/* mouse over link */
+a:hover {
+    color: #c49000;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
 body{
 
-  background-color: black/*rgb(1, 21, 56)*/;
+  background-color: #202020/*rgb(1, 21, 56)*/;
+  font-size: 20px;
+  font-family: CaviarDreams, sans-serif;
 
 }
 
 .container{
 
-  
+
 
 }
 
@@ -37,5 +61,73 @@ body{
         margin-left: -200px;
         width: 1500px !important;
         height: auto !important;
+
+}
+
+#numeroLogicamed{
+
+    grid-area:numero;
+
+    display: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    margin-top: 20px;
+
+
+}
+
+#logoLogicamed{
+
+    background-color: white;
+    display: grid;
+    grid-template-areas: "logo" "link" "numero" ;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 60px;
+		position: fixed ;
+		z-index: 100;
+
+    right: 50px;
+    bottom: 50px;
+
+}
+
+#logoLogicamed:hover > #numeroLogicamed, #logoLogicamed:hover > #linkLogicamed{
+
+    display: block;
+
+}
+
+#logoLogicamed:hover{
+
+    grid-template-rows: auto auto 400px;
+    margin-top: -450px;
+
+}
+
+#logoLogicamed img{
+
+    grid-area: logo;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    width:auto;
+    height:60px;
+    margin: 20px;
+
+
+}
+
+#linkLogicamed{
+
+    display: none;
+    grid-area: link;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    margin-top: 20px;
+    grid-area: link;
 
 }
