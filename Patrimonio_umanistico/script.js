@@ -299,8 +299,24 @@ function mOutDip(e){
 //MOUSE OVER Attributo
 function mOverAtt(e){
 
+	var classeE = e.target.getAttribute("class");
+
+	var idFinale;
+
+	if(classeE == "attributo"){
+
+		idFinale = e.target.id
+
+	}
+	else{
+
+		idFinale = e.target.parentElement.id;
+
+	}
+	
+
 	visibilitaRicadute(false);
-	cercaRelazioniAttrRic(e.target.id);
+	cercaRelazioniAttrRic(idFinale);
 
 }
 
@@ -316,9 +332,27 @@ function mOutAtt(e){
 //MOUSE CLICK Attributo
 function mClickAtt(e){
 
+	var classeE = e.target.getAttribute("class");
+
+	var idFinale;
+	var valoreFinale;
+
+	if(classeE == "attributo"){
+
+		idFinale = e.target.id
+		valoreFinale = e.target.getAttribute('valore');
+
+	}
+	else{
+
+		idFinale = e.target.parentElement.id;
+		valoreFinale = e.target.parentElement.getAttribute('valore');
+
+	}
+
 	visibilitaDipendenti(false);
 	aggiornaRicadute();
-	selezionaDipendenti(e.target.id, e.target.getAttribute('valore'));
+	selezionaDipendenti(idFinale, valoreFinale);
 
 }
 
