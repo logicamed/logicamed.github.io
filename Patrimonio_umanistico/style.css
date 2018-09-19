@@ -36,8 +36,10 @@ body{
 
 	/*background-color: var(--coloreSfondo);*/
 	/* background-image: linear-gradient(to top left, #0e2487  0%, white   100%); */
-	background-image: url(imm/sfondo4.png);
-	background-size: 100% 100%;
+	background-image: url(imm/sfondo2.png);
+	background-size: 100% 100vh;
+
+	background-repeat: no-repeat;
 
 }
 
@@ -144,13 +146,14 @@ body{
     background-color: white;
     grid-area:logoLogica;
     display: grid;
-    grid-template-areas: "link" "numero" "logo";
+    grid-template-areas: "logo" "link" "numero" ;
     grid-template-rows: auto auto auto;
     margin-bottom: 0px;
     justify-items: center;
     box-shadow: 3px 3px 10px black;
     border-radius: 60px;
-
+		position: absolute;
+		z-index: 100;
 
 }
 
