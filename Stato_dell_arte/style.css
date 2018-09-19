@@ -43,7 +43,7 @@ a:active {
 
 body{
 
-  background-color: #202020/*rgb(1, 21, 56)*/;
+  background-color: #2f2f2f/*rgb(1, 21, 56)*/;
   font-size: 20px;
   font-family: CaviarDreams, sans-serif;
 
@@ -57,7 +57,7 @@ body{
 
 #grafico{
 
-        margin-top: 90px;
+        margin-top: 0px;
         margin-left: -200px;
         width: 1500px !important;
         height: auto !important;
