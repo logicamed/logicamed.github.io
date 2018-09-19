@@ -59,19 +59,15 @@ a:active {
 
 #corpo{
 
-  position: absolute;
+  position: relative;
 
-  top: 30px;
-  left: 0px;
-
+  
   width: 100%;
-  height: 100%;
-
+  margin-top: 190px;
   display: grid;
-  grid-template-areas:"vuoto vuoto" "primo secondo";
-  grid-template-columns:  auto auto;
-  grid-template-rows: 140px 200px 200px;
-  grid-row-gap: 100px;
+  grid-template-areas: "primo secondo";
+  grid-template-columns:  50% 50%;
+  grid-row-gap: 40px;
   align-items: center;
   justify-items: center;
 
@@ -87,11 +83,11 @@ a:active {
 
   border-color: #c49000;
   border-width: 8px;
-  border-radius: 150px;
+  border-radius: 100px;
   border-style: solid;
 
-  width: 300px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
 
   user-select: none;
   cursor: pointer;
@@ -104,7 +100,7 @@ a:active {
 
 .app:hover{
 
-  border-radius: 50px;
+  border-radius: 20px;
   transform:  scale(1.1);
 
 }
@@ -116,8 +112,6 @@ a:active {
   font-size: 25px;
   font-family: arial;
 
-  margin-top: 90px ;
-
   text-align: center;
 
 }
@@ -126,14 +120,20 @@ a:active {
 
   	grid-area:primo;
 
-    margin-left: 200px;
-
 }
 
 #statoArte{
 
-  	grid-area:secondo;
+    grid-area:secondo;
 
-    margin-right: 200px;
 
+}
+
+@media only screen and (max-width: 600px) {
+  #corpo{
+    
+    grid-template-areas: "primo" "secondo";
+    grid-template-columns: 100%;
+
+  }
 }
