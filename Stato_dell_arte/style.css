@@ -21,13 +21,13 @@
 
 body{
 
-  background-color: white/*rgb(1, 21, 56)*/;
+  background-color: black/*rgb(1, 21, 56)*/;
 
 }
 
 .container{
 
-  background-color: 'red';
+  
 
 }
 
@@ -37,24 +37,5 @@ body{
         margin-left: -200px;
         width: 1500px !important;
         height: auto !important;
-
-}
-
-#logologica{
-
-  position:absolute;
-  top: 5px;
-  left: 5px;
-  width: 300px;
-  height: 300px;
-
-}
-
-#immlogologica{
-
-
-  width: 100px;
-  height:100px;
-
 
 }
