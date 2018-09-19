@@ -419,7 +419,7 @@ a:active {
 
 	grid-area:pulsanti;
 
-	background-image:url(imm/ricarica_out.svg);
+	background-image:url(imm/ricarica_out_border.svg);
 	background-size: cover;
 
 	top:10px;
@@ -429,7 +429,7 @@ a:active {
 
 #plt_ricarica:hover{
 
-	background-image:url(imm/ricarica_over.svg);
+	background-image:url(imm/ricarica_over_border.svg);
 	background-size: cover;
 
     cursor: pointer;
@@ -536,15 +536,16 @@ a:active {
     border-color : var(--colore3);
 
     /* background-color: transparent; */
-	background-image: linear-gradient(to top left, #198ccd  0%, #011538  50%, #198ccd   100%);
+		background-image: linear-gradient(to top left, #198ccd  0%, #011538  50%, #198ccd   100%);
 
     color:var(--colore3);
 
+		cursor: pointer;
 
     /* box-shadow: 5px 5px 14px 7px var(--coloreOmbra); */
 
     box-shadow: 0 0 20px black;
-	transition: 0.1s ease-in-out;
+		transition: 0.1s ease-in-out;
 
 }
 
@@ -583,8 +584,8 @@ a:active {
 
     border-color: var(--colore3);
 
-    /* box-shadow: 0px 0px 14px 7px white inset; */
-    filter: drop-shadow(5px 5px 10px transparent);
+    box-shadow: 0 0 20px transparent;
+    /*filter: drop-shadow(5px 5px 10px transparent);*/
 
     /* color:var(--colore1); */
 
