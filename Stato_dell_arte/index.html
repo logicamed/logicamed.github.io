@@ -31,27 +31,27 @@
       let grafico = document.getElementById('grafico').getContext('2d');
 
       var chartOptions = {
-        responsive:true,
+        responsive:false,
         scale: {
           ticks: {
             beginAtZero: true,
             min: 0,
             max: 30,
             stepSize: 5,
-            fontSize: 10,
+            fontSize: 0,
             fontColor:'white',
             display:false
           },
           gridLines: {
             color: "gray",
-            lineWidth: 0.2
+            lineWidth: 0.3
           },
           angleLines: {
             color: "gray",
-            lineWidth: 0.2
+            lineWidth: 0.3
           },
           pointLabels: {
-            fontSize: 11,
+            fontSize: 14,
             fontFamily:'calibri',
             fontColor:'black'
           }
@@ -59,7 +59,7 @@
 
         title:{
           position:'top',
-          fontSize: 20,
+          fontSize: 30,
           fontFamily:'calibri',
           fontStyle:'normal',
           fontColor:'black',
@@ -67,12 +67,13 @@
           text: "STATO dell'ARTE dell'AZIENDA",
           backgroundColor: "blue",
           padding:40
+
         },
 
         legend: {
-          position:'right',
+          position:'bottom',
           labels:{
-            fontSize: 10,
+            fontSize: 18,
             fontColor:'black',
             padding:50,
             usePointStyle:true
@@ -120,8 +121,8 @@
               radius: 1,
               borderWidth:3,
               //lineTension:0.8,
-              pointRadius: 2,
-              pointHoverRadius: 5,
+              pointRadius: 4,
+              pointHoverRadius: 6,
               pointBorderWidth: 0,
               pointBackgroundColor: "rgba(255,255,255,1)",
               pointBorderColor: "rgba(255,225,0,1)",
@@ -132,9 +133,9 @@
               backgroundColor: "rgba(240,63,28,0)",
               borderColor: "rgba(240,63,28,1)",
               radius: 1,
-              borderWidth:3,
-              pointRadius: 2,
-              pointHoverRadius: 5,
+              borderWidth:4,
+              pointRadius: 3,
+              pointHoverRadius: 6,
               pointBorderWidth: 0,
               pointBackgroundColor: "rgba(255,255,255,1)",
               pointBorderColor: "rgba(240,63,28,1)",
@@ -145,9 +146,9 @@
               backgroundColor: "rgba(28,98,240,0)",
               borderColor: "rgba(28,98,240,1)",
               radius: 1,
-              borderWidth:3,
-              pointRadius: 2,
-              pointHoverRadius: 5,
+              borderWidth:4,
+              pointRadius: 3,
+              pointHoverRadius: 6,
               pointBorderWidth: 0,
               pointBackgroundColor: "rgba(255,255,255,1)",
               pointBorderColor: "rgba(28,98,240,1)",
