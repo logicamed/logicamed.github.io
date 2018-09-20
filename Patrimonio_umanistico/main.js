@@ -111,7 +111,7 @@ aggiungiRicaduta(new Ricaduta("r28", "Premi", "positiva"));
 aggiungiRicaduta(new Ricaduta("r29", "Comunicazione", "positiva"));
 aggiungiRicaduta(new Ricaduta("r30", "Carichi di lavoro", "positiva"));
 aggiungiRicaduta(new Ricaduta("r31", "Discrepanza Esigenze", "positiva"));
-aggiungiRicaduta(new Ricaduta("r32", "Sovra Affaticamento", "positiva"));
+aggiungiRicaduta(new Ricaduta("r32", "Sovraffaticamento", "positiva"));
 aggiungiRicaduta(new Ricaduta("r33", "Carenza", "positiva"));
 aggiungiRicaduta(new Ricaduta("r34", "Soddisfazione Lavorativa", "positiva"));
 aggiungiRicaduta(new Ricaduta("r35", "Trasparenza", "positiva"));
@@ -119,29 +119,143 @@ aggiungiRicaduta(new Ricaduta("r36", "Integrit&agrave", "positiva"));
 aggiungiRicaduta(new Ricaduta("r37", "Stima", "positiva"));
 aggiungiRicaduta(new Ricaduta("r38", "Problemi Sindacali", "positiva"));
 
-
+//Ricadute Autonomia
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r1"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r2"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r4"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r5"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r6"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r7"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r9"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r11"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r12"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r13"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r20"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r21"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r22"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r24"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r25"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r26"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r30"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r22"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r34"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("a","r37"));
+
+//Ricadute Coesione
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r1"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r2"));
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r3"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r4"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r7"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r8"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r10"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r12"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r13"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r17"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r18"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r20"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r22"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r23"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r25"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r31"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("b","r36"));
+
+//Ricadute Fiducia
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r2"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r3"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r8"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r9"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r11"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r12"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r13"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r17"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r20"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r21"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r23"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r24"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r27"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r30"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r34"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r35"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r36"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r37"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("c","r38"));
+
+//Ricadute Pressione
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r1"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r2"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r3"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r4"));
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r5"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r7"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r10"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r11"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r19"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r20"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r21"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r22"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r23"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r25"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r26"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r30"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r31"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r32"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r33"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r34"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("d","r38"));
+
+//Ricadute Sostegno
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r2"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r3"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r4"))
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r6"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r7"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r11"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r12"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r13"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r16"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r17"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r18"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r20"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r23"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r24"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r27"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r30"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r32"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r33"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r34"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r36"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r37"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("e","r38"));
+
+//Ricadute Riconoscimento
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r1"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r2"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r3"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r4"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r6"));
 aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r7"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("g","r8"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("h","r9"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("i","r10"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("l","r11"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("n","r12"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("o","r13"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("p","r14"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("q","r15"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("r","r16"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("s","r17"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("t","r18"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("u","r19"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("v","r20"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("z","r21"));
-aggiungiRelazioneAttrRic(new RelazioneAttrRic("m","r22"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r8"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r9"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r10"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r11"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r12"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r13"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r14"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r15"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r16"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r17"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r18"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r21"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r23"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r26"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r27"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r28"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r29"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r34"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r35"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r36"));
+aggiungiRelazioneAttrRic(new RelazioneAttrRic("f","r37"));
+
+
 
 
 aggiungiRelazioneDipAttr(new RelazioneDipAttr(1,"u",30));
