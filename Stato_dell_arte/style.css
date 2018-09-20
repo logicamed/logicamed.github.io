@@ -81,19 +81,20 @@ body{
 
     background-color: white;
     display: grid;
-    grid-template-areas: "logo" "link" "numero" ;
-    grid-template-rows: auto auto auto;
+    grid-template-areas: "logo" "link" "numero" "frase";
+    grid-template-rows: auto auto auto auto;
     justify-items: center;
     box-shadow: 3px 3px 10px black;
     border-radius: 60px;
 		position: fixed ;
 		z-index: 100;
-
+    width: 250px;
     right: 50px;
     bottom: 50px;
+
 }
 
-#logoLogicamed:hover > #numeroLogicamed, #logoLogicamed:hover > #linkLogicamed{
+#logoLogicamed:hover > #numeroLogicamed, #logoLogicamed:hover > #linkLogicamed , #logoLogicamed:hover > #fraseLogicamed{
 
     display: block;
 
@@ -101,7 +102,7 @@ body{
 
 #logoLogicamed:hover{
 
-    grid-template-rows: auto auto 400px;
+    grid-template-rows: auto auto 140px 330px;
     margin-top: -450px;
 
 }
@@ -126,7 +127,21 @@ body{
     -ms-user-select: none;
     -moz-user-select: none;
     margin-top: 20px;
-    grid-area: link;
+
+}
+
+#fraseLogicamed{
+
+    text-align: center;
+    font-family: CaviarDreamsB;
+    display: none;
+    grid-area: frase;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
