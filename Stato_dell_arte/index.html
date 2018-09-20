@@ -98,8 +98,7 @@
 
         <p id="fraseLogicamed">
 
-          <font style="font-style: italic;">"INVESTIRE SUL BENE PIU' PREZIOSO CHE ABBIAMO,
-          SIGNIFICA CREARE UN AVVENIRE MIGLIORE PER TUTTI."</font><br><br>
+          <font style="font-style: italic;">"Investire sul bene pi&ugrave prezioso che abbiamo, significa creare un avvenire migliore per tutti."</font><br><br>
           Adriano Olivetti
 
         </p>
@@ -116,6 +115,21 @@
 
       var chartOptions = {
         responsive:false,
+
+
+        tooltips: {
+            callbacks: {
+                labelColor: function(tooltipItem, chart) {
+                    return {
+                        borderColor: 'rgb(255, 0, 0)',
+                        backgroundColor: 'rgb(255, 0, 0)'
+                    };
+                },
+                labelTextColor:function(tooltipItem, chart){
+                    return 'white';
+                }
+            }},
+
         scale: {
           ticks: {
             beginAtZero: true,
@@ -204,7 +218,7 @@
               radius: 1,
               borderWidth:3,
               //lineTension:0.8,
-              pointRadius: 4,
+              pointRadius: 3,
               pointHoverRadius: 6,
               pointBorderWidth: 0,
               pointBackgroundColor: "rgba(255,255,255,1)",
