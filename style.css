@@ -61,7 +61,7 @@ a:active {
 
   position: relative;
 
-  
+
   width: 100%;
   margin-top: 190px;
   display: grid;
@@ -86,7 +86,7 @@ a:active {
   border-radius: 100px;
   border-style: solid;
 
-  width: 150px;
+  width: 250px;
   height: 100px;
 
   user-select: none;
@@ -131,7 +131,7 @@ a:active {
 
 @media only screen and (max-width: 600px) {
   #corpo{
-    
+
     grid-template-areas: "primo" "secondo";
     grid-template-columns: 100%;
 
