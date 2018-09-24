@@ -228,7 +228,7 @@ function aggiornaGestoreEventi(){
 		testoAttributiHTML[i].parentElement.addEventListener("mouseout", mOutAtt);
 		testoAttributiHTML[i].parentElement.addEventListener("mouseover", mOverAtt);
 		testoAttributiHTML[i].parentElement.addEventListener("click", gestoreClickAttributo);
-		
+
 
 	}
 
@@ -315,7 +315,7 @@ function mOverAtt(e){
 		idFinale = e.target.parentElement.id;
 
 	}
-	
+
 
 	visibilitaRicadute(false);
 	cercaRelazioniAttrRic(idFinale);
@@ -330,7 +330,6 @@ function mOutAtt(e){
 	aggiornaRicadute();
 
 }
-//Spazio prova git
 
 function gestoreClickAttributo(e){
 
@@ -342,7 +341,7 @@ function gestoreClickAttributo(e){
 
 			contatoreClickAttributi = 0
 			mClickAtt(e);
-			
+
 		}, 300);
 
 	}
@@ -603,7 +602,7 @@ function visibilitaAttributi(b){
 function visibilitaAttributoSingolo(id, b){
 
 	attributi.forEach(att => {
-		
+
 		if(att.id == id){
 
 			att.visibile = b;
