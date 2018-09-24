@@ -603,6 +603,7 @@ a:active {
     border-color: var(--colore3);
 
     box-shadow: 0 0 20px transparent;
+    background-image: linear-gradient(to top left, #1ba2ef  0%, #003695  50%, #1ba2ef   100%);
     /*filter: drop-shadow(5px 5px 10px transparent);*/
 
     /* color:var(--colore1); */
@@ -653,25 +654,6 @@ a:active {
 }
 
 
-.attributo:hover {
-
-    transform: scale(0.90);
-
-
-    /* background-color: var(--colore2); */
-
-    border-color: var(--colore3);
-
-    /* box-shadow: 5px 5px 14px 7px transparent; */
-    background-image: linear-gradient(to top left, #1ba2ef  0%, #003695  50%, #1ba2ef   100%);
-    filter: drop-shadow(5px 5px 10px transparent);
-
-    /* color:var(--colore1); */
-
-	font-family:CaviarDreamsB;
-	font-size:17px;
-
-}
 
 .testoAtt:hover{
 
