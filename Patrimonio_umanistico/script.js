@@ -330,6 +330,7 @@ function mOutAtt(e){
 	aggiornaRicadute();
 
 }
+//Spazio prova git
 
 function gestoreClickAttributo(e){
 
