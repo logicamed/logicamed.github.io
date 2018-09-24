@@ -248,7 +248,7 @@ a:active {
 
 #personale::-webkit-scrollbar-thumb:hover{
 
-    background-color:black;
+    background-color:var(--colore4);
 
 
 }
@@ -269,7 +269,7 @@ a:active {
 
 #attributi::-webkit-scrollbar-thumb:hover{
 
-    background-color:black;
+    background-color:var(--colore4);
 
 
 }
@@ -290,7 +290,7 @@ a:active {
 
 #ricadute::-webkit-scrollbar-thumb:hover{
 
-    background-color:black;
+    background-color:var(--colore4);
 
 
 }
