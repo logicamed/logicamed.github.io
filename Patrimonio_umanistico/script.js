@@ -24,6 +24,7 @@ var relazioniDipAttr = [];
 var relazioniAttrRic = [];
 var gapSelezioneDip = 3;
 var modalitaSelezionato = false;
+var contatoreClickAttributi = 0;
 
 //------------------------------------------------------------------------------{-------------------------------------------------------------------------
 
@@ -226,7 +227,8 @@ function aggiornaGestoreEventi(){
 
 		testoAttributiHTML[i].parentElement.addEventListener("mouseout", mOutAtt);
 		testoAttributiHTML[i].parentElement.addEventListener("mouseover", mOverAtt);
-		testoAttributiHTML[i].parentElement.addEventListener("click", mClickAtt);
+		testoAttributiHTML[i].parentElement.addEventListener("click", gestoreClickAttributo);
+		
 
 	}
 
@@ -329,8 +331,60 @@ function mOutAtt(e){
 
 }
 
+function gestoreClickAttributo(e){
+
+	contatoreClickAttributi++;
+
+	if(contatoreClickAttributi == 1){
+
+		timerClickSingolo = setTimeout(function(){
+
+			contatoreClickAttributi = 0
+			mClickAtt(e);
+			
+		}, 300);
+
+	}
+	else if(contatoreClickAttributi == 2){
+
+		clearTimeout(timerClickSingolo);
+		contatoreClickAttributi = 0;
+		mDoubleClickAtt(e);
+
+	}
+
+}
+
 //MOUSE CLICK Attributo
 function mClickAtt(e){
+
+	var classeE = e.target.getAttribute("class");
+
+	var idFinale;
+	var valoreFinale;
+
+	if(classeE == "attributo"){
+
+		idFinale = e.target.id
+		valoreFinale = e.target.getAttribute('valore');
+
+	}
+	else{
+
+		idFinale = e.target.parentElement.id;
+		valoreFinale = e.target.parentElement.getAttribute('valore');
+
+	}
+
+	visibilitaAttributi(false);
+	visibilitaAttributoSingolo(idFinale, true);
+	aggiornaAttributi();
+	aggiornaGestoreEventi();
+	aggiornaRicadute();
+
+}
+
+function mDoubleClickAtt(e){
 
 	var classeE = e.target.getAttribute("class");
 
@@ -542,6 +596,20 @@ function visibilitaAttributi(b){
 		attributi[i].visibile = b;
 
 	}
+
+}
+
+function visibilitaAttributoSingolo(id, b){
+
+	attributi.forEach(att => {
+		
+		if(att.id == id){
+
+			att.visibile = b;
+
+		}
+
+	});
 
 }
 
