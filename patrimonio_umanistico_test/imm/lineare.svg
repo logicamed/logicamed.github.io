@@ -1,0 +1,1925 @@
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2891.57 2786.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10, .cls-100, .cls-101, .cls-102, .cls-103, .cls-104, .cls-105, .cls-106, .cls-107, .cls-108, .cls-109, .cls-11, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-118, .cls-119, .cls-12, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-128, .cls-129, .cls-13, .cls-130, .cls-131, .cls-132, .cls-133, .cls-134, .cls-135, .cls-136, .cls-137, .cls-138, .cls-139, .cls-14, .cls-140, .cls-141, .cls-142, .cls-143, .cls-144, .cls-145, .cls-146, .cls-147, .cls-148, .cls-149, .cls-15, .cls-150, .cls-151, .cls-152, .cls-153, .cls-154, .cls-155, .cls-156, .cls-157, .cls-158, .cls-159, .cls-16, .cls-160, .cls-161, .cls-162, .cls-163, .cls-164, .cls-165, .cls-166, .cls-167, .cls-168, .cls-169, .cls-17, .cls-170, .cls-171, .cls-172, .cls-173, .cls-174, .cls-175, .cls-176, .cls-177, .cls-178, .cls-179, .cls-18, .cls-180, .cls-181, .cls-182, .cls-183, .cls-184, .cls-185, .cls-186, .cls-187, .cls-188, .cls-189, .cls-19, .cls-190, .cls-191, .cls-192, .cls-193, .cls-194, .cls-195, .cls-196, .cls-197, .cls-198, .cls-199, .cls-20, .cls-200, .cls-201, .cls-202, .cls-203, .cls-204, .cls-205, .cls-206, .cls-207, .cls-208, .cls-209, .cls-21, .cls-210, .cls-211, .cls-212, .cls-213, .cls-214, .cls-215, .cls-216, .cls-217, .cls-218, .cls-219, .cls-22, .cls-220, .cls-221, .cls-222, .cls-223, .cls-224, .cls-225, .cls-226, .cls-227, .cls-228, .cls-229, .cls-23, .cls-230, .cls-231, .cls-232, .cls-233, .cls-234, .cls-235, .cls-236, .cls-237, .cls-238, .cls-239, .cls-24, .cls-240, .cls-241, .cls-242, .cls-243, .cls-244, .cls-245, .cls-246, .cls-247, .cls-248, .cls-249, .cls-25, .cls-250, .cls-251, .cls-252, .cls-253, .cls-254, .cls-255, .cls-256, .cls-257, .cls-258, .cls-259, .cls-26, .cls-260, .cls-261, .cls-262, .cls-263, .cls-264, .cls-265, .cls-266, .cls-267, .cls-268, .cls-269, .cls-27, .cls-270, .cls-271, .cls-272, .cls-273, .cls-274, .cls-275, .cls-276, .cls-277, .cls-278, .cls-279, .cls-28, .cls-280, .cls-281, .cls-282, .cls-283, .cls-284, .cls-285, .cls-286, .cls-287, .cls-288, .cls-289, .cls-29, .cls-290, .cls-291, .cls-292, .cls-293, .cls-294, .cls-295, .cls-296, .cls-297, .cls-298, .cls-299, .cls-3, .cls-30, .cls-300, .cls-301, .cls-302, .cls-303, .cls-304, .cls-305, .cls-306, .cls-307, .cls-308, .cls-309, .cls-31, .cls-310, .cls-311, .cls-312, .cls-313, .cls-314, .cls-315, .cls-316, .cls-317, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-4, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-5, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-6, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-67, .cls-68, .cls-69, .cls-7, .cls-70, .cls-71, .cls-72, .cls-73, .cls-74, .cls-75, .cls-76, .cls-77, .cls-78, .cls-79, .cls-8, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-9, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99 {
+        stroke: #0071bc;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#Sfumatura_senza_nome_46);
+      }
+
+      .cls-4 {
+        fill: url(#Sfumatura_senza_nome_46-2);
+      }
+
+      .cls-5 {
+        fill: url(#Sfumatura_senza_nome_46-3);
+      }
+
+      .cls-6 {
+        fill: url(#Sfumatura_senza_nome_46-4);
+      }
+
+      .cls-7 {
+        fill: url(#Sfumatura_senza_nome_46-5);
+      }
+
+      .cls-8 {
+        fill: url(#Sfumatura_senza_nome_46-6);
+      }
+
+      .cls-9 {
+        fill: url(#Sfumatura_senza_nome_46-7);
+      }
+
+      .cls-10 {
+        fill: url(#Sfumatura_senza_nome_46-8);
+      }
+
+      .cls-11 {
+        fill: url(#Sfumatura_senza_nome_46-9);
+      }
+
+      .cls-12 {
+        fill: url(#Sfumatura_senza_nome_46-10);
+      }
+
+      .cls-13 {
+        fill: url(#Sfumatura_senza_nome_46-11);
+      }
+
+      .cls-14 {
+        fill: url(#Sfumatura_senza_nome_46-12);
+      }
+
+      .cls-15 {
+        fill: url(#Sfumatura_senza_nome_46-13);
+      }
+
+      .cls-16 {
+        fill: url(#Sfumatura_senza_nome_46-14);
+      }
+
+      .cls-17 {
+        fill: url(#Sfumatura_senza_nome_46-15);
+      }
+
+      .cls-18 {
+        fill: url(#Sfumatura_senza_nome_46-16);
+      }
+
+      .cls-19 {
+        fill: url(#Sfumatura_senza_nome_46-17);
+      }
+
+      .cls-20 {
+        fill: url(#Sfumatura_senza_nome_46-18);
+      }
+
+      .cls-21 {
+        fill: url(#Sfumatura_senza_nome_46-19);
+      }
+
+      .cls-22 {
+        fill: url(#Sfumatura_senza_nome_46-20);
+      }
+
+      .cls-23 {
+        fill: url(#Sfumatura_senza_nome_46-21);
+      }
+
+      .cls-24 {
+        fill: url(#Sfumatura_senza_nome_46-22);
+      }
+
+      .cls-25 {
+        fill: url(#Sfumatura_senza_nome_46-23);
+      }
+
+      .cls-26 {
+        fill: url(#Sfumatura_senza_nome_46-24);
+      }
+
+      .cls-27 {
+        fill: url(#Sfumatura_senza_nome_46-25);
+      }
+
+      .cls-28 {
+        fill: url(#Sfumatura_senza_nome_46-26);
+      }
+
+      .cls-29 {
+        fill: url(#Sfumatura_senza_nome_46-27);
+      }
+
+      .cls-30 {
+        fill: url(#Sfumatura_senza_nome_46-28);
+      }
+
+      .cls-31 {
+        fill: url(#Sfumatura_senza_nome_46-29);
+      }
+
+      .cls-32 {
+        fill: url(#Sfumatura_senza_nome_46-30);
+      }
+
+      .cls-33 {
+        fill: url(#Sfumatura_senza_nome_46-31);
+      }
+
+      .cls-34 {
+        fill: url(#Sfumatura_senza_nome_46-32);
+      }
+
+      .cls-35 {
+        fill: url(#Sfumatura_senza_nome_46-33);
+      }
+
+      .cls-36 {
+        fill: url(#Sfumatura_senza_nome_46-34);
+      }
+
+      .cls-37 {
+        fill: url(#Sfumatura_senza_nome_46-35);
+      }
+
+      .cls-38 {
+        fill: url(#Sfumatura_senza_nome_46-36);
+      }
+
+      .cls-39 {
+        fill: url(#Sfumatura_senza_nome_46-37);
+      }
+
+      .cls-40 {
+        fill: url(#Sfumatura_senza_nome_46-38);
+      }
+
+      .cls-41 {
+        fill: url(#Sfumatura_senza_nome_46-39);
+      }
+
+      .cls-42 {
+        fill: url(#Sfumatura_senza_nome_46-40);
+      }
+
+      .cls-43 {
+        fill: url(#Sfumatura_senza_nome_46-41);
+      }
+
+      .cls-44 {
+        fill: url(#Sfumatura_senza_nome_46-42);
+      }
+
+      .cls-45 {
+        fill: url(#Sfumatura_senza_nome_46-43);
+      }
+
+      .cls-46 {
+        fill: url(#Sfumatura_senza_nome_46-44);
+      }
+
+      .cls-47 {
+        fill: url(#Sfumatura_senza_nome_46-45);
+      }
+
+      .cls-48 {
+        fill: url(#Sfumatura_senza_nome_46-46);
+      }
+
+      .cls-49 {
+        fill: url(#Sfumatura_senza_nome_46-47);
+      }
+
+      .cls-50 {
+        fill: url(#Sfumatura_senza_nome_46-48);
+      }
+
+      .cls-51 {
+        fill: url(#Sfumatura_senza_nome_46-49);
+      }
+
+      .cls-52 {
+        fill: url(#Sfumatura_senza_nome_46-50);
+      }
+
+      .cls-53 {
+        fill: url(#Sfumatura_senza_nome_46-51);
+      }
+
+      .cls-54 {
+        fill: url(#Sfumatura_senza_nome_46-52);
+      }
+
+      .cls-55 {
+        fill: url(#Sfumatura_senza_nome_46-53);
+      }
+
+      .cls-56 {
+        fill: url(#Sfumatura_senza_nome_46-54);
+      }
+
+      .cls-57 {
+        fill: url(#Sfumatura_senza_nome_46-55);
+      }
+
+      .cls-58 {
+        fill: url(#Sfumatura_senza_nome_46-56);
+      }
+
+      .cls-59 {
+        fill: url(#Sfumatura_senza_nome_46-57);
+      }
+
+      .cls-60 {
+        fill: url(#Sfumatura_senza_nome_46-58);
+      }
+
+      .cls-61 {
+        fill: url(#Sfumatura_senza_nome_46-59);
+      }
+
+      .cls-62 {
+        fill: url(#Sfumatura_senza_nome_46-60);
+      }
+
+      .cls-63 {
+        fill: url(#Sfumatura_senza_nome_46-61);
+      }
+
+      .cls-64 {
+        fill: url(#Sfumatura_senza_nome_46-62);
+      }
+
+      .cls-65 {
+        fill: url(#Sfumatura_senza_nome_46-63);
+      }
+
+      .cls-66 {
+        fill: url(#Sfumatura_senza_nome_46-64);
+      }
+
+      .cls-67 {
+        fill: url(#Sfumatura_senza_nome_46-65);
+      }
+
+      .cls-68 {
+        fill: url(#Sfumatura_senza_nome_46-66);
+      }
+
+      .cls-69 {
+        fill: url(#Sfumatura_senza_nome_46-67);
+      }
+
+      .cls-70 {
+        fill: url(#Sfumatura_senza_nome_46-68);
+      }
+
+      .cls-71 {
+        fill: url(#Sfumatura_senza_nome_46-69);
+      }
+
+      .cls-72 {
+        fill: url(#Sfumatura_senza_nome_46-70);
+      }
+
+      .cls-73 {
+        fill: url(#Sfumatura_senza_nome_46-71);
+      }
+
+      .cls-74 {
+        fill: url(#Sfumatura_senza_nome_46-72);
+      }
+
+      .cls-75 {
+        fill: url(#Sfumatura_senza_nome_46-73);
+      }
+
+      .cls-76 {
+        fill: url(#Sfumatura_senza_nome_46-74);
+      }
+
+      .cls-77 {
+        fill: url(#Sfumatura_senza_nome_46-75);
+      }
+
+      .cls-78 {
+        fill: url(#Sfumatura_senza_nome_46-76);
+      }
+
+      .cls-79 {
+        fill: url(#Sfumatura_senza_nome_46-77);
+      }
+
+      .cls-80 {
+        fill: url(#Sfumatura_senza_nome_46-78);
+      }
+
+      .cls-81 {
+        fill: url(#Sfumatura_senza_nome_46-79);
+      }
+
+      .cls-82 {
+        fill: url(#Sfumatura_senza_nome_46-80);
+      }
+
+      .cls-83 {
+        fill: url(#Sfumatura_senza_nome_46-81);
+      }
+
+      .cls-84 {
+        fill: url(#Sfumatura_senza_nome_46-82);
+      }
+
+      .cls-85 {
+        fill: url(#Sfumatura_senza_nome_46-83);
+      }
+
+      .cls-86 {
+        fill: url(#Sfumatura_senza_nome_46-84);
+      }
+
+      .cls-87 {
+        fill: url(#Sfumatura_senza_nome_46-85);
+      }
+
+      .cls-88 {
+        fill: url(#Sfumatura_senza_nome_46-86);
+      }
+
+      .cls-89 {
+        fill: url(#Sfumatura_senza_nome_46-87);
+      }
+
+      .cls-90 {
+        fill: url(#Sfumatura_senza_nome_46-88);
+      }
+
+      .cls-91 {
+        fill: url(#Sfumatura_senza_nome_46-89);
+      }
+
+      .cls-92 {
+        fill: url(#Sfumatura_senza_nome_46-90);
+      }
+
+      .cls-93 {
+        fill: url(#Sfumatura_senza_nome_46-91);
+      }
+
+      .cls-94 {
+        fill: url(#Sfumatura_senza_nome_46-92);
+      }
+
+      .cls-95 {
+        fill: url(#Sfumatura_senza_nome_46-93);
+      }
+
+      .cls-96 {
+        fill: url(#Sfumatura_senza_nome_46-94);
+      }
+
+      .cls-97 {
+        fill: url(#Sfumatura_senza_nome_46-95);
+      }
+
+      .cls-98 {
+        fill: url(#Sfumatura_senza_nome_46-96);
+      }
+
+      .cls-99 {
+        fill: url(#Sfumatura_senza_nome_46-97);
+      }
+
+      .cls-100 {
+        fill: url(#Sfumatura_senza_nome_46-98);
+      }
+
+      .cls-101 {
+        fill: url(#Sfumatura_senza_nome_46-99);
+      }
+
+      .cls-102 {
+        fill: url(#Sfumatura_senza_nome_46-100);
+      }
+
+      .cls-103 {
+        fill: url(#Sfumatura_senza_nome_46-101);
+      }
+
+      .cls-104 {
+        fill: url(#Sfumatura_senza_nome_46-102);
+      }
+
+      .cls-105 {
+        fill: url(#Sfumatura_senza_nome_46-103);
+      }
+
+      .cls-106 {
+        fill: url(#Sfumatura_senza_nome_46-104);
+      }
+
+      .cls-107 {
+        fill: url(#Sfumatura_senza_nome_46-105);
+      }
+
+      .cls-108 {
+        fill: url(#Sfumatura_senza_nome_46-106);
+      }
+
+      .cls-109 {
+        fill: url(#Sfumatura_senza_nome_46-107);
+      }
+
+      .cls-110 {
+        fill: url(#Sfumatura_senza_nome_46-108);
+      }
+
+      .cls-111 {
+        fill: url(#Sfumatura_senza_nome_46-109);
+      }
+
+      .cls-112 {
+        fill: url(#Sfumatura_senza_nome_46-110);
+      }
+
+      .cls-113 {
+        fill: url(#Sfumatura_senza_nome_46-111);
+      }
+
+      .cls-114 {
+        fill: url(#Sfumatura_senza_nome_46-112);
+      }
+
+      .cls-115 {
+        fill: url(#Sfumatura_senza_nome_46-113);
+      }
+
+      .cls-116 {
+        fill: url(#Sfumatura_senza_nome_46-114);
+      }
+
+      .cls-117 {
+        fill: url(#Sfumatura_senza_nome_46-115);
+      }
+
+      .cls-118 {
+        fill: url(#Sfumatura_senza_nome_46-116);
+      }
+
+      .cls-119 {
+        fill: url(#Sfumatura_senza_nome_46-117);
+      }
+
+      .cls-120 {
+        fill: url(#Sfumatura_senza_nome_46-118);
+      }
+
+      .cls-121 {
+        fill: url(#Sfumatura_senza_nome_46-119);
+      }
+
+      .cls-122 {
+        fill: url(#Sfumatura_senza_nome_46-120);
+      }
+
+      .cls-123 {
+        fill: url(#Sfumatura_senza_nome_46-121);
+      }
+
+      .cls-124 {
+        fill: url(#Sfumatura_senza_nome_46-122);
+      }
+
+      .cls-125 {
+        fill: url(#Sfumatura_senza_nome_46-123);
+      }
+
+      .cls-126 {
+        fill: url(#Sfumatura_senza_nome_46-124);
+      }
+
+      .cls-127 {
+        fill: url(#Sfumatura_senza_nome_46-125);
+      }
+
+      .cls-128 {
+        fill: url(#Sfumatura_senza_nome_46-126);
+      }
+
+      .cls-129 {
+        fill: url(#Sfumatura_senza_nome_46-127);
+      }
+
+      .cls-130 {
+        fill: url(#Sfumatura_senza_nome_46-128);
+      }
+
+      .cls-131 {
+        fill: url(#Sfumatura_senza_nome_46-129);
+      }
+
+      .cls-132 {
+        fill: url(#Sfumatura_senza_nome_46-130);
+      }
+
+      .cls-133 {
+        fill: url(#Sfumatura_senza_nome_46-131);
+      }
+
+      .cls-134 {
+        fill: url(#Sfumatura_senza_nome_46-132);
+      }
+
+      .cls-135 {
+        fill: url(#Sfumatura_senza_nome_46-133);
+      }
+
+      .cls-136 {
+        fill: url(#Sfumatura_senza_nome_46-134);
+      }
+
+      .cls-137 {
+        fill: url(#Sfumatura_senza_nome_46-135);
+      }
+
+      .cls-138 {
+        fill: url(#Sfumatura_senza_nome_46-136);
+      }
+
+      .cls-139 {
+        fill: url(#Sfumatura_senza_nome_46-137);
+      }
+
+      .cls-140 {
+        fill: url(#Sfumatura_senza_nome_46-138);
+      }
+
+      .cls-141 {
+        fill: url(#Sfumatura_senza_nome_46-139);
+      }
+
+      .cls-142 {
+        fill: url(#Sfumatura_senza_nome_46-140);
+      }
+
+      .cls-143 {
+        fill: url(#Sfumatura_senza_nome_46-141);
+      }
+
+      .cls-144 {
+        fill: url(#Sfumatura_senza_nome_46-142);
+      }
+
+      .cls-145 {
+        fill: url(#Sfumatura_senza_nome_46-143);
+      }
+
+      .cls-146 {
+        fill: url(#Sfumatura_senza_nome_46-144);
+      }
+
+      .cls-147 {
+        fill: url(#Sfumatura_senza_nome_46-145);
+      }
+
+      .cls-148 {
+        fill: url(#Sfumatura_senza_nome_46-146);
+      }
+
+      .cls-149 {
+        fill: url(#Sfumatura_senza_nome_46-147);
+      }
+
+      .cls-150 {
+        fill: url(#Sfumatura_senza_nome_46-148);
+      }
+
+      .cls-151 {
+        fill: url(#Sfumatura_senza_nome_46-149);
+      }
+
+      .cls-152 {
+        fill: url(#Sfumatura_senza_nome_46-150);
+      }
+
+      .cls-153 {
+        fill: url(#Sfumatura_senza_nome_46-151);
+      }
+
+      .cls-154 {
+        fill: url(#Sfumatura_senza_nome_46-152);
+      }
+
+      .cls-155 {
+        fill: url(#Sfumatura_senza_nome_46-153);
+      }
+
+      .cls-156 {
+        fill: url(#Sfumatura_senza_nome_46-154);
+      }
+
+      .cls-157 {
+        fill: url(#Sfumatura_senza_nome_46-155);
+      }
+
+      .cls-158 {
+        fill: url(#Sfumatura_senza_nome_46-156);
+      }
+
+      .cls-159 {
+        fill: url(#Sfumatura_senza_nome_46-157);
+      }
+
+      .cls-160 {
+        fill: url(#Sfumatura_senza_nome_46-158);
+      }
+
+      .cls-161 {
+        fill: url(#Sfumatura_senza_nome_46-159);
+      }
+
+      .cls-162 {
+        fill: url(#Sfumatura_senza_nome_46-160);
+      }
+
+      .cls-163 {
+        fill: url(#Sfumatura_senza_nome_46-161);
+      }
+
+      .cls-164 {
+        fill: url(#Sfumatura_senza_nome_46-162);
+      }
+
+      .cls-165 {
+        fill: url(#Sfumatura_senza_nome_46-163);
+      }
+
+      .cls-166 {
+        fill: url(#Sfumatura_senza_nome_46-164);
+      }
+
+      .cls-167 {
+        fill: url(#Sfumatura_senza_nome_46-165);
+      }
+
+      .cls-168 {
+        fill: url(#Sfumatura_senza_nome_46-166);
+      }
+
+      .cls-169 {
+        fill: url(#Sfumatura_senza_nome_46-167);
+      }
+
+      .cls-170 {
+        fill: url(#Sfumatura_senza_nome_46-168);
+      }
+
+      .cls-171 {
+        fill: url(#Sfumatura_senza_nome_46-169);
+      }
+
+      .cls-172 {
+        fill: url(#Sfumatura_senza_nome_46-170);
+      }
+
+      .cls-173 {
+        fill: url(#Sfumatura_senza_nome_46-171);
+      }
+
+      .cls-174 {
+        fill: url(#Sfumatura_senza_nome_46-172);
+      }
+
+      .cls-175 {
+        fill: url(#Sfumatura_senza_nome_46-173);
+      }
+
+      .cls-176 {
+        fill: url(#Sfumatura_senza_nome_46-174);
+      }
+
+      .cls-177 {
+        fill: url(#Sfumatura_senza_nome_46-175);
+      }
+
+      .cls-178 {
+        fill: url(#Sfumatura_senza_nome_46-176);
+      }
+
+      .cls-179 {
+        fill: url(#Sfumatura_senza_nome_46-177);
+      }
+
+      .cls-180 {
+        fill: url(#Sfumatura_senza_nome_46-178);
+      }
+
+      .cls-181 {
+        fill: url(#Sfumatura_senza_nome_46-179);
+      }
+
+      .cls-182 {
+        fill: url(#Sfumatura_senza_nome_46-180);
+      }
+
+      .cls-183 {
+        fill: url(#Sfumatura_senza_nome_46-181);
+      }
+
+      .cls-184 {
+        fill: url(#Sfumatura_senza_nome_46-182);
+      }
+
+      .cls-185 {
+        fill: url(#Sfumatura_senza_nome_46-183);
+      }
+
+      .cls-186 {
+        fill: url(#Sfumatura_senza_nome_46-184);
+      }
+
+      .cls-187 {
+        fill: url(#Sfumatura_senza_nome_46-185);
+      }
+
+      .cls-188 {
+        fill: url(#Sfumatura_senza_nome_46-186);
+      }
+
+      .cls-189 {
+        fill: url(#Sfumatura_senza_nome_46-187);
+      }
+
+      .cls-190 {
+        fill: url(#Sfumatura_senza_nome_46-188);
+      }
+
+      .cls-191 {
+        fill: url(#Sfumatura_senza_nome_46-189);
+      }
+
+      .cls-192 {
+        fill: url(#Sfumatura_senza_nome_46-190);
+      }
+
+      .cls-193 {
+        fill: url(#Sfumatura_senza_nome_46-191);
+      }
+
+      .cls-194 {
+        fill: url(#Sfumatura_senza_nome_46-192);
+      }
+
+      .cls-195 {
+        fill: url(#Sfumatura_senza_nome_46-193);
+      }
+
+      .cls-196 {
+        fill: url(#Sfumatura_senza_nome_46-194);
+      }
+
+      .cls-197 {
+        fill: url(#Sfumatura_senza_nome_46-195);
+      }
+
+      .cls-198 {
+        fill: url(#Sfumatura_senza_nome_46-196);
+      }
+
+      .cls-199 {
+        fill: url(#Sfumatura_senza_nome_46-197);
+      }
+
+      .cls-200 {
+        fill: url(#Sfumatura_senza_nome_46-198);
+      }
+
+      .cls-201 {
+        fill: url(#Sfumatura_senza_nome_46-199);
+      }
+
+      .cls-202 {
+        fill: url(#Sfumatura_senza_nome_46-200);
+      }
+
+      .cls-203 {
+        fill: url(#Sfumatura_senza_nome_46-201);
+      }
+
+      .cls-204 {
+        fill: url(#Sfumatura_senza_nome_46-202);
+      }
+
+      .cls-205 {
+        fill: url(#Sfumatura_senza_nome_46-203);
+      }
+
+      .cls-206 {
+        fill: url(#Sfumatura_senza_nome_46-204);
+      }
+
+      .cls-207 {
+        fill: url(#Sfumatura_senza_nome_46-205);
+      }
+
+      .cls-208 {
+        fill: url(#Sfumatura_senza_nome_46-206);
+      }
+
+      .cls-209 {
+        fill: url(#Sfumatura_senza_nome_46-207);
+      }
+
+      .cls-210 {
+        fill: url(#Sfumatura_senza_nome_46-208);
+      }
+
+      .cls-211 {
+        fill: url(#Sfumatura_senza_nome_46-209);
+      }
+
+      .cls-212 {
+        fill: url(#Sfumatura_senza_nome_46-210);
+      }
+
+      .cls-213 {
+        fill: url(#Sfumatura_senza_nome_46-211);
+      }
+
+      .cls-214 {
+        fill: url(#Sfumatura_senza_nome_46-212);
+      }
+
+      .cls-215 {
+        fill: url(#Sfumatura_senza_nome_46-213);
+      }
+
+      .cls-216 {
+        fill: url(#Sfumatura_senza_nome_46-214);
+      }
+
+      .cls-217 {
+        fill: url(#Sfumatura_senza_nome_46-215);
+      }
+
+      .cls-218 {
+        fill: url(#Sfumatura_senza_nome_46-216);
+      }
+
+      .cls-219 {
+        fill: url(#Sfumatura_senza_nome_46-217);
+      }
+
+      .cls-220 {
+        fill: url(#Sfumatura_senza_nome_46-218);
+      }
+
+      .cls-221 {
+        fill: url(#Sfumatura_senza_nome_46-219);
+      }
+
+      .cls-222 {
+        fill: url(#Sfumatura_senza_nome_46-220);
+      }
+
+      .cls-223 {
+        fill: url(#Sfumatura_senza_nome_46-221);
+      }
+
+      .cls-224 {
+        fill: url(#Sfumatura_senza_nome_46-222);
+      }
+
+      .cls-225 {
+        fill: url(#Sfumatura_senza_nome_46-223);
+      }
+
+      .cls-226 {
+        fill: url(#Sfumatura_senza_nome_46-224);
+      }
+
+      .cls-227 {
+        fill: url(#Sfumatura_senza_nome_46-225);
+      }
+
+      .cls-228 {
+        fill: url(#Sfumatura_senza_nome_46-226);
+      }
+
+      .cls-229 {
+        fill: url(#Sfumatura_senza_nome_46-227);
+      }
+
+      .cls-230 {
+        fill: url(#Sfumatura_senza_nome_46-228);
+      }
+
+      .cls-231 {
+        fill: url(#Sfumatura_senza_nome_46-229);
+      }
+
+      .cls-232 {
+        fill: url(#Sfumatura_senza_nome_46-230);
+      }
+
+      .cls-233 {
+        fill: url(#Sfumatura_senza_nome_46-231);
+      }
+
+      .cls-234 {
+        fill: url(#Sfumatura_senza_nome_46-232);
+      }
+
+      .cls-235 {
+        fill: url(#Sfumatura_senza_nome_46-233);
+      }
+
+      .cls-236 {
+        fill: url(#Sfumatura_senza_nome_46-234);
+      }
+
+      .cls-237 {
+        fill: url(#Sfumatura_senza_nome_46-235);
+      }
+
+      .cls-238 {
+        fill: url(#Sfumatura_senza_nome_46-236);
+      }
+
+      .cls-239 {
+        fill: url(#Sfumatura_senza_nome_46-237);
+      }
+
+      .cls-240 {
+        fill: url(#Sfumatura_senza_nome_46-238);
+      }
+
+      .cls-241 {
+        fill: url(#Sfumatura_senza_nome_46-239);
+      }
+
+      .cls-242 {
+        fill: url(#Sfumatura_senza_nome_46-240);
+      }
+
+      .cls-243 {
+        fill: url(#Sfumatura_senza_nome_46-241);
+      }
+
+      .cls-244 {
+        fill: url(#Sfumatura_senza_nome_46-242);
+      }
+
+      .cls-245 {
+        fill: url(#Sfumatura_senza_nome_46-243);
+      }
+
+      .cls-246 {
+        fill: url(#Sfumatura_senza_nome_46-244);
+      }
+
+      .cls-247 {
+        fill: url(#Sfumatura_senza_nome_46-245);
+      }
+
+      .cls-248 {
+        fill: url(#Sfumatura_senza_nome_46-246);
+      }
+
+      .cls-249 {
+        fill: url(#Sfumatura_senza_nome_46-247);
+      }
+
+      .cls-250 {
+        fill: url(#Sfumatura_senza_nome_46-248);
+      }
+
+      .cls-251 {
+        fill: url(#Sfumatura_senza_nome_46-249);
+      }
+
+      .cls-252 {
+        fill: url(#Sfumatura_senza_nome_46-250);
+      }
+
+      .cls-253 {
+        fill: url(#Sfumatura_senza_nome_46-251);
+      }
+
+      .cls-254 {
+        fill: url(#Sfumatura_senza_nome_46-252);
+      }
+
+      .cls-255 {
+        fill: url(#Sfumatura_senza_nome_46-253);
+      }
+
+      .cls-256 {
+        fill: url(#Sfumatura_senza_nome_46-254);
+      }
+
+      .cls-257 {
+        fill: url(#Sfumatura_senza_nome_46-255);
+      }
+
+      .cls-258 {
+        fill: url(#Sfumatura_senza_nome_46-256);
+      }
+
+      .cls-259 {
+        fill: url(#Sfumatura_senza_nome_46-257);
+      }
+
+      .cls-260 {
+        fill: url(#Sfumatura_senza_nome_46-258);
+      }
+
+      .cls-261 {
+        fill: url(#Sfumatura_senza_nome_46-259);
+      }
+
+      .cls-262 {
+        fill: url(#Sfumatura_senza_nome_46-260);
+      }
+
+      .cls-263 {
+        fill: url(#Sfumatura_senza_nome_46-261);
+      }
+
+      .cls-264 {
+        fill: url(#Sfumatura_senza_nome_46-262);
+      }
+
+      .cls-265 {
+        fill: url(#Sfumatura_senza_nome_46-263);
+      }
+
+      .cls-266 {
+        fill: url(#Sfumatura_senza_nome_46-264);
+      }
+
+      .cls-267 {
+        fill: url(#Sfumatura_senza_nome_46-265);
+      }
+
+      .cls-268 {
+        fill: url(#Sfumatura_senza_nome_46-266);
+      }
+
+      .cls-269 {
+        fill: url(#Sfumatura_senza_nome_46-267);
+      }
+
+      .cls-270 {
+        fill: url(#Sfumatura_senza_nome_46-268);
+      }
+
+      .cls-271 {
+        fill: url(#Sfumatura_senza_nome_46-269);
+      }
+
+      .cls-272 {
+        fill: url(#Sfumatura_senza_nome_46-270);
+      }
+
+      .cls-273 {
+        fill: url(#Sfumatura_senza_nome_46-271);
+      }
+
+      .cls-274 {
+        fill: url(#Sfumatura_senza_nome_46-272);
+      }
+
+      .cls-275 {
+        fill: url(#Sfumatura_senza_nome_46-273);
+      }
+
+      .cls-276 {
+        fill: url(#Sfumatura_senza_nome_46-274);
+      }
+
+      .cls-277 {
+        fill: url(#Sfumatura_senza_nome_46-275);
+      }
+
+      .cls-278 {
+        fill: url(#Sfumatura_senza_nome_46-276);
+      }
+
+      .cls-279 {
+        fill: url(#Sfumatura_senza_nome_46-277);
+      }
+
+      .cls-280 {
+        fill: url(#Sfumatura_senza_nome_46-278);
+      }
+
+      .cls-281 {
+        fill: url(#Sfumatura_senza_nome_46-279);
+      }
+
+      .cls-282 {
+        fill: url(#Sfumatura_senza_nome_46-280);
+      }
+
+      .cls-283 {
+        fill: url(#Sfumatura_senza_nome_46-281);
+      }
+
+      .cls-284 {
+        fill: url(#Sfumatura_senza_nome_46-282);
+      }
+
+      .cls-285 {
+        fill: url(#Sfumatura_senza_nome_46-283);
+      }
+
+      .cls-286 {
+        fill: url(#Sfumatura_senza_nome_46-284);
+      }
+
+      .cls-287 {
+        fill: url(#Sfumatura_senza_nome_46-285);
+      }
+
+      .cls-288 {
+        fill: url(#Sfumatura_senza_nome_46-286);
+      }
+
+      .cls-289 {
+        fill: url(#Sfumatura_senza_nome_46-287);
+      }
+
+      .cls-290 {
+        fill: url(#Sfumatura_senza_nome_46-288);
+      }
+
+      .cls-291 {
+        fill: url(#Sfumatura_senza_nome_46-289);
+      }
+
+      .cls-292 {
+        fill: url(#Sfumatura_senza_nome_46-290);
+      }
+
+      .cls-293 {
+        fill: url(#Sfumatura_senza_nome_46-291);
+      }
+
+      .cls-294 {
+        fill: url(#Sfumatura_senza_nome_46-292);
+      }
+
+      .cls-295 {
+        fill: url(#Sfumatura_senza_nome_46-293);
+      }
+
+      .cls-296 {
+        fill: url(#Sfumatura_senza_nome_46-294);
+      }
+
+      .cls-297 {
+        fill: url(#Sfumatura_senza_nome_46-295);
+      }
+
+      .cls-298 {
+        fill: url(#Sfumatura_senza_nome_46-296);
+      }
+
+      .cls-299 {
+        fill: url(#Sfumatura_senza_nome_46-297);
+      }
+
+      .cls-300 {
+        fill: url(#Sfumatura_senza_nome_46-298);
+      }
+
+      .cls-301 {
+        fill: url(#Sfumatura_senza_nome_46-299);
+      }
+
+      .cls-302 {
+        fill: url(#Sfumatura_senza_nome_46-300);
+      }
+
+      .cls-303 {
+        fill: url(#Sfumatura_senza_nome_46-301);
+      }
+
+      .cls-304 {
+        fill: url(#Sfumatura_senza_nome_46-302);
+      }
+
+      .cls-305 {
+        fill: url(#Sfumatura_senza_nome_46-303);
+      }
+
+      .cls-306 {
+        fill: url(#Sfumatura_senza_nome_46-304);
+      }
+
+      .cls-307 {
+        fill: url(#Sfumatura_senza_nome_46-305);
+      }
+
+      .cls-308 {
+        fill: url(#Sfumatura_senza_nome_46-306);
+      }
+
+      .cls-309 {
+        fill: url(#Sfumatura_senza_nome_46-307);
+      }
+
+      .cls-310 {
+        fill: url(#Sfumatura_senza_nome_46-308);
+      }
+
+      .cls-311 {
+        fill: url(#Sfumatura_senza_nome_46-309);
+      }
+
+      .cls-312 {
+        fill: url(#Sfumatura_senza_nome_46-310);
+      }
+
+      .cls-313 {
+        fill: url(#Sfumatura_senza_nome_46-311);
+      }
+
+      .cls-314 {
+        fill: url(#Sfumatura_senza_nome_46-312);
+      }
+
+      .cls-315 {
+        fill: url(#Sfumatura_senza_nome_46-313);
+      }
+
+      .cls-316 {
+        fill: url(#Sfumatura_senza_nome_46-314);
+      }
+
+      .cls-317 {
+        fill: url(#Sfumatura_senza_nome_46-315);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(482.39 854.24)">
+      <rect class="cls-1" width="1920" height="1081.59"/>
+    </clipPath>
+    <linearGradient id="Sfumatura_senza_nome_46" data-name="Sfumatura senza nome 46" x1="-481.71" y1="539.12" x2="2408.49" y2="539.12" gradientTransform="translate(948.59 -564.76) rotate(60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0.06" stop-color="#08eef9"/>
+      <stop offset="0.24" stop-color="#20bee8"/>
+      <stop offset="0.34" stop-color="#29abe2"/>
+      <stop offset="0.34" stop-color="#29abe2"/>
+      <stop offset="0.61" stop-color="#138bcd"/>
+      <stop offset="0.84" stop-color="#0578c1"/>
+      <stop offset="1" stop-color="#0071bc"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_46-2" x1="1917.42" y1="1944.83" x2="2884.5" y2="1944.83" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-3" x1="1911.03" y1="1941.14" x2="2878.11" y2="1941.14" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-4" x1="1904.64" y1="1937.45" x2="2871.72" y2="1937.45" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-5" x1="1898.25" y1="1933.76" x2="2865.33" y2="1933.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-6" x1="1891.86" y1="1930.07" x2="2858.94" y2="1930.07" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-7" x1="1885.47" y1="1926.38" x2="2852.55" y2="1926.38" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-8" x1="1879.08" y1="1922.69" x2="2846.16" y2="1922.69" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-9" x1="1872.69" y1="1919.01" x2="2839.77" y2="1919.01" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-10" x1="1866.3" y1="1915.32" x2="2833.38" y2="1915.32" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-11" x1="1859.91" y1="1911.63" x2="2827" y2="1911.63" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-12" x1="1853.52" y1="1907.94" x2="2820.61" y2="1907.94" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-13" x1="1847.14" y1="1904.25" x2="2814.22" y2="1904.25" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-14" x1="1840.75" y1="1900.56" x2="2807.83" y2="1900.56" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-15" x1="1834.36" y1="1896.87" x2="2801.44" y2="1896.87" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-16" x1="1827.97" y1="1893.18" x2="2795.05" y2="1893.18" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-17" x1="1821.58" y1="1889.5" x2="2788.66" y2="1889.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-18" x1="1815.19" y1="1885.81" x2="2782.27" y2="1885.81" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-19" x1="1808.8" y1="1882.12" x2="2775.88" y2="1882.12" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-20" x1="1802.41" y1="1878.43" x2="2769.49" y2="1878.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-21" x1="1796.02" y1="1874.74" x2="2763.1" y2="1874.74" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-22" x1="1789.63" y1="1871.05" x2="2756.71" y2="1871.05" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-23" x1="1783.24" y1="1867.36" x2="2750.33" y2="1867.36" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-24" x1="1776.86" y1="1863.67" x2="2743.94" y2="1863.67" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-25" x1="1770.47" y1="1859.98" x2="2737.55" y2="1859.98" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-26" x1="1764.08" y1="1856.3" x2="2731.16" y2="1856.3" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-27" x1="1757.69" y1="1852.61" x2="2724.77" y2="1852.61" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-28" x1="1751.3" y1="1848.92" x2="2718.38" y2="1848.92" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-29" x1="1744.91" y1="1845.23" x2="2711.99" y2="1845.23" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-30" x1="1738.52" y1="1841.54" x2="2705.6" y2="1841.54" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-31" x1="1732.13" y1="1837.85" x2="2699.21" y2="1837.85" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-32" x1="1725.74" y1="1834.16" x2="2692.82" y2="1834.16" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-33" x1="1719.35" y1="1830.47" x2="2686.43" y2="1830.47" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-34" x1="1712.96" y1="1826.79" x2="2680.05" y2="1826.79" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-35" x1="1706.58" y1="1823.1" x2="2673.66" y2="1823.1" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-36" x1="1700.19" y1="1819.41" x2="2667.27" y2="1819.41" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-37" x1="1693.8" y1="1815.72" x2="2660.88" y2="1815.72" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-38" x1="1687.41" y1="1812.03" x2="2654.49" y2="1812.03" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-39" x1="1681.02" y1="1808.34" x2="2648.1" y2="1808.34" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-40" x1="1674.63" y1="1804.65" x2="2641.71" y2="1804.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-41" x1="1668.24" y1="1800.96" x2="2635.32" y2="1800.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-42" x1="1661.85" y1="1797.28" x2="2628.93" y2="1797.28" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-43" x1="1655.46" y1="1793.59" x2="2622.54" y2="1793.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-44" x1="1649.07" y1="1789.9" x2="2616.15" y2="1789.9" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-45" x1="1642.68" y1="1786.21" x2="2609.77" y2="1786.21" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-46" x1="1636.3" y1="1782.52" x2="2603.38" y2="1782.52" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-47" x1="1629.91" y1="1778.83" x2="2596.99" y2="1778.83" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-48" x1="1623.52" y1="1775.14" x2="2590.6" y2="1775.14" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-49" x1="1617.13" y1="1771.45" x2="2584.21" y2="1771.45" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-50" x1="1610.74" y1="1767.77" x2="2577.82" y2="1767.77" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-51" x1="1604.35" y1="1764.08" x2="2571.43" y2="1764.08" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-52" x1="1597.96" y1="1760.39" x2="2565.04" y2="1760.39" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-53" x1="1591.57" y1="1756.7" x2="2558.65" y2="1756.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-54" x1="1585.18" y1="1753.01" x2="2552.26" y2="1753.01" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-55" x1="1578.79" y1="1749.32" x2="2545.87" y2="1749.32" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-56" x1="1572.4" y1="1745.63" x2="2539.49" y2="1745.63" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-57" x1="1566.01" y1="1741.94" x2="2533.1" y2="1741.94" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-58" x1="1559.63" y1="1738.26" x2="2526.71" y2="1738.26" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-59" x1="1553.24" y1="1734.57" x2="2520.32" y2="1734.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-60" x1="1546.85" y1="1730.88" x2="2513.93" y2="1730.88" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-61" x1="1540.46" y1="1727.19" x2="2507.54" y2="1727.19" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-62" x1="1534.07" y1="1723.5" x2="2501.15" y2="1723.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-63" x1="1527.68" y1="1719.81" x2="2494.76" y2="1719.81" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-64" x1="1521.29" y1="1716.12" x2="2488.37" y2="1716.12" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-65" x1="1514.9" y1="1712.43" x2="2481.98" y2="1712.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-66" x1="1508.51" y1="1708.75" x2="2475.59" y2="1708.75" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-67" x1="1502.12" y1="1705.06" x2="2469.2" y2="1705.06" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-68" x1="1495.73" y1="1701.37" x2="2462.82" y2="1701.37" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-69" x1="1489.35" y1="1697.68" x2="2456.43" y2="1697.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-70" x1="1482.96" y1="1693.99" x2="2450.04" y2="1693.99" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-71" x1="1476.57" y1="1690.3" x2="2443.65" y2="1690.3" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-72" x1="1470.18" y1="1686.61" x2="2437.26" y2="1686.61" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-73" x1="1463.79" y1="1682.92" x2="2430.87" y2="1682.92" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-74" x1="1457.4" y1="1679.24" x2="2424.48" y2="1679.24" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-75" x1="1451.01" y1="1675.55" x2="2418.09" y2="1675.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-76" x1="1444.62" y1="1680.16" x2="2402.12" y2="1680.16" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-77" x1="2402.12" y1="842.64" x2="2411.7" y2="842.64" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-78" x1="1438.23" y1="1668.17" x2="2405.31" y2="1668.17" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-79" x1="1431.84" y1="1664.48" x2="2398.92" y2="1664.48" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-80" x1="1425.45" y1="1660.79" x2="2392.54" y2="1660.79" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-81" x1="1419.07" y1="1657.1" x2="2386.15" y2="1657.1" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-82" x1="1412.68" y1="1653.41" x2="2379.76" y2="1653.41" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-83" x1="1406.29" y1="1649.73" x2="2373.37" y2="1649.73" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-84" x1="1399.9" y1="1646.04" x2="2366.98" y2="1646.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-85" x1="1393.51" y1="1642.35" x2="2360.59" y2="1642.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-86" x1="1387.12" y1="1638.66" x2="2354.2" y2="1638.66" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-87" x1="1380.73" y1="1673.79" x2="2302.99" y2="1673.79" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-88" x1="2302.99" y1="836.27" x2="2347.81" y2="836.27" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-89" x1="1374.34" y1="1631.28" x2="2341.42" y2="1631.28" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-90" x1="1367.95" y1="1627.59" x2="2335.03" y2="1627.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-91" x1="1361.56" y1="1623.9" x2="2328.64" y2="1623.9" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-92" x1="1355.17" y1="1620.22" x2="2322.26" y2="1620.22" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-93" x1="1348.79" y1="1616.53" x2="2315.87" y2="1616.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-94" x1="1342.4" y1="1612.84" x2="2309.48" y2="1612.84" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-95" x1="1336.01" y1="1609.15" x2="2303.09" y2="1609.15" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-96" x1="1329.62" y1="1605.46" x2="2296.7" y2="1605.46" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-97" x1="1323.23" y1="1601.77" x2="2290.31" y2="1601.77" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-98" x1="1316.84" y1="1598.08" x2="2283.92" y2="1598.08" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-99" x1="1310.45" y1="1594.39" x2="2277.53" y2="1594.39" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-100" x1="1304.06" y1="1590.71" x2="2271.14" y2="1590.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-101" x1="1297.67" y1="1587.02" x2="2264.75" y2="1587.02" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-102" x1="1291.28" y1="1891.42" x2="1902.61" y2="1891.42" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-103" x1="1902.61" y1="1053.91" x2="2258.36" y2="1053.91" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-104" x1="1284.89" y1="1579.64" x2="2251.98" y2="1579.64" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-105" x1="1278.51" y1="1575.95" x2="2245.59" y2="1575.95" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-106" x1="1272.12" y1="1572.26" x2="2239.2" y2="1572.26" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-107" x1="1265.73" y1="1568.57" x2="2232.81" y2="1568.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-108" x1="1259.34" y1="1564.88" x2="2226.42" y2="1564.88" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-109" x1="1252.95" y1="1561.2" x2="2220.03" y2="1561.2" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-110" x1="1246.56" y1="2067.12" x2="1625.19" y2="2067.12" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-111" x1="1625.19" y1="1229.61" x2="2213.64" y2="1229.61" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-112" x1="1240.17" y1="1553.82" x2="2207.25" y2="1553.82" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-113" x1="1233.78" y1="2034.91" x2="1641.09" y2="2034.91" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-114" x1="1641.09" y1="1550.7" x2="1792.9" y2="1550.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-115" x1="1792.9" y1="1296.55" x2="1934.55" y2="1296.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-116" x1="1934.55" y1="943.24" x2="2200.86" y2="943.24" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-117" x1="1227.39" y1="1864.22" x2="1827.53" y2="1864.22" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-118" x1="1827.53" y1="1026.7" x2="2194.47" y2="1026.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-119" x1="1221" y1="1542.75" x2="2188.08" y2="1542.75" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-120" x1="1214.61" y1="1942.17" x2="1716.23" y2="1942.17" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-121" x1="1716.23" y1="1104.65" x2="2181.7" y2="1104.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-122" x1="1208.22" y1="1535.37" x2="2175.31" y2="1535.37" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-123" x1="1201.84" y1="1531.69" x2="2168.92" y2="1531.69" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-124" x1="1195.45" y1="1528" x2="2162.53" y2="1528" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-125" x1="1189.06" y1="1524.31" x2="2156.14" y2="1524.31" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-126" x1="1182.67" y1="1520.62" x2="2149.75" y2="1520.62" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-127" x1="1176.28" y1="1516.93" x2="2143.36" y2="1516.93" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-128" x1="1169.89" y1="1513.24" x2="2136.97" y2="1513.24" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-129" x1="1163.5" y1="1509.55" x2="2130.58" y2="1509.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-130" x1="1157.11" y1="1505.86" x2="2124.19" y2="1505.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-131" x1="1150.72" y1="1502.18" x2="2117.8" y2="1502.18" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-132" x1="1144.33" y1="1498.49" x2="2111.41" y2="1498.49" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-133" x1="1137.94" y1="1601.38" x2="1981.96" y2="1601.38" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-134" x1="1981.96" y1="763.86" x2="2105.03" y2="763.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-135" x1="1131.56" y1="1491.11" x2="2098.64" y2="1491.11" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-136" x1="1125.17" y1="1487.42" x2="2092.25" y2="1487.42" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-137" x1="1118.78" y1="1483.73" x2="2085.86" y2="1483.73" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-138" x1="1112.39" y1="1480.04" x2="2079.47" y2="1480.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-139" x1="1106" y1="1476.35" x2="2073.08" y2="1476.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-140" x1="1099.61" y1="1472.67" x2="2066.69" y2="1472.67" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-141" x1="1093.22" y1="1468.98" x2="2060.3" y2="1468.98" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-142" x1="1086.83" y1="1465.29" x2="2053.91" y2="1465.29" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-143" x1="1080.44" y1="1461.6" x2="2047.52" y2="1461.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-144" x1="1074.05" y1="1604.19" x2="1872.22" y2="1604.19" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-145" x1="1872.22" y1="766.68" x2="2041.13" y2="766.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-146" x1="1067.66" y1="1454.22" x2="2034.75" y2="1454.22" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-147" x1="1061.28" y1="1450.53" x2="2028.36" y2="1450.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-148" x1="1054.89" y1="1446.84" x2="2021.97" y2="1446.84" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-149" x1="1048.5" y1="1443.16" x2="2015.58" y2="1443.16" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-150" x1="1042.11" y1="1439.47" x2="2009.19" y2="1439.47" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-151" x1="1035.72" y1="1435.78" x2="2002.8" y2="1435.78" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-152" x1="1029.33" y1="1432.09" x2="1996.41" y2="1432.09" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-153" x1="1022.94" y1="1428.4" x2="1990.02" y2="1428.4" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-154" x1="1016.55" y1="1424.71" x2="1983.63" y2="1424.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-155" x1="1010.16" y1="1421.02" x2="1977.24" y2="1421.02" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-156" x1="1003.77" y1="1417.33" x2="1970.85" y2="1417.33" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-157" x1="997.38" y1="1413.65" x2="1964.47" y2="1413.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-158" x1="991" y1="1409.96" x2="1958.08" y2="1409.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-159" x1="984.61" y1="1406.27" x2="1951.69" y2="1406.27" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-160" x1="978.22" y1="1402.58" x2="1945.3" y2="1402.58" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-161" x1="971.83" y1="1398.89" x2="1938.91" y2="1398.89" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-162" x1="965.44" y1="1395.2" x2="1932.52" y2="1395.2" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-163" x1="959.05" y1="1391.51" x2="1926.13" y2="1391.51" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-164" x1="952.66" y1="1387.82" x2="1919.74" y2="1387.82" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-165" x1="946.27" y1="1384.14" x2="1913.35" y2="1384.14" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-166" x1="939.88" y1="1380.45" x2="1906.96" y2="1380.45" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-167" x1="933.49" y1="1376.76" x2="1900.57" y2="1376.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-168" x1="927.1" y1="1373.07" x2="1894.19" y2="1373.07" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-169" x1="920.71" y1="1369.38" x2="1887.8" y2="1369.38" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-170" x1="914.33" y1="1365.69" x2="1881.41" y2="1365.69" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-171" x1="907.94" y1="1362" x2="1875.02" y2="1362" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-172" x1="901.55" y1="1358.31" x2="1868.63" y2="1358.31" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-173" x1="895.16" y1="1354.63" x2="1862.24" y2="1354.63" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-174" x1="888.77" y1="1551.51" x2="1624.25" y2="1551.51" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-175" x1="1624.25" y1="714" x2="1855.85" y2="714" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-176" x1="882.38" y1="1347.25" x2="1849.46" y2="1347.25" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-177" x1="875.99" y1="1343.56" x2="1843.07" y2="1343.56" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-178" x1="869.6" y1="1339.87" x2="1836.68" y2="1339.87" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-179" x1="863.21" y1="1336.18" x2="1830.29" y2="1336.18" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-180" x1="856.82" y1="1332.49" x2="1823.9" y2="1332.49" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-181" x1="850.43" y1="1328.8" x2="1817.52" y2="1328.8" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-182" x1="844.05" y1="1555.66" x2="1544.91" y2="1555.66" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-183" x1="1544.91" y1="718.15" x2="1811.13" y2="718.15" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-184" x1="837.66" y1="1321.43" x2="1804.74" y2="1321.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-185" x1="831.27" y1="1317.74" x2="1798.35" y2="1317.74" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-186" x1="824.88" y1="1314.05" x2="1791.96" y2="1314.05" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-187" x1="818.49" y1="1310.36" x2="1785.57" y2="1310.36" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-188" x1="812.1" y1="1306.67" x2="1779.18" y2="1306.67" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-189" x1="805.71" y1="1302.98" x2="1772.79" y2="1302.98" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-190" x1="799.32" y1="1299.29" x2="1766.4" y2="1299.29" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-191" x1="792.93" y1="1295.61" x2="1760.01" y2="1295.61" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-192" x1="786.54" y1="1291.92" x2="1753.62" y2="1291.92" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-193" x1="780.15" y1="1288.23" x2="1747.24" y2="1288.23" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-194" x1="773.77" y1="1284.54" x2="1740.85" y2="1284.54" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-195" x1="767.38" y1="1280.85" x2="1734.46" y2="1280.85" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-196" x1="760.99" y1="1277.16" x2="1728.07" y2="1277.16" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-197" x1="754.6" y1="1273.47" x2="1721.68" y2="1273.47" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-198" x1="748.21" y1="1269.78" x2="1715.29" y2="1269.78" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-199" x1="741.82" y1="1266.1" x2="1708.9" y2="1266.1" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-200" x1="735.43" y1="1262.41" x2="1702.51" y2="1262.41" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-201" x1="729.04" y1="1258.72" x2="1696.12" y2="1258.72" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-202" x1="722.65" y1="1255.03" x2="1689.73" y2="1255.03" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-203" x1="716.26" y1="1251.34" x2="1683.34" y2="1251.34" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-204" x1="709.87" y1="1247.65" x2="1676.96" y2="1247.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-205" x1="703.49" y1="1243.96" x2="1670.57" y2="1243.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-206" x1="697.1" y1="1240.27" x2="1664.18" y2="1240.27" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-207" x1="690.71" y1="1236.59" x2="1657.79" y2="1236.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-208" x1="684.32" y1="1232.9" x2="1651.4" y2="1232.9" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-209" x1="677.93" y1="1229.21" x2="1645.01" y2="1229.21" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-210" x1="671.54" y1="1225.52" x2="1638.62" y2="1225.52" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-211" x1="665.15" y1="1221.83" x2="1632.23" y2="1221.83" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-212" x1="658.76" y1="1218.14" x2="1625.84" y2="1218.14" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-213" x1="652.37" y1="1214.45" x2="1619.45" y2="1214.45" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-214" x1="645.98" y1="1210.76" x2="1613.06" y2="1210.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-215" x1="639.59" y1="1207.08" x2="1606.68" y2="1207.08" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-216" x1="633.2" y1="1203.39" x2="1600.29" y2="1203.39" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-217" x1="626.82" y1="1199.7" x2="1593.9" y2="1199.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-218" x1="620.43" y1="1196.01" x2="1587.51" y2="1196.01" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-219" x1="614.04" y1="1192.32" x2="1581.12" y2="1192.32" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-220" x1="607.65" y1="1188.63" x2="1574.73" y2="1188.63" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-221" x1="601.26" y1="1184.94" x2="1568.34" y2="1184.94" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-222" x1="594.87" y1="1181.25" x2="1561.95" y2="1181.25" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-223" x1="588.48" y1="1177.57" x2="1555.56" y2="1177.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-224" x1="582.09" y1="1173.88" x2="1549.17" y2="1173.88" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-225" x1="575.7" y1="1170.19" x2="1542.78" y2="1170.19" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-226" x1="569.31" y1="1166.5" x2="1536.39" y2="1166.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-227" x1="562.92" y1="1162.81" x2="1530.01" y2="1162.81" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-228" x1="556.54" y1="1159.12" x2="1523.62" y2="1159.12" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-229" x1="550.15" y1="1155.43" x2="1517.23" y2="1155.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-230" x1="543.76" y1="1151.74" x2="1510.84" y2="1151.74" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-231" x1="537.37" y1="1148.06" x2="1504.45" y2="1148.06" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-232" x1="530.98" y1="1144.37" x2="1498.06" y2="1144.37" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-233" x1="524.59" y1="1140.68" x2="1491.67" y2="1140.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-234" x1="518.2" y1="1136.99" x2="1485.28" y2="1136.99" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-235" x1="511.81" y1="1133.3" x2="1478.89" y2="1133.3" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-236" x1="505.42" y1="1129.61" x2="1472.5" y2="1129.61" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-237" x1="499.03" y1="1125.92" x2="1466.11" y2="1125.92" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-238" x1="492.64" y1="1122.23" x2="1459.73" y2="1122.23" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-239" x1="486.26" y1="1118.55" x2="1453.34" y2="1118.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-240" x1="479.87" y1="1114.86" x2="1446.95" y2="1114.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-241" x1="473.48" y1="1111.17" x2="1440.56" y2="1111.17" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-242" x1="467.09" y1="1107.48" x2="1434.17" y2="1107.48" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-243" x1="460.7" y1="1103.79" x2="1427.78" y2="1103.79" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-244" x1="454.31" y1="1100.1" x2="1421.39" y2="1100.1" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-245" x1="447.92" y1="1096.41" x2="1415" y2="1096.41" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-246" x1="441.53" y1="1092.72" x2="1408.61" y2="1092.72" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-247" x1="435.14" y1="1089.04" x2="1402.22" y2="1089.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-248" x1="428.75" y1="1085.35" x2="1395.83" y2="1085.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-249" x1="422.36" y1="1081.66" x2="1389.45" y2="1081.66" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-250" x1="415.98" y1="1077.97" x2="1383.06" y2="1077.97" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-251" x1="409.59" y1="1074.28" x2="1376.67" y2="1074.28" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-252" x1="403.2" y1="1070.59" x2="1370.28" y2="1070.59" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-253" x1="396.81" y1="1066.9" x2="1363.89" y2="1066.9" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-254" x1="390.42" y1="1063.21" x2="1357.5" y2="1063.21" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-255" x1="384.03" y1="1059.53" x2="1351.11" y2="1059.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-256" x1="377.64" y1="1055.84" x2="1344.72" y2="1055.84" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-257" x1="371.25" y1="1052.15" x2="1338.33" y2="1052.15" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-258" x1="364.86" y1="1048.46" x2="1331.94" y2="1048.46" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-259" x1="358.47" y1="1044.77" x2="1325.55" y2="1044.77" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-260" x1="352.08" y1="1041.08" x2="1319.17" y2="1041.08" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-261" x1="345.69" y1="1037.39" x2="1312.78" y2="1037.39" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-262" x1="339.31" y1="1033.7" x2="1306.39" y2="1033.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-263" x1="332.92" y1="1030.02" x2="1300" y2="1030.02" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-264" x1="326.53" y1="1026.33" x2="1293.61" y2="1026.33" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-265" x1="320.14" y1="1022.64" x2="1287.22" y2="1022.64" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-266" x1="313.75" y1="1018.95" x2="1280.83" y2="1018.95" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-267" x1="307.36" y1="1015.26" x2="1274.44" y2="1015.26" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-268" x1="300.97" y1="1011.57" x2="1268.05" y2="1011.57" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-269" x1="294.58" y1="1007.88" x2="1261.66" y2="1007.88" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-270" x1="288.19" y1="1004.19" x2="1255.27" y2="1004.19" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-271" x1="281.8" y1="1000.51" x2="1248.88" y2="1000.51" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-272" x1="275.41" y1="996.82" x2="1242.5" y2="996.82" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-273" x1="269.03" y1="993.13" x2="1236.11" y2="993.13" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-274" x1="262.64" y1="989.44" x2="1229.72" y2="989.44" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-275" x1="256.25" y1="985.75" x2="1223.33" y2="985.75" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-276" x1="249.86" y1="982.06" x2="1216.94" y2="982.06" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-277" x1="243.47" y1="978.37" x2="1210.55" y2="978.37" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-278" x1="237.08" y1="974.68" x2="1204.16" y2="974.68" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-279" x1="230.69" y1="971" x2="1197.77" y2="971" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-280" x1="224.3" y1="967.31" x2="1191.38" y2="967.31" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-281" x1="217.91" y1="963.62" x2="1184.99" y2="963.62" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-282" x1="211.52" y1="959.93" x2="1178.6" y2="959.93" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-283" x1="205.13" y1="956.24" x2="1172.22" y2="956.24" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-284" x1="198.75" y1="952.55" x2="1165.83" y2="952.55" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-285" x1="192.36" y1="948.86" x2="1159.44" y2="948.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-286" x1="185.97" y1="945.17" x2="1153.05" y2="945.17" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-287" x1="179.58" y1="941.49" x2="1146.66" y2="941.49" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-288" x1="173.19" y1="937.8" x2="1140.27" y2="937.8" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-289" x1="166.8" y1="934.11" x2="1133.88" y2="934.11" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-290" x1="160.41" y1="930.42" x2="1127.49" y2="930.42" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-291" x1="154.02" y1="926.73" x2="1121.1" y2="926.73" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-292" x1="147.63" y1="923.04" x2="1114.71" y2="923.04" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-293" x1="141.24" y1="919.35" x2="1108.32" y2="919.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-294" x1="134.85" y1="915.66" x2="1101.94" y2="915.66" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-295" x1="128.47" y1="911.98" x2="1095.55" y2="911.98" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-296" x1="122.08" y1="908.29" x2="1089.16" y2="908.29" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-297" x1="115.69" y1="904.6" x2="1082.77" y2="904.6" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-298" x1="109.3" y1="900.91" x2="1076.38" y2="900.91" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-299" x1="102.91" y1="897.22" x2="1069.99" y2="897.22" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-300" x1="96.52" y1="893.53" x2="1063.6" y2="893.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-301" x1="90.13" y1="889.84" x2="1057.21" y2="889.84" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-302" x1="83.74" y1="886.15" x2="1050.82" y2="886.15" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-303" x1="77.35" y1="882.47" x2="1044.43" y2="882.47" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-304" x1="70.96" y1="1306.71" x2="543.9" y2="1306.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-305" x1="543.9" y1="469.2" x2="1038.04" y2="469.2" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-306" x1="64.57" y1="875.09" x2="1031.66" y2="875.09" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-307" x1="58.19" y1="871.4" x2="1025.27" y2="871.4" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-308" x1="51.8" y1="867.71" x2="1018.88" y2="867.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-309" x1="45.41" y1="864.02" x2="1012.49" y2="864.02" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-310" x1="39.02" y1="860.33" x2="1006.1" y2="860.33" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-311" x1="32.63" y1="856.64" x2="999.71" y2="856.64" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-312" x1="26.24" y1="852.96" x2="993.32" y2="852.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-313" x1="19.85" y1="849.27" x2="986.93" y2="849.27" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-314" x1="13.46" y1="845.58" x2="980.54" y2="845.58" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+    <linearGradient id="Sfumatura_senza_nome_46-315" x1="7.07" y1="841.89" x2="974.15" y2="841.89" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#Sfumatura_senza_nome_46"/>
+  </defs>
+  <title>Senza titolo-1</title>
+  <g class="cls-2">
+    <g>
+      <rect class="cls-3" x="-3.69" y="-571.19" width="1934.16" height="2220.63" transform="translate(497.2 1958.12) rotate(-60)"/>
+      <line class="cls-4" x1="2884.5" y1="1107.31" x2="1917.42" y2="2782.34"/>
+      <line class="cls-5" x1="2878.11" y1="1103.62" x2="1911.03" y2="2778.66"/>
+      <line class="cls-6" x1="2871.72" y1="1099.93" x2="1904.64" y2="2774.97"/>
+      <line class="cls-7" x1="2865.33" y1="1096.24" x2="1898.25" y2="2771.28"/>
+      <line class="cls-8" x1="2858.94" y1="1092.55" x2="1891.86" y2="2767.59"/>
+      <line class="cls-9" x1="2852.55" y1="1088.86" x2="1885.47" y2="2763.9"/>
+      <line class="cls-10" x1="2846.16" y1="1085.18" x2="1879.08" y2="2760.21"/>
+      <line class="cls-11" x1="2839.77" y1="1081.49" x2="1872.69" y2="2756.52"/>
+      <line class="cls-12" x1="2833.38" y1="1077.8" x2="1866.3" y2="2752.83"/>
+      <line class="cls-13" x1="2827" y1="1074.11" x2="1859.91" y2="2749.15"/>
+      <line class="cls-14" x1="2820.61" y1="1070.42" x2="1853.52" y2="2745.46"/>
+      <line class="cls-15" x1="2814.22" y1="1066.73" x2="1847.14" y2="2741.77"/>
+      <line class="cls-16" x1="2807.83" y1="1063.04" x2="1840.75" y2="2738.08"/>
+      <line class="cls-17" x1="2801.44" y1="1059.35" x2="1834.36" y2="2734.39"/>
+      <line class="cls-18" x1="2795.05" y1="1055.67" x2="1827.97" y2="2730.7"/>
+      <line class="cls-19" x1="2788.66" y1="1051.98" x2="1821.58" y2="2727.01"/>
+      <line class="cls-20" x1="2782.27" y1="1048.29" x2="1815.19" y2="2723.32"/>
+      <line class="cls-21" x1="2775.88" y1="1044.6" x2="1808.8" y2="2719.64"/>
+      <line class="cls-22" x1="2769.49" y1="1040.91" x2="1802.41" y2="2715.95"/>
+      <line class="cls-23" x1="2763.1" y1="1037.22" x2="1796.02" y2="2712.26"/>
+      <line class="cls-24" x1="2756.71" y1="1033.53" x2="1789.63" y2="2708.57"/>
+      <line class="cls-25" x1="2750.33" y1="1029.84" x2="1783.24" y2="2704.88"/>
+      <line class="cls-26" x1="2743.94" y1="1026.16" x2="1776.86" y2="2701.19"/>
+      <line class="cls-27" x1="2737.55" y1="1022.47" x2="1770.47" y2="2697.5"/>
+      <line class="cls-28" x1="2731.16" y1="1018.78" x2="1764.08" y2="2693.81"/>
+      <line class="cls-29" x1="2724.77" y1="1015.09" x2="1757.69" y2="2690.13"/>
+      <line class="cls-30" x1="2718.38" y1="1011.4" x2="1751.3" y2="2686.44"/>
+      <line class="cls-31" x1="2711.99" y1="1007.71" x2="1744.91" y2="2682.75"/>
+      <line class="cls-32" x1="2705.6" y1="1004.02" x2="1738.52" y2="2679.06"/>
+      <line class="cls-33" x1="2699.21" y1="1000.33" x2="1732.13" y2="2675.37"/>
+      <line class="cls-34" x1="2692.82" y1="996.65" x2="1725.74" y2="2671.68"/>
+      <line class="cls-35" x1="2686.43" y1="992.96" x2="1719.35" y2="2667.99"/>
+      <line class="cls-36" x1="2680.05" y1="989.27" x2="1712.96" y2="2664.3"/>
+      <line class="cls-37" x1="2673.66" y1="985.58" x2="1706.58" y2="2660.62"/>
+      <line class="cls-38" x1="2667.27" y1="981.89" x2="1700.19" y2="2656.93"/>
+      <line class="cls-39" x1="2660.88" y1="978.2" x2="1693.8" y2="2653.24"/>
+      <line class="cls-40" x1="2654.49" y1="974.51" x2="1687.41" y2="2649.55"/>
+      <line class="cls-41" x1="2648.1" y1="970.82" x2="1681.02" y2="2645.86"/>
+      <line class="cls-42" x1="2641.71" y1="967.14" x2="1674.63" y2="2642.17"/>
+      <line class="cls-43" x1="2635.32" y1="963.45" x2="1668.24" y2="2638.48"/>
+      <line class="cls-44" x1="2628.93" y1="959.76" x2="1661.85" y2="2634.79"/>
+      <line class="cls-45" x1="2622.54" y1="956.07" x2="1655.46" y2="2631.1"/>
+      <line class="cls-46" x1="2616.15" y1="952.38" x2="1649.07" y2="2627.42"/>
+      <line class="cls-47" x1="2609.77" y1="948.69" x2="1642.68" y2="2623.73"/>
+      <line class="cls-48" x1="2603.38" y1="945" x2="1636.3" y2="2620.04"/>
+      <line class="cls-49" x1="2596.99" y1="941.31" x2="1629.91" y2="2616.35"/>
+      <line class="cls-50" x1="2590.6" y1="937.63" x2="1623.52" y2="2612.66"/>
+      <line class="cls-51" x1="2584.21" y1="933.94" x2="1617.13" y2="2608.97"/>
+      <line class="cls-52" x1="2577.82" y1="930.25" x2="1610.74" y2="2605.28"/>
+      <line class="cls-53" x1="2571.43" y1="926.56" x2="1604.35" y2="2601.59"/>
+      <line class="cls-54" x1="2565.04" y1="922.87" x2="1597.96" y2="2597.91"/>
+      <line class="cls-55" x1="2558.65" y1="919.18" x2="1591.57" y2="2594.22"/>
+      <line class="cls-56" x1="2552.26" y1="915.49" x2="1585.18" y2="2590.53"/>
+      <line class="cls-57" x1="2545.87" y1="911.8" x2="1578.79" y2="2586.84"/>
+      <line class="cls-58" x1="2539.49" y1="908.12" x2="1572.4" y2="2583.15"/>
+      <line class="cls-59" x1="2533.1" y1="904.43" x2="1566.01" y2="2579.46"/>
+      <line class="cls-60" x1="2526.71" y1="900.74" x2="1559.63" y2="2575.77"/>
+      <line class="cls-61" x1="2520.32" y1="897.05" x2="1553.24" y2="2572.08"/>
+      <line class="cls-62" x1="2513.93" y1="893.36" x2="1546.85" y2="2568.4"/>
+      <line class="cls-63" x1="2507.54" y1="889.67" x2="1540.46" y2="2564.71"/>
+      <line class="cls-64" x1="2501.15" y1="885.98" x2="1534.07" y2="2561.02"/>
+      <line class="cls-65" x1="2494.76" y1="882.29" x2="1527.68" y2="2557.33"/>
+      <line class="cls-66" x1="2488.37" y1="878.61" x2="1521.29" y2="2553.64"/>
+      <line class="cls-67" x1="2481.98" y1="874.92" x2="1514.9" y2="2549.95"/>
+      <line class="cls-68" x1="2475.59" y1="871.23" x2="1508.51" y2="2546.26"/>
+      <line class="cls-69" x1="2469.2" y1="867.54" x2="1502.12" y2="2542.57"/>
+      <line class="cls-70" x1="2462.82" y1="863.85" x2="1495.73" y2="2538.89"/>
+      <line class="cls-71" x1="2456.43" y1="860.16" x2="1489.35" y2="2535.2"/>
+      <line class="cls-72" x1="2450.04" y1="856.47" x2="1482.96" y2="2531.51"/>
+      <line class="cls-73" x1="2443.65" y1="852.78" x2="1476.57" y2="2527.82"/>
+      <line class="cls-74" x1="2437.26" y1="849.1" x2="1470.18" y2="2524.13"/>
+      <line class="cls-75" x1="2430.87" y1="845.41" x2="1463.79" y2="2520.44"/>
+      <line class="cls-76" x1="2424.48" y1="841.72" x2="1457.4" y2="2516.75"/>
+      <line class="cls-77" x1="2418.09" y1="838.03" x2="1451.01" y2="2513.06"/>
+      <line class="cls-78" x1="2402.12" y1="850.94" x2="1444.62" y2="2509.38"/>
+      <line class="cls-79" x1="2411.7" y1="834.34" x2="2402.12" y2="850.94"/>
+      <line class="cls-80" x1="2405.31" y1="830.65" x2="1438.23" y2="2505.69"/>
+      <line class="cls-81" x1="2398.92" y1="826.96" x2="1431.84" y2="2502"/>
+      <line class="cls-82" x1="2392.54" y1="823.27" x2="1425.45" y2="2498.31"/>
+      <line class="cls-83" x1="2386.15" y1="819.59" x2="1419.07" y2="2494.62"/>
+      <line class="cls-84" x1="2379.76" y1="815.9" x2="1412.68" y2="2490.93"/>
+      <line class="cls-85" x1="2373.37" y1="812.21" x2="1406.29" y2="2487.24"/>
+      <line class="cls-86" x1="2366.98" y1="808.52" x2="1399.9" y2="2483.55"/>
+      <line class="cls-87" x1="2360.59" y1="804.83" x2="1393.51" y2="2479.87"/>
+      <line class="cls-88" x1="2354.2" y1="801.14" x2="1387.12" y2="2476.18"/>
+      <line class="cls-89" x1="2302.99" y1="875.09" x2="1380.73" y2="2472.49"/>
+      <line class="cls-90" x1="2347.81" y1="797.45" x2="2302.99" y2="875.09"/>
+      <line class="cls-91" x1="2341.42" y1="793.76" x2="1374.34" y2="2468.8"/>
+      <line class="cls-92" x1="2335.03" y1="790.08" x2="1367.95" y2="2465.11"/>
+      <line class="cls-93" x1="2328.64" y1="786.39" x2="1361.56" y2="2461.42"/>
+      <line class="cls-94" x1="2322.26" y1="782.7" x2="1355.17" y2="2457.73"/>
+      <line class="cls-95" x1="2315.87" y1="779.01" x2="1348.79" y2="2454.04"/>
+      <line class="cls-96" x1="2309.48" y1="775.32" x2="1342.4" y2="2450.36"/>
+      <line class="cls-97" x1="2303.09" y1="771.63" x2="1336.01" y2="2446.67"/>
+      <line class="cls-98" x1="2296.7" y1="767.94" x2="1329.62" y2="2442.98"/>
+      <line class="cls-99" x1="2290.31" y1="764.25" x2="1323.23" y2="2439.29"/>
+      <line class="cls-100" x1="2283.92" y1="760.57" x2="1316.84" y2="2435.6"/>
+      <line class="cls-101" x1="2277.53" y1="756.88" x2="1310.45" y2="2431.91"/>
+      <line class="cls-102" x1="2271.14" y1="753.19" x2="1304.06" y2="2428.22"/>
+      <line class="cls-103" x1="2264.75" y1="749.5" x2="1297.67" y2="2424.53"/>
+      <line class="cls-104" x1="1902.61" y1="1362" x2="1291.28" y2="2420.85"/>
+      <line class="cls-105" x1="2258.36" y1="745.81" x2="1902.61" y2="1362"/>
+      <line class="cls-106" x1="2251.98" y1="742.12" x2="1284.89" y2="2417.16"/>
+      <line class="cls-107" x1="2245.59" y1="738.43" x2="1278.51" y2="2413.47"/>
+      <line class="cls-108" x1="2239.2" y1="734.74" x2="1272.12" y2="2409.78"/>
+      <line class="cls-109" x1="2232.81" y1="731.06" x2="1265.73" y2="2406.09"/>
+      <line class="cls-110" x1="2226.42" y1="727.37" x2="1259.34" y2="2402.4"/>
+      <line class="cls-111" x1="2220.03" y1="723.68" x2="1252.95" y2="2398.71"/>
+      <line class="cls-112" x1="1625.19" y1="1739.22" x2="1246.56" y2="2395.02"/>
+      <line class="cls-113" x1="2213.64" y1="719.99" x2="1625.19" y2="1739.22"/>
+      <line class="cls-114" x1="2207.25" y1="716.3" x2="1240.17" y2="2391.34"/>
+      <line class="cls-115" x1="1641.09" y1="1682.17" x2="1233.78" y2="2387.65"/>
+      <line class="cls-116" x1="1792.9" y1="1419.22" x2="1641.09" y2="1682.17"/>
+      <line class="cls-117" x1="1934.55" y1="1173.88" x2="1792.9" y2="1419.22"/>
+      <line class="cls-118" x1="2200.86" y1="712.61" x2="1934.55" y2="1173.88"/>
+      <line class="cls-119" x1="1827.53" y1="1344.48" x2="1227.39" y2="2383.96"/>
+      <line class="cls-120" x1="2194.47" y1="708.92" x2="1827.53" y2="1344.48"/>
+      <line class="cls-121" x1="2188.08" y1="705.23" x2="1221" y2="2380.27"/>
+      <line class="cls-122" x1="1716.23" y1="1507.75" x2="1214.61" y2="2376.58"/>
+      <line class="cls-123" x1="2181.7" y1="701.55" x2="1716.23" y2="1507.75"/>
+      <line class="cls-124" x1="2175.31" y1="697.86" x2="1208.22" y2="2372.89"/>
+      <line class="cls-125" x1="2168.92" y1="694.17" x2="1201.84" y2="2369.2"/>
+      <line class="cls-126" x1="2162.53" y1="690.48" x2="1195.45" y2="2365.51"/>
+      <line class="cls-127" x1="2156.14" y1="686.79" x2="1189.06" y2="2361.83"/>
+      <line class="cls-128" x1="2149.75" y1="683.1" x2="1182.67" y2="2358.14"/>
+      <line class="cls-129" x1="2143.36" y1="679.41" x2="1176.28" y2="2354.45"/>
+      <line class="cls-130" x1="2136.97" y1="675.72" x2="1169.89" y2="2350.76"/>
+      <line class="cls-131" x1="2130.58" y1="672.04" x2="1163.5" y2="2347.07"/>
+      <line class="cls-132" x1="2124.19" y1="668.35" x2="1157.11" y2="2343.38"/>
+      <line class="cls-133" x1="2117.8" y1="664.66" x2="1150.72" y2="2339.69"/>
+      <line class="cls-134" x1="2111.41" y1="660.97" x2="1144.33" y2="2336"/>
+      <line class="cls-135" x1="1981.96" y1="870.43" x2="1137.94" y2="2332.32"/>
+      <line class="cls-136" x1="2105.03" y1="657.28" x2="1981.96" y2="870.43"/>
+      <line class="cls-137" x1="2098.64" y1="653.59" x2="1131.56" y2="2328.63"/>
+      <line class="cls-138" x1="2092.25" y1="649.9" x2="1125.17" y2="2324.94"/>
+      <line class="cls-139" x1="2085.86" y1="646.21" x2="1118.78" y2="2321.25"/>
+      <line class="cls-140" x1="2079.47" y1="642.53" x2="1112.39" y2="2317.56"/>
+      <line class="cls-141" x1="2073.08" y1="638.84" x2="1106" y2="2313.87"/>
+      <line class="cls-142" x1="2066.69" y1="635.15" x2="1099.61" y2="2310.18"/>
+      <line class="cls-143" x1="2060.3" y1="631.46" x2="1093.22" y2="2306.49"/>
+      <line class="cls-144" x1="2053.91" y1="627.77" x2="1086.83" y2="2302.81"/>
+      <line class="cls-145" x1="2047.52" y1="624.08" x2="1080.44" y2="2299.12"/>
+      <line class="cls-146" x1="1872.22" y1="912.96" x2="1074.05" y2="2295.43"/>
+      <line class="cls-147" x1="2041.13" y1="620.39" x2="1872.22" y2="912.96"/>
+      <line class="cls-148" x1="2034.75" y1="616.7" x2="1067.66" y2="2291.74"/>
+      <line class="cls-149" x1="2028.36" y1="613.02" x2="1061.28" y2="2288.05"/>
+      <line class="cls-150" x1="2021.97" y1="609.33" x2="1054.89" y2="2284.36"/>
+      <line class="cls-151" x1="2015.58" y1="605.64" x2="1048.5" y2="2280.67"/>
+      <line class="cls-152" x1="2009.19" y1="601.95" x2="1042.11" y2="2276.98"/>
+      <line class="cls-153" x1="2002.8" y1="598.26" x2="1035.72" y2="2273.3"/>
+      <line class="cls-154" x1="1996.41" y1="594.57" x2="1029.33" y2="2269.61"/>
+      <line class="cls-155" x1="1990.02" y1="590.88" x2="1022.94" y2="2265.92"/>
+      <line class="cls-156" x1="1983.63" y1="587.19" x2="1016.55" y2="2262.23"/>
+      <line class="cls-157" x1="1977.24" y1="583.51" x2="1010.16" y2="2258.54"/>
+      <line class="cls-158" x1="1970.85" y1="579.82" x2="1003.77" y2="2254.85"/>
+      <line class="cls-159" x1="1964.47" y1="576.13" x2="997.38" y2="2251.16"/>
+      <line class="cls-160" x1="1958.08" y1="572.44" x2="991" y2="2247.47"/>
+      <line class="cls-161" x1="1951.69" y1="568.75" x2="984.61" y2="2243.79"/>
+      <line class="cls-162" x1="1945.3" y1="565.06" x2="978.22" y2="2240.1"/>
+      <line class="cls-163" x1="1938.91" y1="561.37" x2="971.83" y2="2236.41"/>
+      <line class="cls-164" x1="1932.52" y1="557.68" x2="965.44" y2="2232.72"/>
+      <line class="cls-165" x1="1926.13" y1="554" x2="959.05" y2="2229.03"/>
+      <line class="cls-166" x1="1919.74" y1="550.31" x2="952.66" y2="2225.34"/>
+      <line class="cls-167" x1="1913.35" y1="546.62" x2="946.27" y2="2221.65"/>
+      <line class="cls-168" x1="1906.96" y1="542.93" x2="939.88" y2="2217.96"/>
+      <line class="cls-169" x1="1900.57" y1="539.24" x2="933.49" y2="2214.28"/>
+      <line class="cls-170" x1="1894.19" y1="535.55" x2="927.1" y2="2210.59"/>
+      <line class="cls-171" x1="1887.8" y1="531.86" x2="920.71" y2="2206.9"/>
+      <line class="cls-172" x1="1881.41" y1="528.17" x2="914.33" y2="2203.21"/>
+      <line class="cls-173" x1="1875.02" y1="524.49" x2="907.94" y2="2199.52"/>
+      <line class="cls-174" x1="1868.63" y1="520.8" x2="901.55" y2="2195.83"/>
+      <line class="cls-175" x1="1862.24" y1="517.11" x2="895.16" y2="2192.14"/>
+      <line class="cls-176" x1="1624.25" y1="914.57" x2="888.77" y2="2188.45"/>
+      <line class="cls-177" x1="1855.85" y1="513.42" x2="1624.25" y2="914.57"/>
+      <line class="cls-178" x1="1849.46" y1="509.73" x2="882.38" y2="2184.77"/>
+      <line class="cls-179" x1="1843.07" y1="506.04" x2="875.99" y2="2181.08"/>
+      <line class="cls-180" x1="1836.68" y1="502.35" x2="869.6" y2="2177.39"/>
+      <line class="cls-181" x1="1830.29" y1="498.66" x2="863.21" y2="2173.7"/>
+      <line class="cls-182" x1="1823.9" y1="494.98" x2="856.82" y2="2170.01"/>
+      <line class="cls-183" x1="1817.52" y1="491.29" x2="850.43" y2="2166.32"/>
+      <line class="cls-184" x1="1544.91" y1="948.69" x2="844.05" y2="2162.63"/>
+      <line class="cls-185" x1="1811.13" y1="487.6" x2="1544.91" y2="948.69"/>
+      <line class="cls-186" x1="1804.74" y1="483.91" x2="837.66" y2="2158.94"/>
+      <line class="cls-187" x1="1798.35" y1="480.22" x2="831.27" y2="2155.26"/>
+      <line class="cls-188" x1="1791.96" y1="476.53" x2="824.88" y2="2151.57"/>
+      <line class="cls-189" x1="1785.57" y1="472.84" x2="818.49" y2="2147.88"/>
+      <line class="cls-190" x1="1779.18" y1="469.15" x2="812.1" y2="2144.19"/>
+      <line class="cls-191" x1="1772.79" y1="465.47" x2="805.71" y2="2140.5"/>
+      <line class="cls-192" x1="1766.4" y1="461.78" x2="799.32" y2="2136.81"/>
+      <line class="cls-193" x1="1760.01" y1="458.09" x2="792.93" y2="2133.12"/>
+      <line class="cls-194" x1="1753.62" y1="454.4" x2="786.54" y2="2129.43"/>
+      <line class="cls-195" x1="1747.24" y1="450.71" x2="780.15" y2="2125.75"/>
+      <line class="cls-196" x1="1740.85" y1="447.02" x2="773.77" y2="2122.06"/>
+      <line class="cls-197" x1="1734.46" y1="443.33" x2="767.38" y2="2118.37"/>
+      <line class="cls-198" x1="1728.07" y1="439.64" x2="760.99" y2="2114.68"/>
+      <line class="cls-199" x1="1721.68" y1="435.96" x2="754.6" y2="2110.99"/>
+      <line class="cls-200" x1="1715.29" y1="432.27" x2="748.21" y2="2107.3"/>
+      <line class="cls-201" x1="1708.9" y1="428.58" x2="741.82" y2="2103.61"/>
+      <line class="cls-202" x1="1702.51" y1="424.89" x2="735.43" y2="2099.92"/>
+      <line class="cls-203" x1="1696.12" y1="421.2" x2="729.04" y2="2096.24"/>
+      <line class="cls-204" x1="1689.73" y1="417.51" x2="722.65" y2="2092.55"/>
+      <line class="cls-205" x1="1683.34" y1="413.82" x2="716.26" y2="2088.86"/>
+      <line class="cls-206" x1="1676.96" y1="410.13" x2="709.87" y2="2085.17"/>
+      <line class="cls-207" x1="1670.57" y1="406.45" x2="703.49" y2="2081.48"/>
+      <line class="cls-208" x1="1664.18" y1="402.76" x2="697.1" y2="2077.79"/>
+      <line class="cls-209" x1="1657.79" y1="399.07" x2="690.71" y2="2074.1"/>
+      <line class="cls-210" x1="1651.4" y1="395.38" x2="684.32" y2="2070.41"/>
+      <line class="cls-211" x1="1645.01" y1="391.69" x2="677.93" y2="2066.73"/>
+      <line class="cls-212" x1="1638.62" y1="388" x2="671.54" y2="2063.04"/>
+      <line class="cls-213" x1="1632.23" y1="384.31" x2="665.15" y2="2059.35"/>
+      <line class="cls-214" x1="1625.84" y1="380.62" x2="658.76" y2="2055.66"/>
+      <line class="cls-215" x1="1619.45" y1="376.94" x2="652.37" y2="2051.97"/>
+      <line class="cls-216" x1="1613.06" y1="373.25" x2="645.98" y2="2048.28"/>
+      <line class="cls-217" x1="1606.68" y1="369.56" x2="639.59" y2="2044.59"/>
+      <line class="cls-218" x1="1600.29" y1="365.87" x2="633.2" y2="2040.9"/>
+      <line class="cls-219" x1="1593.9" y1="362.18" x2="626.82" y2="2037.22"/>
+      <line class="cls-220" x1="1587.51" y1="358.49" x2="620.43" y2="2033.53"/>
+      <line class="cls-221" x1="1581.12" y1="354.8" x2="614.04" y2="2029.84"/>
+      <line class="cls-222" x1="1574.73" y1="351.11" x2="607.65" y2="2026.15"/>
+      <line class="cls-223" x1="1568.34" y1="347.43" x2="601.26" y2="2022.46"/>
+      <line class="cls-224" x1="1561.95" y1="343.74" x2="594.87" y2="2018.77"/>
+      <line class="cls-225" x1="1555.56" y1="340.05" x2="588.48" y2="2015.08"/>
+      <line class="cls-226" x1="1549.17" y1="336.36" x2="582.09" y2="2011.39"/>
+      <line class="cls-227" x1="1542.78" y1="332.67" x2="575.7" y2="2007.71"/>
+      <line class="cls-228" x1="1536.39" y1="328.98" x2="569.31" y2="2004.02"/>
+      <line class="cls-229" x1="1530.01" y1="325.29" x2="562.92" y2="2000.33"/>
+      <line class="cls-230" x1="1523.62" y1="321.6" x2="556.54" y2="1996.64"/>
+      <line class="cls-231" x1="1517.23" y1="317.92" x2="550.15" y2="1992.95"/>
+      <line class="cls-232" x1="1510.84" y1="314.23" x2="543.76" y2="1989.26"/>
+      <line class="cls-233" x1="1504.45" y1="310.54" x2="537.37" y2="1985.57"/>
+      <line class="cls-234" x1="1498.06" y1="306.85" x2="530.98" y2="1981.88"/>
+      <line class="cls-235" x1="1491.67" y1="303.16" x2="524.59" y2="1978.2"/>
+      <line class="cls-236" x1="1485.28" y1="299.47" x2="518.2" y2="1974.51"/>
+      <line class="cls-237" x1="1478.89" y1="295.78" x2="511.81" y2="1970.82"/>
+      <line class="cls-238" x1="1472.5" y1="292.09" x2="505.42" y2="1967.13"/>
+      <line class="cls-239" x1="1466.11" y1="288.41" x2="499.03" y2="1963.44"/>
+      <line class="cls-240" x1="1459.73" y1="284.72" x2="492.64" y2="1959.75"/>
+      <line class="cls-241" x1="1453.34" y1="281.03" x2="486.26" y2="1956.06"/>
+      <line class="cls-242" x1="1446.95" y1="277.34" x2="479.87" y2="1952.37"/>
+      <line class="cls-243" x1="1440.56" y1="273.65" x2="473.48" y2="1948.69"/>
+      <line class="cls-244" x1="1434.17" y1="269.96" x2="467.09" y2="1945"/>
+      <line class="cls-245" x1="1427.78" y1="266.27" x2="460.7" y2="1941.31"/>
+      <line class="cls-246" x1="1421.39" y1="262.58" x2="454.31" y2="1937.62"/>
+      <line class="cls-247" x1="1415" y1="258.9" x2="447.92" y2="1933.93"/>
+      <line class="cls-248" x1="1408.61" y1="255.21" x2="441.53" y2="1930.24"/>
+      <line class="cls-249" x1="1402.22" y1="251.52" x2="435.14" y2="1926.55"/>
+      <line class="cls-250" x1="1395.83" y1="247.83" x2="428.75" y2="1922.86"/>
+      <line class="cls-251" x1="1389.45" y1="244.14" x2="422.36" y2="1919.18"/>
+      <line class="cls-252" x1="1383.06" y1="240.45" x2="415.98" y2="1915.49"/>
+      <line class="cls-253" x1="1376.67" y1="236.76" x2="409.59" y2="1911.8"/>
+      <line class="cls-254" x1="1370.28" y1="233.07" x2="403.2" y2="1908.11"/>
+      <line class="cls-255" x1="1363.89" y1="229.39" x2="396.81" y2="1904.42"/>
+      <line class="cls-256" x1="1357.5" y1="225.7" x2="390.42" y2="1900.73"/>
+      <line class="cls-257" x1="1351.11" y1="222.01" x2="384.03" y2="1897.04"/>
+      <line class="cls-258" x1="1344.72" y1="218.32" x2="377.64" y2="1893.35"/>
+      <line class="cls-259" x1="1338.33" y1="214.63" x2="371.25" y2="1889.67"/>
+      <line class="cls-260" x1="1331.94" y1="210.94" x2="364.86" y2="1885.98"/>
+      <line class="cls-261" x1="1325.55" y1="207.25" x2="358.47" y2="1882.29"/>
+      <line class="cls-262" x1="1319.17" y1="203.56" x2="352.08" y2="1878.6"/>
+      <line class="cls-263" x1="1312.78" y1="199.88" x2="345.69" y2="1874.91"/>
+      <line class="cls-264" x1="1306.39" y1="196.19" x2="339.31" y2="1871.22"/>
+      <line class="cls-265" x1="1300" y1="192.5" x2="332.92" y2="1867.53"/>
+      <line class="cls-266" x1="1293.61" y1="188.81" x2="326.53" y2="1863.84"/>
+      <line class="cls-267" x1="1287.22" y1="185.12" x2="320.14" y2="1860.16"/>
+      <line class="cls-268" x1="1280.83" y1="181.43" x2="313.75" y2="1856.47"/>
+      <line class="cls-269" x1="1274.44" y1="177.74" x2="307.36" y2="1852.78"/>
+      <line class="cls-270" x1="1268.05" y1="174.05" x2="300.97" y2="1849.09"/>
+      <line class="cls-271" x1="1261.66" y1="170.37" x2="294.58" y2="1845.4"/>
+      <line class="cls-272" x1="1255.27" y1="166.68" x2="288.19" y2="1841.71"/>
+      <line class="cls-273" x1="1248.88" y1="162.99" x2="281.8" y2="1838.02"/>
+      <line class="cls-274" x1="1242.5" y1="159.3" x2="275.41" y2="1834.33"/>
+      <line class="cls-275" x1="1236.11" y1="155.61" x2="269.03" y2="1830.65"/>
+      <line class="cls-276" x1="1229.72" y1="151.92" x2="262.64" y2="1826.96"/>
+      <line class="cls-277" x1="1223.33" y1="148.23" x2="256.25" y2="1823.27"/>
+      <line class="cls-278" x1="1216.94" y1="144.54" x2="249.86" y2="1819.58"/>
+      <line class="cls-279" x1="1210.55" y1="140.86" x2="243.47" y2="1815.89"/>
+      <line class="cls-280" x1="1204.16" y1="137.17" x2="237.08" y2="1812.2"/>
+      <line class="cls-281" x1="1197.77" y1="133.48" x2="230.69" y2="1808.51"/>
+      <line class="cls-282" x1="1191.38" y1="129.79" x2="224.3" y2="1804.82"/>
+      <line class="cls-283" x1="1184.99" y1="126.1" x2="217.91" y2="1801.14"/>
+      <line class="cls-284" x1="1178.6" y1="122.41" x2="211.52" y2="1797.45"/>
+      <line class="cls-285" x1="1172.22" y1="118.72" x2="205.13" y2="1793.76"/>
+      <line class="cls-286" x1="1165.83" y1="115.03" x2="198.75" y2="1790.07"/>
+      <line class="cls-287" x1="1159.44" y1="111.35" x2="192.36" y2="1786.38"/>
+      <line class="cls-288" x1="1153.05" y1="107.66" x2="185.97" y2="1782.69"/>
+      <line class="cls-289" x1="1146.66" y1="103.97" x2="179.58" y2="1779"/>
+      <line class="cls-290" x1="1140.27" y1="100.28" x2="173.19" y2="1775.31"/>
+      <line class="cls-291" x1="1133.88" y1="96.59" x2="166.8" y2="1771.63"/>
+      <line class="cls-292" x1="1127.49" y1="92.9" x2="160.41" y2="1767.94"/>
+      <line class="cls-293" x1="1121.1" y1="89.21" x2="154.02" y2="1764.25"/>
+      <line class="cls-294" x1="1114.71" y1="85.52" x2="147.63" y2="1760.56"/>
+      <line class="cls-295" x1="1108.32" y1="81.84" x2="141.24" y2="1756.87"/>
+      <line class="cls-296" x1="1101.94" y1="78.15" x2="134.85" y2="1753.18"/>
+      <line class="cls-297" x1="1095.55" y1="74.46" x2="128.47" y2="1749.49"/>
+      <line class="cls-298" x1="1089.16" y1="70.77" x2="122.08" y2="1745.8"/>
+      <line class="cls-299" x1="1082.77" y1="67.08" x2="115.69" y2="1742.12"/>
+      <line class="cls-300" x1="1076.38" y1="63.39" x2="109.3" y2="1738.43"/>
+      <line class="cls-301" x1="1069.99" y1="59.7" x2="102.91" y2="1734.74"/>
+      <line class="cls-302" x1="1063.6" y1="56.01" x2="96.52" y2="1731.05"/>
+      <line class="cls-303" x1="1057.21" y1="52.33" x2="90.13" y2="1727.36"/>
+      <line class="cls-304" x1="1050.82" y1="48.64" x2="83.74" y2="1723.67"/>
+      <line class="cls-305" x1="1044.43" y1="44.95" x2="77.35" y2="1719.98"/>
+      <line class="cls-306" x1="543.9" y1="897.13" x2="70.96" y2="1716.29"/>
+      <line class="cls-307" x1="1038.04" y1="41.26" x2="543.9" y2="897.13"/>
+      <line class="cls-308" x1="1031.66" y1="37.57" x2="64.57" y2="1712.61"/>
+      <line class="cls-309" x1="1025.27" y1="33.88" x2="58.19" y2="1708.92"/>
+      <line class="cls-310" x1="1018.88" y1="30.19" x2="51.8" y2="1705.23"/>
+      <line class="cls-311" x1="1012.49" y1="26.5" x2="45.41" y2="1701.54"/>
+      <line class="cls-312" x1="1006.1" y1="22.82" x2="39.02" y2="1697.85"/>
+      <line class="cls-313" x1="999.71" y1="19.13" x2="32.63" y2="1694.16"/>
+      <line class="cls-314" x1="993.32" y1="15.44" x2="26.24" y2="1690.47"/>
+      <line class="cls-315" x1="986.93" y1="11.75" x2="19.85" y2="1686.78"/>
+      <line class="cls-316" x1="980.54" y1="8.06" x2="13.46" y2="1683.1"/>
+      <line class="cls-317" x1="974.15" y1="4.37" x2="7.07" y2="1679.41"/>
+    </g>
+  </g>
+</svg>
