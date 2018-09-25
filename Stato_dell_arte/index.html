@@ -20,6 +20,74 @@
           <img id="immagineLogoAzienda" src="imm/privacy.png" alt="">
         </div>
 
+        <div id="utility">
+
+            <div id="imm_mostraDati"></div>
+            <div id="imm_indietro"></div>
+
+        </div>
+
+        <div id="datiAziendali">
+
+                                          <div id="titDatiAziendali">
+                                              Dati Aziendali
+                                          </div>
+                                                                              <div id="close">
+                                                                              </div>
+            <div id="titInizioLavori">
+                Inizio Lavori<br>
+                <font style="font-size:18px;">DATA</font>
+            </div>
+                                        <div id="freccia">
+                                          ----------------->
+                                        </div>
+
+                                                                              <div id="titFineLavori">
+                                                                                  Fine Lavori<br>
+                                                                                  <font style="font-size:18px;">DATA</font>
+                                                                              </div>
+            <div id="dip">
+                Dipendenti<br>
+                <font style="font-size:18px;">404</font>
+            </div>
+
+
+            <div id="rep1">
+                Reparto A
+            </div>
+                                                                              <div id="rep2">
+                                                                                Reparto B
+                                                                              </div>
+            <div id="rep3">
+                Reparto C
+            </div>
+                                                                              <div id="rep4">
+                                                                                Reparto D
+                                                                              </div>
+            <div id="sur1">
+                Survey ONE to ONE<br>
+                <font style="font-size:18px;">398</font>
+            </div>
+                                                                              <div id="sur2">
+                                                                                Survey WIN to WIN<br>
+                                                                                <font style="font-size:18px;">401</font>
+                                                                              </div>
+            <div id="coef1">
+                Coefficiente Sincerit&agrave<br>
+                <font style="font-size:18px;">98,8%</font>
+            </div>
+                                                                              <div id="coef2">
+                                                                                Coefficiente Retail<br>
+
+                                                                              </div>
+                                          <div id="valutazione">
+                                            Valutazione Benchmark<br>
+
+                                          </div>
+
+
+        </div>
+
         <div id="caratteristicheAzienda">
 
             <p id="testoLogoAzienda">
@@ -256,6 +324,44 @@
 
         options:chartOptions
 
+      });
+
+
+      //PULSANTI---------------------------------------------------------------
+
+      var plt_indietro = document.getElementById("imm_indietro");
+      plt_indietro.addEventListener("click", function(){
+            window.history.back();
+      });
+
+      var visibile = false;
+      var plt_menu = document.getElementById("imm_mostraDati");
+      plt_menu.addEventListener("click", function(){
+            var divDati = document.getElementById("datiAziendali");
+            divDati.style.display='grid';
+            visibile != true;
+
+            if(!visibile){
+
+              var divDati = document.getElementById("datiAziendali");
+              divDati.style.display='grid';
+              visibile = true;
+
+            }else{
+
+              var divDati = document.getElementById("datiAziendali");
+              divDati.style.display='none';
+              visibile = false;
+
+            }
+
+      });
+
+      var plt_close = document.getElementById("close");
+      plt_close.addEventListener("click", function(){
+              var divDati = document.getElementById("datiAziendali");
+              divDati.style.display='none';
+              visibile = false;
       });
 
     </script>

@@ -181,3 +181,265 @@ body{
   box-shadow: 3px 3px 10px black;
 
 }
+
+#utility{
+
+  position: fixed;
+
+  left: 0px;
+  bottom: 50px;
+
+  width: 250px;
+  height: 100px;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  background-color: white;
+  display: block;
+
+
+  box-shadow: 0px 3px 10px black;
+
+
+}
+
+#utility:hover{
+
+
+
+}
+
+#imm_mostraDati{
+
+  position: absolute;
+
+  right: 30px;
+  top: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  background-image: url('imm/menu_out.svg');
+  background-size: cover;
+
+  cursor: pointer;
+
+}
+
+#imm_mostraDati:hover{
+
+  background-image: url('imm/menu_over.svg');
+  background-size: cover;
+
+}
+
+#imm_indietro{
+
+  position: absolute;
+
+  right: 170px;
+  top: 30px;
+
+  width: 45px;
+  height: 45px;
+
+  background-image: url('imm/indietro_out_tondo.svg');
+  background-size: cover;
+
+  cursor: pointer;
+
+}
+
+#imm_indietro:hover{
+
+  background-image: url('imm/indietro_over_tondo.svg');
+  background-size: cover;
+
+}
+
+#datiAziendali{
+
+  position: fixed;
+
+  top: 100px;
+  left: 300px;
+  bottom: 100px;
+  right: 350px;
+
+
+
+  background-color: white;
+
+  border-radius: 50px;
+
+  display: none;
+
+  grid-template-areas:
+    "vuoto1 titolo close"
+    "inizio freccia fine"
+    "dip vuoto11 vuoto3"
+    "rep1 vuoto4 rep2"
+    "rep3 vuoto5 rep4"
+    "sur1 vuoto6 sur2"
+    "coef1 vuoto8 coef2"
+    "vuoto9 valutazione vuoto10";
+
+    grid-template-columns: 33% 33% 33%;
+
+    align-items: center;
+    justify-items: center;
+
+    overflow-x:hidden;
+    overflow-y: auto;
+
+
+    user-select: none;
+
+
+}
+
+#titDatiAziendali{
+
+  grid-area: titolo;
+
+  font-size: 40px;
+  font-family: CaviarDreamsB;
+
+}
+
+#close{
+
+  grid-area: close;
+
+  background-image: url('imm/close_out.svg');
+  background-size: cover;
+
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+#close:hover{
+
+  grid-area: close;
+
+  background-image: url('imm/close_over.svg');
+  background-size: cover;
+
+}
+
+#titInizioLavori{
+
+  grid-area: inizio;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#freccia{
+
+    grid-area: freccia;
+
+}
+
+#titFineLavori{
+
+  grid-area: fine;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#dip{
+
+  grid-area: dip;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#rep1{
+
+  grid-area: rep1;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#rep2{
+
+  grid-area: rep2;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#rep3{
+
+  grid-area: rep3;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#rep4{
+
+  grid-area: rep4;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#sur1{
+
+  grid-area: sur1;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+
+#sur2{
+
+  grid-area: sur2;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#coef1{
+
+  grid-area: coef1;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#coef2{
+
+  grid-area: coef2;
+
+  font-size: 23px;
+  text-align: center;
+
+}
+
+#valutazione{
+
+  grid-area: valutazione;
+
+  font-size: 23px;
+  text-align: center;
+
+}
