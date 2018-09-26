@@ -1,0 +1,67 @@
+
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: CaviarDreamsB;
+    src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: Gravity;
+    src: url(fonts/Gravity-Light.otf);
+}
+
+@font-face {
+    font-family: GravityB;
+    src: url(fonts/Gravity-Bold.otf);
+}
+
+#corpo{
+
+  font-size: 13px;
+  font-family: CaviarDreamsB, sans-serif;
+
+  position: absolute;
+
+  top:10px;
+  left:10px;
+  bottom: 10px;
+  right: 10px;
+
+  background-color: transparent;
+
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+  display: grid;
+
+  grid-template-areas:
+      "titolo"
+      "svgC"
+      "pulsanti";
+  justify-items:center;
+  align-items: center;
+
+}
+
+
+#containerSVG{
+
+  display: block;
+
+  background-color: gray;
+
+  border-color: red;
+  border-width: 0px;
+  border-style: solid;
+
+  transform: scale(1);
+
+  grid-area: svgC;
+
+}
