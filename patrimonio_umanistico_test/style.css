@@ -407,8 +407,9 @@ a:active {
     align-items: center;
     justify-items: center;
 
-    overflow-y: auto;
-	max-height: 95%;
+		overflow-y: auto;
+    overflow-x: hidden;
+		max-height: 95%;
 
     word-break: break-word;
 
@@ -563,6 +564,10 @@ a:active {
 
     box-shadow: 0 0 20px black;
 		transition: 0.1s ease-in-out;
+
+		user-select: none;
+		-ms-user-select: none;
+		-moz-user-select: none;
 
 }
 
