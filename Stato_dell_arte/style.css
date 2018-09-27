@@ -77,14 +77,14 @@ body{
 
 }
 
-#grafico{
+/* #grafico{
 
         margin-top: 0px;
         margin-left: -200px;
         width: 1500px !important;
         height: auto !important;
 
-}
+} */
 
 #numeroLogicamed{
 
@@ -282,6 +282,12 @@ body{
 
 }
 
+#datiAziendali::-webkit-scrollbar{
+
+  display: none;
+
+}
+
 #datiAziendali{
 
   position: fixed;
@@ -316,16 +322,24 @@ body{
       "v1       info      v2        ";
 
   grid-template-columns: auto auto auto;
-
+  grid-template-rows: auto auto auto auto auto;
   align-items: center;
   justify-items: center;
-
+  
   overflow-x:hidden;
   overflow-y: auto;
-
+  -ms-overflow-style: none;
+  
+  padding: 20px;
 
   user-select: none;
 
+}
+
+@-moz-document url-prefix() {
+  #datiAziendali {
+    overflow-y: hidden;
+  }
 }
 
 #titDatiAziendali{
@@ -392,7 +406,7 @@ body{
 
 
   width: 70%;
-  height: 60px;
+  height: auto;
 
   padding: 10px;
 

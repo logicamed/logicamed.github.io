@@ -276,7 +276,7 @@
       let grafico = document.getElementById('grafico').getContext('2d');
 
       var chartOptions = {
-        responsive:false,
+        responsive:true,
 
 
         tooltips: {
@@ -457,6 +457,24 @@
               divDati.style.display='none';
               visibile = false;
       });
+
+
+      /////SCROLLING DATIAZIENDALI FIREFOX////////
+      var isFirefox = typeof InstallTrigger !== 'undefined';
+      
+      if(isFirefox){
+
+        var moltiplicatoreScorrimento = 5;
+        var datiAziendali = document.querySelector("#datiAziendali");
+        
+        datiAziendali.addEventListener("wheel", (e) => {
+
+          datiAziendali.scrollBy(0, e.deltaY * moltiplicatoreScorrimento);
+
+        });
+
+      }
+
 
     </script>
 
