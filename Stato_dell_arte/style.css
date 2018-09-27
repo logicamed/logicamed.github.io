@@ -77,14 +77,11 @@ body{
 
 }
 
-/* #grafico{
+#grafico{
 
-        margin-top: 0px;
-        margin-left: -200px;
-        width: 1500px !important;
-        height: auto !important;
+        transform: scale(1.2);
 
-} */
+}
 
 #numeroLogicamed{
 
