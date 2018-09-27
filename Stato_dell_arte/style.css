@@ -40,6 +40,28 @@ a:active {
     color: blue;
 }
 
+.fontDati{
+
+  font-family: CaviarDreams;
+  font-size:15px;
+  border-color:#011538;
+  border-width:1px;
+  border-radius:7px;
+  border-style:solid;
+  padding:5px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  transition: 0.1s ease-in-out;
+
+}
+
+.fontDati:hover{
+
+  transform: scale(1.2);
+  box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
+
+}
+
 
 body{
 
@@ -269,7 +291,8 @@ body{
   bottom: 100px;
   right: 350px;
 
-
+  font-size: 19px;
+  font-family: CaviarDreamsB;
 
   background-color: white;
 
@@ -277,27 +300,31 @@ body{
 
   display: none;
 
-  grid-template-areas:
-    "vuoto1 titolo close"
-    "inizio freccia fine"
-    "dip vuoto11 vuoto3"
-    "rep1 vuoto4 rep2"
-    "rep3 vuoto5 rep4"
-    "sur1 vuoto6 sur2"
-    "coef1 vuoto8 coef2"
-    "vuoto9 valutazione vuoto10";
+  /* grid-template-areas:
+    "close    titolo    logoDA      "
+    "rag      sede      logoDA      "
+    "inizio   fine      dip         "
+    "rep      rep       rep         "
+    "sur1     valS      sur2        "
+    "coef1    valS      coef2       "
+    "valM     v2        valutazione "; */
+   grid-template-areas:
+      "close    titolo    logoDA      "
+      "rag      rag      logoDA      "
+      "dip      inizio    fine         "
+      "rep      valS      dxI         "
+      "v1       info      v2        ";
 
-    grid-template-columns: 33% 33% 33%;
+  grid-template-columns: auto auto auto;
 
-    align-items: center;
-    justify-items: center;
+  align-items: center;
+  justify-items: center;
 
-    overflow-x:hidden;
-    overflow-y: auto;
+  overflow-x:hidden;
+  overflow-y: auto;
 
 
-    user-select: none;
-
+  user-select: none;
 
 }
 
@@ -310,16 +337,31 @@ body{
 
 }
 
+#logoAziendaDA{
+
+  grid-area: logoDA;
+
+  background-image: url('imm/gm.png');
+  background-size: cover;
+
+  display: block;
+
+  width: 80px;
+  height: 80px;
+
+}
+
 #close{
 
   grid-area: close;
 
   background-image: url('imm/close_out.svg');
   background-size: cover;
-  
-  width: 60px;
-  height: 60px;
+
+  width: 30px;
+  height: 30px;
   cursor: pointer;
+
 }
 
 #close:hover{
@@ -335,14 +377,46 @@ body{
 
   grid-area: inizio;
 
-  font-size: 23px;
-  text-align: center;
+  text-align:right;
+
+  width: 90%;
 
 }
 
-#freccia{
+#ragione{
 
-    grid-area: freccia;
+  grid-area: rag;
+
+  text-align:center;
+
+
+
+  width: 70%;
+  height: 60px;
+
+  padding: 10px;
+
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+#sede{
+
+  grid-area: sede;
+
+  text-align: left;
+
+
+
+  width: 70%;
+  height: 60px;
+
+  padding: 10px;
+
+  border-style: solid;
+  border-width: 2px;
+  border-left-width: 0px;
 
 }
 
@@ -350,8 +424,9 @@ body{
 
   grid-area: fine;
 
-  font-size: 23px;
-  text-align: center;
+  text-align:left;
+
+  width: 90%;
 
 }
 
@@ -359,44 +434,44 @@ body{
 
   grid-area: dip;
 
-  font-size: 23px;
+  text-align: right;
+
+  width: 70%;
+
+}
+
+#reparti{
+
+  grid-area: rep;
+
+  text-align:right;
+
+  width: 70%;
+
+}
+
+
+#valoreStato{
+
+  grid-area: valS;
+
   text-align: center;
 
 }
 
-#rep1{
+#tabValSta .trTabVS td{
 
-  grid-area: rep1;
-
-  font-size: 23px;
-  text-align: center;
-
-}
-
-#rep2{
-
-  grid-area: rep2;
-
-  font-size: 23px;
-  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #011538;
+  padding: 15px;
+  padding-top: 10px;
 
 }
 
-#rep3{
+#tabValSta{
 
-  grid-area: rep3;
-
-  font-size: 23px;
-  text-align: center;
-
-}
-
-#rep4{
-
-  grid-area: rep4;
-
-  font-size: 23px;
-  text-align: center;
+    box-shadow: 0px 4px 15px black;
 
 }
 
@@ -404,7 +479,6 @@ body{
 
   grid-area: sur1;
 
-  font-size: 23px;
   text-align: center;
 
 }
@@ -414,7 +488,6 @@ body{
 
   grid-area: sur2;
 
-  font-size: 23px;
   text-align: center;
 
 }
@@ -423,25 +496,40 @@ body{
 
   grid-area: coef1;
 
-  font-size: 23px;
   text-align: center;
 
 }
 
 #coef2{
 
-  grid-area: coef2;
+  grid-area: info;
 
-  font-size: 23px;
   text-align: center;
 
 }
 
 #valutazione{
 
-  grid-area: valutazione;
+  grid-area: v1;
 
-  font-size: 23px;
   text-align: center;
+
+}
+
+#valMedio{
+
+  grid-area: v2;
+
+  text-align: center;
+
+}
+
+#dxCol{
+
+  grid-area: dxI;
+
+  text-align: left;
+
+  width: 90%;
 
 }
