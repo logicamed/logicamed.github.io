@@ -11,123 +11,55 @@
     <div id="corpo">
 
       <div id="titolo">
-        <img src="imm/logoLogica.png" width="100px" height="100px" alt="">
+        <img src="imm/logoLogica.png" width="auto" height="100px" alt="">
       </div>
+      
+      <div id="contenitore">
+        <svg id="containerSVG" width="100%" height="2000px">
 
-      <svg id="containerSVG" width="1300px" height="950px">
-
-        <g id="linee">
-          <!-- <line x1="1062" y1="33" x2="964" y2="33"style="stroke:rgb(0,0,0);stroke-width:2;" />
-          <line x1="964" y1="33" x2="650" y2="430"style="stroke:rgb(0,0,0);stroke-width:2;" /> -->
-        </g>
-
-        <g id="colsx" transform="translate(30,30)">
-          <!-- <g id="problematiche">
-            <text style="text-anchor:start;" fill="black">ProvaSinistra</text>
-            <line x1="-6" y1="3" x2="200" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
-            <circle cx="204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
-          </g> -->
-        </g>
-
-        <g id="colc" transform="translate(650,30)">
-          <!-- <g id="collegamenti" transform="translate(0,400)">
-            <circle cx="0" cy="0" r="5" stroke="black" stroke-width="2" fill="red" />
-            <text  x="10"  style="text-anchor:start;stroke-width:5; stroke: white;">ProvaC</text>
-            <text  x="10"  style="text-anchor:start;stroke-width:1; stroke: black;">ProvaC</text>
-          </g> -->
-        </g>
-
-        <g id="coldx" transform="translate(1270,30)">
-          <!-- <g transform="translate(0,0)">
-            <text style="text-anchor:end;" fill="black">Provadestra</text>
-            <line x1="-200" y1="3" x2="6" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
-            <circle cx="-204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
+          <g id="linee">
+            <!-- <line x1="1062" y1="33" x2="964" y2="33"style="stroke:rgb(0,0,0);stroke-width:2;" />
+            <line x1="964" y1="33" x2="650" y2="430"style="stroke:rgb(0,0,0);stroke-width:2;" /> -->
           </g>
-          <g transform="translate(0,30)">
-            <text style="text-anchor:end;" fill="black">Provadestra</text>
-            <line x1="-200" y1="3" x2="6" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
-            <circle cx="-204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
-          </g> -->
-        </g>
+
+          <g id="colsx" class="colonna">
+            <!-- <g id="problematiche">
+              <text style="text-anchor:start;" fill="black">ProvaSinistra</text>
+              <line x1="-6" y1="3" x2="200" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
+              <circle cx="204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
+            </g> -->
+          </g>
+
+          <g id="colc" class="colonna">
+            <!-- <g id="collegamenti" transform="translate(0,400)">
+              <circle cx="0" cy="0" r="5" stroke="black" stroke-width="2" fill="red" />
+              <text  x="10"  style="text-anchor:start;stroke-width:5; stroke: white;">ProvaC</text>
+              <text  x="10"  style="text-anchor:start;stroke-width:1; stroke: black;">ProvaC</text>
+            </g> -->
+          </g>
+
+          <g id="coldx" class="colonna">
+            <!-- <g transform="translate(0,0)">
+              <text style="text-anchor:end;" fill="black">Provadestra</text>
+              <line x1="-200" y1="3" x2="6" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
+              <circle cx="-204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
+            </g>
+            <g transform="translate(0,30)">
+              <text style="text-anchor:end;" fill="black">Provadestra</text>
+              <line x1="-200" y1="3" x2="6" y2="3" style="stroke:rgb(0,0,0);stroke-width:2"/>
+              <circle cx="-204" cy="3" r="4" stroke="black" stroke-width="2" fill="transparent" />
+            </g> -->
+          </g>
 
 
 
-      </svg>
+        </svg>
+      </div>
 
     </div><!-- FINE CORPO -->
 
-    <script type="text/javascript">
-
-        var ricadute = [];
-        var problematiche = [];
-        var collegamenti = [];
-
-
-        function Ricaduta(id, nome){
-
-          this.id = id;
-          this.nome = nome;
-          this.selezionato = false;
-          this.visibile = true;
-
-        }
-
-        function Problematiche(id, nome){
-
-          this.id = id;
-          this.nome = nome;
-          this.selezionato = false;
-          this.visibile = true;
-
-        }
-
-        function Collegamenti(id, nome){
-
-          this.id = id;
-          this.nome = nome;
-          this.selezionato = false;
-          this.visibile = true;
-
-        }
-
-        function RelazioneRicCol(idr, idc){
-
-          this.idr = idr;
-          this.idc = idc;
-          this.selezionato = false;
-          this.visibile = true;
-
-        }
-
-        function RelazioneProCol(idp, idc){
-
-          this.idr = idr;
-          this.idc = idc;
-          this.selezionato = false;
-          this.visibile = true;
-
-        }
-
-        function aggiungiCollegamento(c){
-
-            collegamenti.push(c);
-
-        }
-
-        function aggiungiRicaduta(r){
-
-            ricadute.push(r);
-
-        }
-
-        function aggiungiProblematica(p){
-
-            problematiche.push(p);
-
-        }
-
-
-      </script>
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
