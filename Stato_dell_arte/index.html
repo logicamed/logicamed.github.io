@@ -23,6 +23,7 @@
         <div id="utility">
 
             <div id="imm_mostraDati"></div>
+            <div id="imm_mostraGrafico"></div>
             <div id="imm_indietro"></div>
 
         </div>
@@ -51,27 +52,27 @@
 
           <div id="titInizioLavori">
             Check IN:
-            <span class="fontDati" >01/17</span>
+            <span class="fontDati" style="width:60px;">01/17</span>
           </div>
 
           <div id="titFineLavori">
-              <span class="fontDati" >03/17</span>
+              <span class="fontDati" style="width:60px;">03/17</span>
               Check OUT:
           </div>
 
           <div id="dip">
               Dipendenti:
-              <span class="fontDati" >404</span>
+              <span class="fontDati" style="width:50px;">404</span>
           </div>
 
           <div id="reparti">
 
                 <!-- Reparto A <span class="fontDati" >65</span>&emsp;  Reparto B <span class="fontDati" >138</span>&emsp;  Reparto C <span class="fontDati" >94</span>&emsp;  Reparto D <span class="fontDati" >107</span>&emsp; Reparto E <span class="fontDati" >0</span> -->
-                Reparto A <span class="fontDati" >_65</span><br><br>
-                Reparto B <span class="fontDati" >138</span><br><br>
-                Reparto C <span class="fontDati" >_94</span><br><br>
-                Reparto D <span class="fontDati" >107</span><br><br>
-                Reparto E <span class="fontDati" >__0</span><br><br>
+                Reparto A <span class="fontDati" style="width:50px;">65</span><br>
+                Reparto B <span class="fontDati" style="width:50px;">138</span><br>
+                Reparto C <span class="fontDati" style="width:50px;">94</span><br>
+                Reparto D <span class="fontDati" style="width:50px;">107</span><br>
+                Reparto E <span class="fontDati" style="width:50px;">0</span><br>
 
           </div>
 
@@ -168,19 +169,19 @@
 
           <div id="valMedio">
             Valore Medio R.U.<br>
-            <span class="fontDati" >7,3/12</span>
+            <span class="fontDati" style="width:70px;">7,3/12</span>
           </div>
 
           <div id="valutazione">
             Benchmark<br>
-            <span class="fontDati" >46/110</span>
+            <span class="fontDati" style="width:70px;">46/110</span>
           </div>
 
           <div id="dxCol">
 
-            <span class="fontDati" >398</span> Survey ONE to ONE<br><br>
-            <span class="fontDati" >94,8%</span> Sincerity<br><br><br><br>
-            <span class="fontDati" >401</span> Survey WIN to WIN<!-- <br><br>
+            <span class="fontDati" style="width:60px;">398</span> Survey ONE to ONE<br><br>
+            <span class="fontDati" style="width:60px;">94,8%</span> Sincerity<br><br><br><br>
+            <span class="fontDati" style="width:60px;">401</span> Survey WIN to WIN<!-- <br><br>
             <span class="fontDati" >7,3/12</span> Valore Medio R.U.<br><br>
             <span class="fontDati" >46/110</span> Benchmark<br><br> -->
 
@@ -245,7 +246,7 @@
 
       </div>
 
-      <canvas id="grafico"></canvas>
+      <canvas id="grafico" style="display:none;"></canvas>
 
       <div id="logoLogicamed">
 
@@ -276,8 +277,7 @@
       let grafico = document.getElementById('grafico').getContext('2d');
 
       var chartOptions = {
-        responsive:true,
-
+        responsive:false,
 
         tooltips: {
             callbacks: {
@@ -311,7 +311,7 @@
             lineWidth: 0.3
           },
           pointLabels: {
-            fontSize: 14,
+            fontSize: 15,
             fontFamily:'calibri',
             fontColor:'#8d9497'
           }
@@ -332,7 +332,7 @@
         legend: {
           position:'bottom',
           labels:{
-            fontSize: 18,
+            fontSize: 17,
             fontColor:'white',
             padding:50,
             usePointStyle:true
@@ -357,7 +357,7 @@
             'Capacità  di interagire tra ruoli',
             'Capacità  leadership',//::::::::D
             'Stima verso la proprietà',
-            'Aumento produttivit&agrave - Crescita professionale - Formazione',  //::::::::D
+            'Aumento produttività - Crescita professionale - Formazione',  //::::::::D
             'Coesione - Coinvolgimento - Aggregazione',//::::::::D
             [' ','Disponibilità alla flessibilità di lavoro'],
             'Soddisfaziione nel ruolo e incarichi',
@@ -430,10 +430,10 @@
 
       var visibile = false;
       var plt_menu = document.getElementById("imm_mostraDati");
+      var visibileG = false;
+      var plt_grafico = document.getElementById("imm_mostraGrafico");
+
       plt_menu.addEventListener("click", function(){
-            var divDati = document.getElementById("datiAziendali");
-            divDati.style.display='grid';
-            visibile != true;
 
             if(!visibile){
 
@@ -449,6 +449,40 @@
 
             }
 
+            if(visibileG){
+
+              var divGrafico = document.getElementById("grafico");
+              divGrafico.style.display='none';
+              visibileG = false;
+
+            }
+
+      });
+
+      plt_grafico.addEventListener("click", function(){
+
+            if(visibile){
+
+              var divDati = document.getElementById("datiAziendali");
+              divDati.style.display='none';
+              visibile = false;
+
+            }
+
+            if(visibileG){
+
+              var divGrafico = document.getElementById("grafico");
+              divGrafico.style.display='none';
+              visibileG = false;
+
+            }else{
+
+              var divGrafico = document.getElementById("grafico");
+              divGrafico.style.display='block';
+              visibileG = true;
+
+            }
+
       });
 
       var plt_close = document.getElementById("close");
@@ -461,12 +495,12 @@
 
       /////SCROLLING DATIAZIENDALI FIREFOX////////
       var isFirefox = typeof InstallTrigger !== 'undefined';
-      
+
       if(isFirefox){
 
         var moltiplicatoreScorrimento = 5;
         var datiAziendali = document.querySelector("#datiAziendali");
-        
+
         datiAziendali.addEventListener("wheel", (e) => {
 
           datiAziendali.scrollBy(0, e.deltaY * moltiplicatoreScorrimento);
