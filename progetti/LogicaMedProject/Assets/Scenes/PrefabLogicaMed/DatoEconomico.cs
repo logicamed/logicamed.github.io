@@ -28,7 +28,8 @@ public class DatoEconomico
         this.sottotitolo2 = sottotitolo2;
         this.valoreEconomico = valoreEconomico;
 
-        calcolaDifferenza();     
+        calcolaDifferenza();
+             
 
     }
 

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class grid_controller : MonoBehaviour {
+public class grid_controller : MonoBehaviour
+{
 
     public GameObject griglia;
     public GameObject cubo;
@@ -23,26 +24,35 @@ public class grid_controller : MonoBehaviour {
     public int nElementi { get; private set; }
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         if (Application.isEditor)
         {
             string pathEditor = Application.streamingAssetsPath + pathJSON;
             string jsNostroEditor = File.ReadAllText(pathEditor);
             inizializzazione(jsNostroEditor);
+            Debug.Log("Eseguito in Unity Editor");
         }
+        else if (Application.platform == RuntimePlatform.WindowsPlayer)
+        {
 
-#if UNITY_STANDALONE_WIN
+            string pathEditor = Application.streamingAssetsPath + pathJSON;
+            string jsNostroEditor = File.ReadAllText(pathEditor);
+            inizializzazione(jsNostroEditor);
+            Debug.Log("Eseguito in Windows Player");
 
-        string path = Application.streamingAssetsPath + pathJSON;
-        string jsNostro = File.ReadAllText(path);
-        inizializzazione(jsNostro);
+        }
+        else if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
 
-#endif
+            Debug.Log("Eseguito in WebGLPlayer");
+
+        }
 
     }
 
-   public void inizializzazione(string json)
+    public void inizializzazione(string json)
     {
         dati = new List<DatoEconomico>();
 
@@ -63,9 +73,10 @@ public class grid_controller : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update()
+    {
+
+    }
 
     void aggiungiDatoEconomico(DatoEconomico d)
     {
@@ -75,12 +86,13 @@ public class grid_controller : MonoBehaviour {
     void aggiornaPosizione()
     {
 
-        var posizione = new Vector3(-(colonne / 2) + offset.x, griglia.transform.position.y + offset.y , -(righe / 2) + offset.z);
+        var posizione = new Vector3(-(colonne / 2) + offset.x, griglia.transform.position.y + offset.y, -(righe / 2) + offset.z);
         griglia.transform.position = posizione;
 
     }
 
-    void aggiungiCubo() {
+    void aggiungiCubo()
+    {
 
         int metaRighe = righe / 2;
         int metaColonne = colonne / 2;
@@ -89,15 +101,17 @@ public class grid_controller : MonoBehaviour {
         metaColonne = 4;
 
 
-        for (int c=0 ; c < colonne ; c++ ){
+        for (int c = 0; c < colonne; c++)
+        {
 
-            for (int r = 0; r < righe; r++){
+            for (int r = 0; r < righe; r++)
+            {
 
                 var posizione = griglia.transform.position;
 
                 posizione.x += c;
                 posizione.z += r;
-                posizione.y = -(cubo.transform.localScale.y/2);
+                posizione.y = -(cubo.transform.localScale.y / 2);
 
                 Instantiate(cubo, posizione, Quaternion.identity, griglia.transform);
 
@@ -109,7 +123,7 @@ public class grid_controller : MonoBehaviour {
 
         var cubi = GameObject.FindGameObjectsWithTag("cubo");
 
-        foreach(GameObject cubo in cubi)
+        foreach (GameObject cubo in cubi)
         {
 
             var scala = cubo.transform.localScale;
@@ -139,7 +153,7 @@ public class grid_controller : MonoBehaviour {
                     var posizione = cubo.transform.position;
                     posizione.y = 0.5f;
 
-                    var offsetVerticale = torre.transform.localScale.y/2;
+                    var offsetVerticale = torre.transform.localScale.y / 2;
 
                     posizione.y += offsetVerticale;
 
@@ -162,13 +176,14 @@ public class grid_controller : MonoBehaviour {
 
         int i = 0;
 
-        foreach(GameObject tr in torri) {
+        foreach (GameObject tr in torri)
+        {
 
             var dato = dati[i];
 
 
             var scalaT = tr.transform.localScale;
-            
+
 
             tr.GetComponent<tower_controller>().dato = dato;
 
@@ -177,7 +192,7 @@ public class grid_controller : MonoBehaviour {
 
         }
 
-        
+
 
     }
 
@@ -188,10 +203,10 @@ public class grid_controller : MonoBehaviour {
         string json = js;
         DatoEconomico_parse arrayDato = JsonUtility.FromJson<DatoEconomico_parse>(json);
 
-        foreach(DatoEconomico d in arrayDato.dati)
+        foreach (DatoEconomico d in arrayDato.dati)
         {
 
-            aggiungiDatoEconomico(new DatoEconomico(d.id,d.titolo,d.valore1,d.valore2,d.sottotitolo1,d.sottotitolo2,d.valoreEconomico));
+            aggiungiDatoEconomico(new DatoEconomico(d.id, d.titolo, d.valore1, d.valore2, d.sottotitolo1, d.sottotitolo2, d.valoreEconomico));
 
         }
 
