@@ -80,6 +80,11 @@ a:active {
 }
 
 
+body{
+
+	overflow-x: hidden;
+
+}
 
 #corpo{
 
