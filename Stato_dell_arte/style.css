@@ -1,376 +1,295 @@
-
 @font-face {
-    font-family: CaviarDreams;
-    src: url(fonts/CaviarDreams.ttf);
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams.ttf);
 }
 
 @font-face {
-    font-family: CaviarDreamsB;
-    src: url(fonts/CaviarDreams_Bold.ttf);
+  font-family: CaviarDreamsB;
+  src: url(fonts/CaviarDreams_Bold.ttf);
 }
 
 @font-face {
-    font-family: Gravity;
-    src: url(fonts/Gravity-Light.otf);
+  font-family: Gravity;
+  src: url(fonts/Gravity-Light.otf);
 }
 
 @font-face {
-    font-family: GravityB;
-    src: url(fonts/Gravity-Bold.otf);
+  font-family: GravityB;
+  src: url(fonts/Gravity-Bold.otf);
 }
-
 
 /* unvisited link */
+
 a:link {
-    color: #011538;
+  color: #011538;
 }
 
 /* visited link */
+
 a:visited {
-    color: #011538;
+  color: #011538;
 }
 
 /* mouse over link */
+
 a:hover {
-    color: #c49000;
+  color: #c49000;
 }
 
 /* selected link */
+
 a:active {
-    color: blue;
+  color: blue;
 }
 
-.fontDati{
-
+.fontDati {
   font-family: CaviarDreams;
-  font-size:15px;
-  border-color:#011538;
-  border-width:1px;
-  border-radius:7px;
-  border-style:solid;
-  padding:5px;
+  font-size: 15px;
+  border-color: #011538;
+  border-width: 1px;
+  border-radius: 7px;
+  border-style: solid;
+  padding: 5px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
   display: inline-block;
   transition: 0.1s ease-in-out;
   background-color: white;
-
 }
 
-.fontDati:hover{
-
+.fontDati:hover {
   transform: scale(1.2);
   box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
-
 }
 
-
-body{
-
-  background-color: #000000/*rgb(1, 21, 56)*/;
+body {
+  background-color: #3b3b3b/*rgb(1, 21, 56)*/
+  ;
   font-size: 20px;
   font-family: CaviarDreams, sans-serif;
-
 }
 
-.container{
-
+.container {
   overflow-x: hidden;
-
 }
 
-#grafico{
-
+#grafico {
   margin-top: 0px;
   margin-left: -200px;
   width: 1500px !important;
   height: auto !important;
-
 }
 
-@media screen and (max-width:1400px){
-
-  #grafico{
-
+@media screen and (max-width:1400px) {
+  #grafico {
     margin-top: 7vh;
     margin-left: -8vw;
     width: 1300px !important;
     height: auto !important;
-
   }
-
 }
 
-@media screen and (max-width:1200px){
-
-  #grafico{
-
+@media screen and (max-width:1200px) {
+  #grafico {
     margin-top: 15vh;
     margin-left: -12vw;
     width: 1200px !important;
     height: auto !important;
-
   }
-
 }
 
-@media screen and (max-width:990px){
-
-  #grafico{
-
+@media screen and (max-width:990px) {
+  #grafico {
     margin-top: 22vh;
     margin-left: -15vw;
     width: 1000px !important;
     height: auto !important;
-
   }
-
 }
 
-#numeroLogicamed{
-
-    grid-area:numero;
-
-    display: none;
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    margin-top: 20px;
-
-
+#numeroLogicamed {
+  grid-area: numero;
+  transform: scaleY(0);
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 20px;
+  transition: 0.5s;
 }
 
-#logoLogicamed{
-
-    background-color: white;
-    display: grid;
-    grid-template-areas: "logo" "link" "numero" "frase";
-    grid-template-rows: auto auto auto auto;
-    justify-items: center;
-    box-shadow: 3px 3px 10px black;
-    border-radius: 60px;
-		position: fixed ;
-		z-index: 100;
-    width: 200px;
-    right: 50px;
-    bottom: 50px;
-
+#logoLogicamed {
+  background-color: white;
+  grid-area: logoLogica;
+  display: grid;
+  margin-bottom: 0px;
+  justify-items: center;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 60px;
+  position: fixed;
+  z-index: 100;
+  grid-template-areas: "logo" "link" "numero" "frase";
+  grid-template-rows: auto auto auto auto;
+  max-width: 200px;
+  height: 100px;
+  padding: 5px;
+  bottom: 50px;
+  right: 50px;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
-#logoLogicamed:hover > #numeroLogicamed, #logoLogicamed:hover > #linkLogicamed , #logoLogicamed:hover > #fraseLogicamed{
-
-    display: block;
-
+#logoLogicamed:hover>#numeroLogicamed, #logoLogicamed:hover>#linkLogicamed, #logoLogicamed:hover>#fraseLogicamed {
+  transform: scaleY(1);
 }
 
-#logoLogicamed:hover{
-
-    grid-template-rows: auto auto 140px 330px;
-    margin-top: -450px;
-
+#logoLogicamed:hover {
+  height: 600px;
+  /* transform: translate(0, -40%); */
 }
 
-#logoLogicamed img{
-
-    grid-area: logo;
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    width:auto;
-    height:60px;
-    margin: 20px;
-
+#fraseLogicamed {
+  text-align: center;
+  font-family: CaviarDreamsB;
+  transform: scaleY(0);
+  grid-area: frase;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
 }
 
-#linkLogicamed{
-
-    display: none;
-    grid-area: link;
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    margin-top: 20px;
-
+#logoLogicamed img {
+  grid-area: logo;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  width: auto;
+  height: 60px;
+  margin: 20px;
 }
 
-#fraseLogicamed{
-
-    text-align: center;
-    font-family: CaviarDreamsB;
-    display: none;
-    grid-area: frase;
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+#linkLogicamed {
+  transform: scaleY(0);
+  grid-area: link;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 20px;
+  grid-area: link;
+  transition: 0.5s;
 }
 
-#caratteristicheAzienda{
-
+#caratteristicheAzienda {
   background-color: #383838;
   position: fixed;
   right: 50px;
-  top:40px;
+  top: 40px;
   width: auto;
-  height:  140px;
+  height: 140px;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
   box-shadow: 3px 3px 10px black;
-
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
-
 }
 
-#logoAzienda{
-
+#logoAzienda {
   position: fixed;
   left: 50px;
-  top:40px;
+  top: 40px;
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
-
 }
 
-#immagineLogoAzienda{
-
+#immagineLogoAzienda {
   width: auto;
-  height:  140px;
-
+  height: 140px;
   box-shadow: 3px 3px 10px black;
-
 }
 
-#utility{
-
+#utility {
   position: fixed;
-
   left: 0px;
   bottom: 50px;
-
   width: 290px;
   height: 100px;
-
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-
   background-color: white;
   display: block;
-
-
   box-shadow: 0px 3px 10px black;
-
-
 }
 
-#utility:hover{
+#utility:hover {}
 
-
-
-}
-
-#imm_mostraDati{
-
+#imm_mostraDati {
   position: absolute;
-
   right: 30px;
   top: 20px;
-
   width: 60px;
   height: 60px;
-
   background-image: url('imm/menu_out.svg');
   background-size: cover;
-
   cursor: pointer;
-
 }
 
-#imm_mostraDati:hover{
-
+#imm_mostraDati:hover {
   background-image: url('imm/menu_over.svg');
   background-size: cover;
-
 }
 
-
-#imm_mostraGrafico:hover{
-
+#imm_mostraGrafico:hover {
   background-image: url('imm/radar_over.svg');
   background-size: cover;
-
 }
 
-#imm_mostraGrafico{
-
+#imm_mostraGrafico {
   position: absolute;
-
   right: 110px;
   top: 20px;
-
   width: 60px;
   height: 60px;
-
   background-image: url('imm/radar_out.svg');
   background-size: cover;
-
   cursor: pointer;
-
 }
 
-#imm_indietro{
-
+#imm_indietro {
   position: absolute;
-
   right: 230px;
   top: 30px;
-
   width: 45px;
   height: 45px;
-
   background-image: url('imm/indietro_out_tondo.svg');
   background-size: cover;
-
   cursor: pointer;
-
 }
 
-#imm_indietro:hover{
-
+#imm_indietro:hover {
   background-image: url('imm/indietro_over_tondo.svg');
   background-size: cover;
-
 }
 
-#datiAziendali::-webkit-scrollbar{
-
+#datiAziendali::-webkit-scrollbar {
   display: none;
-
 }
 
-#datiAziendali{
-
+#datiAziendali {
   position: fixed;
-
   top: 100px;
   left: 300px;
   bottom: 100px;
   right: 350px;
-
   font-size: 19px;
   font-family: CaviarDreamsB;
-
   background-color: white;
-
   border-radius: 50px;
-
   display: none;
-
   /* grid-template-areas:
     "close    titolo    logoDA      "
     "rag      sede      logoDA      "
@@ -379,51 +298,32 @@ body{
     "sur1     valS      sur2        "
     "coef1    valS      coef2       "
     "valM     v2        valutazione "; */
-   grid-template-areas:
-      "close    titolo    logoDA      "
-      "rag      rag      logoDA      "
-      "dip      inizio    fine         "
-      "rep      valS      dxI         "
-      "v1       info      v2        ";
-
+  grid-template-areas: "close    titolo    logoDA      " "rag      rag      logoDA      " "dip      inizio    fine         " "rep      valS      dxI         " "v1       info      v2        ";
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto auto;
   align-items: center;
   justify-items: center;
-
-  overflow-x:hidden;
+  overflow-x: hidden;
   overflow-y: auto;
   -ms-overflow-style: none;
-
   box-shadow: 3px 3px 10px black;
-
   padding: 20px;
-
   user-select: none;
-
 }
 
-@media screen and (max-width:1558px){
-
-  #datiAziendali{
-
+@media screen and (max-width:1558px) {
+  #datiAziendali {
     position: fixed;
-
     top: 10px;
     left: 10px;
     bottom: 160px;
     right: 10px;
     z-index: 30;
-
     font-size: 19px;
     font-family: CaviarDreamsB;
-
     background-color: white;
-
     border-radius: 50px;
-
     display: none;
-
     /* grid-template-areas:
       "close    titolo    logoDA      "
       "rag      sede      logoDA      "
@@ -432,30 +332,18 @@ body{
       "sur1     valS      sur2        "
       "coef1    valS      coef2       "
       "valM     v2        valutazione "; */
-     grid-template-areas:
-        "close    titolo    logoDA      "
-        "rag      rag      logoDA      "
-        "dip      inizio    fine         "
-        "rep      valS      dxI         "
-        "v1       info      v2        ";
-
+    grid-template-areas: "close    titolo    logoDA      " "rag      rag      logoDA      " "dip      inizio    fine         " "rep      valS      dxI         " "v1       info      v2        ";
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto;
     align-items: center;
     justify-items: center;
-
-    overflow-x:hidden;
+    overflow-x: hidden;
     overflow-y: auto;
     -ms-overflow-style: none;
-
     box-shadow: 3px 3px 10px black;
-
     padding: 20px;
-
     user-select: none;
-
   }
-
 }
 
 @-moz-document url-prefix() {
@@ -464,222 +352,142 @@ body{
   }
 }
 
-#titDatiAziendali{
-
+#titDatiAziendali {
   grid-area: titolo;
-
   font-size: 40px;
   font-family: CaviarDreamsB;
-
 }
 
-#logoAziendaDA{
-
+#logoAziendaDA {
   grid-area: logoDA;
-
   background-image: url('imm/gm.png');
   background-size: cover;
-
   display: block;
-
   width: 80px;
   height: 80px;
-
 }
 
-#close{
-
+#close {
   grid-area: close;
-
   background-image: url('imm/close_out.svg');
   background-size: cover;
-
   width: 30px;
   height: 30px;
   cursor: pointer;
-
 }
 
-#close:hover{
-
+#close:hover {
   grid-area: close;
-
   background-image: url('imm/close_over.svg');
   background-size: cover;
-
 }
 
-#titInizioLavori{
-
+#titInizioLavori {
   grid-area: inizio;
-
-  text-align:right;
-
+  text-align: right;
   width: 90%;
-
 }
 
-#ragione{
-
+#ragione {
   grid-area: rag;
-
-  text-align:center;
-
+  text-align: center;
   width: 100%;
   height: 50px;
-
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
-
   border-style: solid;
   border-width: 0px;
   border-bottom-width: 2px;
-
 }
 
-#sede{
-
+#sede {
   grid-area: sede;
-
   text-align: left;
-
-
-
   width: 100%;
   height: 50px;
-
   padding: 10px;
-
   border-style: solid;
   border-width: 2px;
   border-left-width: 0px;
-
 }
 
-#titFineLavori{
-
+#titFineLavori {
   grid-area: fine;
-
-  text-align:left;
-
+  text-align: left;
   width: 90%;
-
 }
 
-#dip{
-
+#dip {
   grid-area: dip;
-
   text-align: right;
-
   width: 70%;
-
   height: auto;
-
 }
 
-#reparti{
-
+#reparti {
   grid-area: rep;
-
-  text-align:right;
-
+  text-align: right;
   width: 70%;
-
 }
 
-
-#valoreStato{
-
+#valoreStato {
   grid-area: valS;
-
   text-align: center;
-
 }
 
-#tabValSta .trTabVS td{
-
+#tabValSta .trTabVS td {
   border-width: 2px;
   border-style: solid;
   border-color: #011538;
   padding: 15px;
   padding-top: 10px;
-
 }
 
-#tabValSta{
-
-    box-shadow: 0px 4px 15px black;
-    transition:  0.1s ease-in-out;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
-    background-color: white;
-
+#tabValSta {
+  box-shadow: 0px 4px 15px black;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+  background-color: white;
 }
 
-#tabValSta:hover{
-
-
-    box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
-    transform: scale(1.2);
-
+#tabValSta:hover {
+  box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
 }
 
-#sur1{
-
+#sur1 {
   grid-area: sur1;
-
   text-align: center;
-
 }
 
-
-#sur2{
-
+#sur2 {
   grid-area: sur2;
-
   text-align: center;
-
 }
 
-#coef1{
-
+#coef1 {
   grid-area: coef1;
-
   text-align: center;
-
 }
 
-#coef2{
-
+#coef2 {
   grid-area: info;
-
   text-align: center;
-
 }
 
-#valutazione{
-
+#valutazione {
   grid-area: v1;
-
   text-align: center;
-
 }
 
-#valMedio{
-
+#valMedio {
   grid-area: v2;
-
   text-align: center;
-
 }
 
-#dxCol{
-
+#dxCol {
   grid-area: dxI;
-
   text-align: left;
-
   width: 90%;
-
 }

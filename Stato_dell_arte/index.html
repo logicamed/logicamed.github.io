@@ -1,91 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
 
-    <meta charset="utf-8">
-    <title>LogicaMED STATO dell'ARTE dell'AZIENDA</title>
+<head>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="icon" type="image/png" href="imm/favicon.png" />
+  <meta charset="utf-8">
+  <title>LogicaMED STATO dell'ARTE dell'AZIENDA</title>
 
-  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="imm/favicon.png" />
 
-  <body>
+</head>
 
-    <div class="container">
+<body>
 
-        <div id="logoAzienda">
-          <img id="immagineLogoAzienda" src="imm/abb.png" alt="">
-        </div>
+  <div class="container">
 
-        <div id="utility">
+    <div id="logoAzienda">
+      <img id="immagineLogoAzienda" src="imm/abb.png" alt="">
+    </div>
 
-            <div id="imm_mostraDati"></div>
-            <div id="imm_mostraGrafico"></div>
-            <div id="imm_indietro"></div>
+    <div id="utility">
 
-        </div>
+      <div id="imm_mostraDati"></div>
+      <div id="imm_mostraGrafico"></div>
+      <div id="imm_indietro"></div>
 
-        <div id="datiAziendali">
+    </div>
 
-          <div id="close"></div>
+    <div id="datiAziendali">
 
-          <div id="titDatiAziendali">
-              Dati Aziendali
-          </div>
+      <div id="close"></div>
 
-          <div id="logoAziendaDA">
-            <img id="immagineLogoAzienda" src="imm/abb.png" alt="">
-          </div>
+      <div id="titDatiAziendali">
+        Dati Aziendali
+      </div>
 
-          <div id="ragione">
-              Rag. Soc.:&nbsp;
-              <span class="fontDati" >Power-One Italy</span>&nbsp;&nbsp;&nbsp;
-              Sede:&nbsp;
-              <span class="fontDati" >Arezzo</span>
-          </div>
+      <div id="logoAziendaDA">
+        <img id="immagineLogoAzienda" src="imm/abb.png" alt="">
+      </div>
 
-          <!-- <div id="sede">
+      <div id="ragione">
+        Rag. Soc.:&nbsp;
+        <span class="fontDati">Power-One Italy</span>&nbsp;&nbsp;&nbsp;
+        Sede:&nbsp;
+        <span class="fontDati">Arezzo</span>
+      </div>
+
+      <!-- <div id="sede">
               Sede:&nbsp;
               <span class="fontDati" >Roma, Fiumicino</span>
           </div> -->
 
-          <div id="titInizioLavori">
-            Check IN:
-            <span class="fontDati" style="width:60px;">01/17</span>
-          </div>
+      <div id="titInizioLavori">
+        Check IN:
+        <span class="fontDati" style="width:60px;">01/17</span>
+      </div>
 
-          <div id="titFineLavori">
-              <span class="fontDati" style="width:60px;">03/17</span>
-              Check OUT:
-          </div>
+      <div id="titFineLavori">
+        <span class="fontDati" style="width:60px;">03/17</span>
+        Check OUT:
+      </div>
 
-          <div id="dip">
-              Dipendenti:
-              <span class="fontDati" style="width:50px;">404</span>
-          </div>
+      <div id="dip">
+        Dipendenti:
+        <span class="fontDati" style="width:50px;">404</span>
+      </div>
 
-          <div id="reparti">
+      <div id="reparti">
 
-                <!-- Reparto A <span class="fontDati" >65</span>&emsp;  Reparto B <span class="fontDati" >138</span>&emsp;  Reparto C <span class="fontDati" >94</span>&emsp;  Reparto D <span class="fontDati" >107</span>&emsp; Reparto E <span class="fontDati" >0</span> -->
-                Reparto A <span class="fontDati" style="width:50px;">65</span><br>
-                Reparto B <span class="fontDati" style="width:50px;">138</span><br>
-                Reparto C <span class="fontDati" style="width:50px;">94</span><br>
-                Reparto D <span class="fontDati" style="width:50px;">107</span><br>
-                Reparto E <span class="fontDati" style="width:50px;">0</span><br>
+        <!-- Reparto A <span class="fontDati" >65</span>&emsp;  Reparto B <span class="fontDati" >138</span>&emsp;  Reparto C <span class="fontDati" >94</span>&emsp;  Reparto D <span class="fontDati" >107</span>&emsp; Reparto E <span class="fontDati" >0</span> -->
+        Reparto A <span class="fontDati" style="width:50px;">65</span><br>
+        Reparto B <span class="fontDati" style="width:50px;">138</span><br>
+        Reparto C <span class="fontDati" style="width:50px;">94</span><br>
+        Reparto D <span class="fontDati" style="width:50px;">107</span><br>
+        Reparto E <span class="fontDati" style="width:50px;">0</span><br>
 
-          </div>
+      </div>
 
-          <!-- <div id="sur1">
+      <!-- <div id="sur1">
               Survey ONE to ONE<br>
               <span class="fontDati" >398</span>
           </div> -->
 
-          <div id="valoreStato">
-            VALORE STATO<br><br>
-            <!-- <table id="tabValSta">
+      <div id="valoreStato">
+        VALORE STATO<br><br>
+        <!-- <table id="tabValSta">
 
               <tr class="trTabVS">
                 <td>Valore<br>Partenza</td><td>0/660</td><td rowspan="2">01/17</td>
@@ -96,424 +97,400 @@
               </tr>
 
             </table> -->
-            <table id="tabValSta">
+        <table id="tabValSta">
 
-              <tr class="trTabVS">
-                <td>Valore<br>Partenza</td><td>0/660</td>
-              </tr>
+          <tr class="trTabVS">
+            <td>Valore<br>Partenza</td>
+            <td>0/660</td>
+          </tr>
 
-              <tr class="trTabVS">
-                <td>Lettura<br>03/17</td><td>255/660</td>
-              </tr>
+          <tr class="trTabVS">
+            <td>Lettura<br>03/17</td>
+            <td>255/660</td>
+          </tr>
 
-            </table>
-          </div>
+        </table>
+      </div>
 
-          <!-- <div id="sur2">
+      <!-- <div id="sur2">
             Survey WIN to WIN<br>
             <span class="fontDati" >401</span>
           </div> -->
 
-          <!-- <div id="coef1">
+      <!-- <div id="coef1">
               Sincerity<br>
               <span class="fontDati" >94,8%</span>
           </div> -->
 
-          <div id="coef2">
-            Rating<br>
-            <image
-                src="imm/intera.png"
-                style="
+      <div id="coef2">
+        Rating<br>
+        <image src="imm/intera.png" style="
                     position:relative;
                     width:20px;
                     height:20px;
                     top:3px;
-                "
-            />
-            <image
-                src="imm/intera.png"
-                style="
+                " />
+        <image src="imm/intera.png" style="
                     position:relative;
                     width:20px;
                     height:20px;
                     top:3px;
-                "
-            />
-            <image
-                src="imm/mezza.png"
-                style="
+                " />
+        <image src="imm/mezza.png" style="
                     position:relative;
                     width:20px;
                     height:20px;
                     top:3px;
-                "
-            />
-            <image
-                src="imm/vuota.png"
-                style="
+                " />
+        <image src="imm/vuota.png" style="
                     position:relative;
                     width:20px;
                     height:20px;
                     top:3px;
-                "
-            />
-            <image
-                src="imm/vuota.png"
-                style="
+                " />
+        <image src="imm/vuota.png" style="
                     position:relative;
                     width:20px;
                     height:20px;
                     top:3px;
-                "
-            />
+                " />
 
-          </div>
+      </div>
 
-          <div id="valMedio">
-            Valore Medio R.U.<br>
-            <span class="fontDati" style="width:70px;">7,3/12</span>
-          </div>
+      <div id="valMedio">
+        Valore Medio R.U.<br>
+        <span class="fontDati" style="width:70px;">7,3/12</span>
+      </div>
 
-          <div id="valutazione">
-            Benchmark<br>
-            <span class="fontDati" style="width:70px;">46/110</span>
-          </div>
+      <div id="valutazione">
+        Benchmark<br>
+        <span class="fontDati" style="width:70px;">46/110</span>
+      </div>
 
-          <div id="dxCol">
+      <div id="dxCol">
 
-            <span class="fontDati" style="width:60px;">398</span> Survey ONE to ONE<br><br>
-            <span class="fontDati" style="width:60px;">94,8%</span> Sincerity<br><br><br><br>
-            <span class="fontDati" style="width:60px;">401</span> Survey WIN to WIN<!-- <br><br>
+        <span class="fontDati" style="width:60px;">398</span> Survey ONE to ONE<br><br>
+        <span class="fontDati" style="width:60px;">94,8%</span> Sincerity<br><br><br><br>
+        <span class="fontDati" style="width:60px;">401</span> Survey WIN to WIN
+        <!-- <br><br>
             <span class="fontDati" >7,3/12</span> Valore Medio R.U.<br><br>
             <span class="fontDati" >46/110</span> Benchmark<br><br> -->
-
-          </div>
-
-      </div>
-
-      <div id="caratteristicheAzienda">
-
-            <p id="testoLogoAzienda">
-
-                <span style="font-family:CaviarDreamsB;color: white;">Settore:</span> <span style="font-family:calibri;color:#8d9497; ">Fabb. Schede Elettroniche </span><br>
-                <span style="font-family:CaviarDreamsB;color: white;">Num. Dip. :</span> <span style="font-family:calibri;color:#8d9497;">404</span><br>
-                <span style="font-family:CaviarDreamsB;color: white;">Rating:</span>
-                <image
-                    src="imm/intera.png"
-                    style="
-                        position:relative;
-                        width:20px;
-                        height:20px;
-                        top:3px;
-                    "
-                />
-                <image
-                    src="imm/intera.png"
-                    style="
-                        position:relative;
-                        width:20px;
-                        height:20px;
-                        top:3px;
-                    "
-                />
-                <image
-                    src="imm/mezza.png"
-                    style="
-                        position:relative;
-                        width:20px;
-                        height:20px;
-                        top:3px;
-                    "
-                />
-                <image
-                    src="imm/vuota.png"
-                    style="
-                        position:relative;
-                        width:20px;
-                        height:20px;
-                        top:3px;
-                    "
-                />
-                <image
-                    src="imm/vuota.png"
-                    style="
-                        position:relative;
-                        width:20px;
-                        height:20px;
-                        top:3px;
-                    "
-                />
-
-            </p>
-
-      </div>
-
-      <canvas id="grafico" style="display:none;"></canvas>
-
-      <div id="logoLogicamed">
-
-        <img src="imm/logo_logicamed.png"/>
-        <p id="linkLogicamed">
-          <a href="http://www.logicamed.it" target="_blank">www.logicamed.it</a>
-        </p>
-        <p id="numeroLogicamed">
-
-          Tel.  <a href="tel:+390744800257" style="font-size: 16px;">+39 0744 800257</a> <br>
-          Email <a href="mailto:info@logicamed.it" style="font-size: 16px;">info@logicamed.it</a>
-
-        </p>
-
-        <p id="fraseLogicamed">
-
-          <span style="font-style: italic;">"Investire sul bene pi&ugrave prezioso che abbiamo, significa creare un avvenire migliore per tutti"</span><br><br>
-          Adriano Olivetti
-
-        </p>
 
       </div>
 
     </div>
 
-    <script type="text/javascript">
+    <div id="caratteristicheAzienda">
 
-      let grafico = document.getElementById('grafico').getContext('2d');
+      <p id="testoLogoAzienda">
 
-      var chartOptions = {
-        responsive:false,
+        <span style="font-family:CaviarDreamsB;color: white;">Settore:</span> <span style="font-family:calibri;color:#8d9497; ">Fabb.
+          Schede Elettroniche </span><br>
+        <span style="font-family:CaviarDreamsB;color: white;">Num. Dip. :</span> <span style="font-family:calibri;color:#8d9497;">404</span><br>
+        <span style="font-family:CaviarDreamsB;color: white;">Rating:</span>
+        <image src="imm/intera.png" style="
+                        position:relative;
+                        width:20px;
+                        height:20px;
+                        top:3px;
+                    " />
+        <image src="imm/intera.png" style="
+                        position:relative;
+                        width:20px;
+                        height:20px;
+                        top:3px;
+                    " />
+        <image src="imm/mezza.png" style="
+                        position:relative;
+                        width:20px;
+                        height:20px;
+                        top:3px;
+                    " />
+        <image src="imm/vuota.png" style="
+                        position:relative;
+                        width:20px;
+                        height:20px;
+                        top:3px;
+                    " />
+        <image src="imm/vuota.png" style="
+                        position:relative;
+                        width:20px;
+                        height:20px;
+                        top:3px;
+                    " />
 
-        tooltips: {
-            callbacks: {
-                labelColor: function(tooltipItem, chart) {
-                    return {
-                        borderColor: 'rgb(255, 0, 0)',
-                        backgroundColor: 'rgb(255, 0, 0)'
-                    };
-                },
-                labelTextColor:function(tooltipItem, chart){
-                    return 'white';
-                }
-            }},
+      </p>
 
-        scale: {
-          ticks: {
-            beginAtZero: true,
-            min: 0,
-            max: 30,
-            stepSize: 5,
-            fontSize: 0,
-            fontColor:'white',
-            display:false
+    </div>
+
+    <canvas id="grafico" style="display:none;"></canvas>
+
+    <div id="logoLogicamed">
+
+      <img src="imm/logo_logicamed.png" />
+      <p id="linkLogicamed">
+        <a href="http://www.logicamed.it" target="_blank">www.logicamed.it</a>
+      </p>
+      <p id="numeroLogicamed">
+
+        Tel. <a href="tel:+390744800257" style="font-size: 16px;">+39 0744 800257</a> <br>
+        Email <a href="mailto:info@logicamed.it" style="font-size: 16px;">info@logicamed.it</a>
+
+      </p>
+
+      <p id="fraseLogicamed">
+
+        <span style="font-style: italic;">"Investire sul bene pi&ugrave prezioso che abbiamo, significa creare un
+          avvenire migliore per tutti"</span><br><br>
+        Adriano Olivetti
+
+      </p>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+
+    let grafico = document.getElementById('grafico').getContext('2d');
+
+    var chartOptions = {
+      responsive: false,
+
+      tooltips: {
+        callbacks: {
+          labelColor: function (tooltipItem, chart) {
+            return {
+              borderColor: 'rgb(255, 0, 0)',
+              backgroundColor: 'rgb(255, 0, 0)'
+            };
           },
-          gridLines: {
-            color: "gray",
-            lineWidth: 0.3
-          },
-          angleLines: {
-            color: "gray",
-            lineWidth: 0.3
-          },
-          pointLabels: {
-            fontSize: 15,
-            fontFamily:'calibri',
-            fontColor:'#8d9497'
-          }
-        },
-
-        title:{
-          position:'top',
-          fontSize: 40,
-          fontFamily:'calibri',
-          fontStyle:'normal',
-          fontColor:'white',
-          display: true,
-          text: "STATO dell'ARTE dell'AZIENDA",
-          padding:40
-
-        },
-
-        legend: {
-          position:'bottom',
-          labels:{
-            fontSize: 17,
-            fontColor:'white',
-            padding:50,
-            usePointStyle:true
+          labelTextColor: function (tooltipItem, chart) {
+            return 'white';
           }
         }
-      };
+      },
 
-
-      let obj_Grafico = new Chart(grafico,{
-
-        type:'radar',//bar, horizontalBar, pie, line, doughnut, radar, polarArea
-
-        data:{
-
-          labels:[
-            [' ','Senso di appartenenza all\' azienda'],
-            'Ambiente di lavoro - Pulizia-clima',
-            'Sicurezza sul lavoro',
-            'Responsabilità del ruolo ricoperto  e motivazione',
-            'Sensibilità  ai processi di innovazione',
-            'Capacita di assumere iniziative migliorative',
-            'Capacità  di interagire tra ruoli',
-            'Capacità  leadership',//::::::::D
-            'Stima verso la proprietà',
-            'Aumento produttività - Crescita professionale - Formazione',  //::::::::D
-            'Coesione - Coinvolgimento - Aggregazione',//::::::::D
-            [' ','Disponibilità alla flessibilità di lavoro'],
-            'Soddisfazione nel ruolo e incarichi',
-            'Spazi di miglioramento nell\' ambito lavorativo',
-            'Welfare aziendale - iniziative e comunicazioni',
-            'Clima aziendale - atmosfera- tensioni',
-            'Rapporti con i colleghi- contrasti - conflitti - dissidi',
-            'Sensibilizzazione agli sprechi',
-            'Meritocrazia',
-            'Coinvolgimento su nuovi programmi ',
-            'Autonomia nei ruoli',//::::::::D
-            'Organizzazione aziendale'//::::::::D
-            ],
-
-          datasets:[
-            {
-              label:['Marzo 2017 (255/660)'],
-              backgroundColor: "rgba(255,225,0,0)",
-              borderColor: "rgba(255,225,0,1)",
-              radius: 1,
-              borderWidth:3,
-              //lineTension:0.8,
-              pointRadius: 3,
-              pointHoverRadius: 6,
-              pointBorderWidth: 0,
-              pointBackgroundColor: "rgba(255,255,255,1)",
-              pointBorderColor: "rgba(255,225,0,1)",
-              data:[18,16,22,11,9,8,7,11,16,10,12,10,22,4,3,8,16,9,6,4,19,14]
-            },
-            {
-              label:'Gennaio 2018 (343/660)',
-              backgroundColor: "rgba(240,63,28,0)",
-              borderColor: "rgba(240,63,28,1)",
-              radius: 1,
-              borderWidth:3,
-              pointRadius: 3,
-              pointHoverRadius: 6,
-              pointBorderWidth: 0,
-              pointBackgroundColor: "rgba(255,255,255,1)",
-              pointBorderColor: "rgba(240,63,28,1)",
-              data:[25,28,22,16,12,18,7,12,22,16,22,15,21,8,11,5,13,11,11,12,20,16]
-            },
-            {
-              label:'Giugno 2018 (446/660)',
-              backgroundColor: "rgba(28,98,240,0)",
-              borderColor: "rgba(28,98,240,1)",
-              radius: 1,
-              borderWidth:3,
-              pointRadius: 3,
-              pointHoverRadius: 6,
-              pointBorderWidth: 0,
-              pointBackgroundColor: "rgba(255,255,255,1)",
-              pointBorderColor: "rgba(28,98,240,1)",
-              data:[30,30,23,18,20,19,11,19,25,18,30,21,26,14,13,18,21,13,17,15,26,19]
-            }
-          ]
+      scale: {
+        ticks: {
+          beginAtZero: true,
+          min: 0,
+          max: 30,
+          stepSize: 5,
+          fontSize: 0,
+          fontColor: 'white',
+          display: false
         },
+        gridLines: {
+          color: "gray",
+          lineWidth: 0.3
+        },
+        angleLines: {
+          color: "gray",
+          lineWidth: 0.3
+        },
+        pointLabels: {
+          fontSize: 15,
+          fontFamily: 'calibri',
+          fontColor: '#8d9497'
+        }
+      },
 
-        options:chartOptions
+      title: {
+        position: 'top',
+        fontSize: 40,
+        fontFamily: 'calibri',
+        fontStyle: 'normal',
+        fontColor: 'white',
+        display: true,
+        text: "STATO dell'ARTE dell'AZIENDA",
+        padding: 40
 
-      });
+      },
 
-
-      //PULSANTI---------------------------------------------------------------
-
-      var plt_indietro = document.getElementById("imm_indietro");
-      plt_indietro.addEventListener("click", function(){
-            window.history.back();
-      });
-
-      var visibile = false;
-      var plt_menu = document.getElementById("imm_mostraDati");
-      var visibileG = false;
-      var plt_grafico = document.getElementById("imm_mostraGrafico");
-
-      plt_menu.addEventListener("click", function(){
-
-            if(!visibile){
-
-              var divDati = document.getElementById("datiAziendali");
-              divDati.style.display='grid';
-              visibile = true;
-
-            }else{
-
-              var divDati = document.getElementById("datiAziendali");
-              divDati.style.display='none';
-              visibile = false;
-
-            }
-
-            if(visibileG){
-
-              var divGrafico = document.getElementById("grafico");
-              divGrafico.style.display='none';
-              visibileG = false;
-
-            }
-
-      });
-
-      plt_grafico.addEventListener("click", function(){
-
-            if(visibile){
-
-              var divDati = document.getElementById("datiAziendali");
-              divDati.style.display='none';
-              visibile = false;
-
-            }
-
-            if(visibileG){
-
-              var divGrafico = document.getElementById("grafico");
-              divGrafico.style.display='none';
-              visibileG = false;
-
-            }else{
-
-              var divGrafico = document.getElementById("grafico");
-              divGrafico.style.display='block';
-              visibileG = true;
-
-            }
-
-      });
-
-      var plt_close = document.getElementById("close");
-      plt_close.addEventListener("click", function(){
-              var divDati = document.getElementById("datiAziendali");
-              divDati.style.display='none';
-              visibile = false;
-      });
+      legend: {
+        position: 'bottom',
+        labels: {
+          fontSize: 17,
+          fontColor: 'white',
+          padding: 50,
+          usePointStyle: true
+        }
+      }
+    };
 
 
-      /////SCROLLING DATIAZIENDALI FIREFOX////////
-      var isFirefox = typeof InstallTrigger !== 'undefined';
+    let obj_Grafico = new Chart(grafico, {
 
-      if(isFirefox){
+      type: 'radar',//bar, horizontalBar, pie, line, doughnut, radar, polarArea
 
-        var moltiplicatoreScorrimento = 5;
-        var datiAziendali = document.querySelector("#datiAziendali");
+      data: {
 
-        datiAziendali.addEventListener("wheel", (e) => {
+        labels: [
+          [' ', 'Senso di appartenenza all\' azienda'],
+          'Ambiente di lavoro - Pulizia-clima',
+          'Sicurezza sul lavoro',
+          'Responsabilità del ruolo ricoperto  e motivazione',
+          'Sensibilità  ai processi di innovazione',
+          'Capacita di assumere iniziative migliorative',
+          'Capacità  di interagire tra ruoli',
+          'Capacità  leadership',//::::::::D
+          'Stima verso la proprietà',
+          'Aumento produttività - Crescita professionale - Formazione',  //::::::::D
+          'Coesione - Coinvolgimento - Aggregazione',//::::::::D
+          [' ', 'Disponibilità alla flessibilità di lavoro'],
+          'Soddisfazione nel ruolo e incarichi',
+          'Spazi di miglioramento nell\' ambito lavorativo',
+          'Welfare aziendale - iniziative e comunicazioni',
+          'Clima aziendale - atmosfera- tensioni',
+          'Rapporti con i colleghi- contrasti - conflitti - dissidi',
+          'Sensibilizzazione agli sprechi',
+          'Meritocrazia',
+          'Coinvolgimento su nuovi programmi ',
+          'Autonomia nei ruoli',//::::::::D
+          'Organizzazione aziendale'//::::::::D
+        ],
 
-          datiAziendali.scrollBy(0, e.deltaY * moltiplicatoreScorrimento);
+        datasets: [
+          {
+            label: ['Marzo 2017 (255/660)'],
+            backgroundColor: "rgba(255,225,0,0)",
+            borderColor: "rgba(255,225,0,1)",
+            radius: 1,
+            borderWidth: 3,
+            //lineTension:0.8,
+            pointRadius: 3,
+            pointHoverRadius: 6,
+            pointBorderWidth: 0,
+            pointBackgroundColor: "rgba(255,255,255,1)",
+            pointBorderColor: "rgba(255,225,0,1)",
+            data: [18, 16, 22, 11, 9, 8, 7, 11, 16, 10, 12, 10, 22, 4, 3, 8, 16, 9, 6, 4, 19, 14]
+          },
+          {
+            label: 'Gennaio 2018 (343/660)',
+            backgroundColor: "rgba(240,63,28,0)",
+            borderColor: "rgba(240,63,28,1)",
+            radius: 1,
+            borderWidth: 3,
+            pointRadius: 3,
+            pointHoverRadius: 6,
+            pointBorderWidth: 0,
+            pointBackgroundColor: "rgba(255,255,255,1)",
+            pointBorderColor: "rgba(240,63,28,1)",
+            data: [25, 28, 22, 16, 12, 18, 7, 12, 22, 16, 22, 15, 21, 8, 11, 5, 13, 11, 11, 12, 20, 16]
+          },
+          {
+            label: 'Giugno 2018 (446/660)',
+            backgroundColor: "rgba(28,98,240,0)",
+            borderColor: "rgba(28,98,240,1)",
+            radius: 1,
+            borderWidth: 3,
+            pointRadius: 3,
+            pointHoverRadius: 6,
+            pointBorderWidth: 0,
+            pointBackgroundColor: "rgba(255,255,255,1)",
+            pointBorderColor: "rgba(28,98,240,1)",
+            data: [30, 30, 23, 18, 20, 19, 11, 19, 25, 18, 30, 21, 26, 14, 13, 18, 21, 13, 17, 15, 26, 19]
+          }
+        ]
+      },
 
-        });
+      options: chartOptions
+
+    });
+
+
+    //PULSANTI---------------------------------------------------------------
+
+    var plt_indietro = document.getElementById("imm_indietro");
+    plt_indietro.addEventListener("click", function () {
+      window.history.back();
+    });
+
+    var visibile = false;
+    var plt_menu = document.getElementById("imm_mostraDati");
+    var visibileG = false;
+    var plt_grafico = document.getElementById("imm_mostraGrafico");
+
+    plt_menu.addEventListener("click", function () {
+
+      if (!visibile) {
+
+        var divDati = document.getElementById("datiAziendali");
+        divDati.style.display = 'grid';
+        visibile = true;
+
+      } else {
+
+        var divDati = document.getElementById("datiAziendali");
+        divDati.style.display = 'none';
+        visibile = false;
 
       }
 
+      if (visibileG) {
 
-    </script>
+        var divGrafico = document.getElementById("grafico");
+        divGrafico.style.display = 'none';
+        visibileG = false;
 
-  </body>
+      }
+
+    });
+
+    plt_grafico.addEventListener("click", function () {
+
+      if (visibile) {
+
+        var divDati = document.getElementById("datiAziendali");
+        divDati.style.display = 'none';
+        visibile = false;
+
+      }
+
+      if (visibileG) {
+
+        var divGrafico = document.getElementById("grafico");
+        divGrafico.style.display = 'none';
+        visibileG = false;
+
+      } else {
+
+        var divGrafico = document.getElementById("grafico");
+        divGrafico.style.display = 'block';
+        visibileG = true;
+
+      }
+
+    });
+
+    var plt_close = document.getElementById("close");
+    plt_close.addEventListener("click", function () {
+      var divDati = document.getElementById("datiAziendali");
+      divDati.style.display = 'none';
+      visibile = false;
+    });
+
+
+    /////SCROLLING DATIAZIENDALI FIREFOX////////
+    var isFirefox = typeof InstallTrigger !== 'undefined';
+
+    if (isFirefox) {
+
+      var moltiplicatoreScorrimento = 5;
+      var datiAziendali = document.querySelector("#datiAziendali");
+
+      datiAziendali.addEventListener("wheel", (e) => {
+
+        datiAziendali.scrollBy(0, e.deltaY * moltiplicatoreScorrimento);
+
+      });
+
+    }
+
+
+  </script>
+
+</body>
 
 </html>

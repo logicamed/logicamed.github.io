@@ -37,7 +37,6 @@ body {
     background-image: url(imm/sfondo2.png);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
-    overflow-y: hidden;
 }
 
 #titolo {
@@ -121,13 +120,15 @@ body {
     justify-items: center;
     box-shadow: 3px 3px 10px black;
     border-radius: 60px;
-    position: relative;
+    position: absolute;
     z-index: 100;
     grid-template-areas: "logo" "link" "numero" "frase";
     grid-template-rows: auto auto auto auto;
     max-width: 200px;
     height: 100px;
     padding: 5px;
+    overflow: hidden;
+    bottom: 0px;
     transition: 0.5s;
 }
 
@@ -137,7 +138,7 @@ body {
 
 #logoLogicamed:hover {
     height: 600px;
-    transform: translate(0, -40%);
+    /* transform: translate(0, -250px); */
 }
 
 #fraseLogicamed {
