@@ -118,8 +118,8 @@ body {
     display: grid;
     margin-bottom: 0px;
     justify-items: center;
-    box-shadow: 3px 3px 10px black;
-    border-radius: 60px;
+    box-shadow: 0px 3px 10px black;
+    /* border-radius: 60px; */
     position: absolute;
     z-index: 100;
     grid-template-areas: "logo" "link" "numero" "frase";
@@ -206,11 +206,11 @@ a:active {
 
 #personale::-webkit-scrollbar-thumb {
     background-color: #011538;
-    border: 1px white solid;
-    border-radius: 15px;
+    /* border: 1px white solid;
+    border-radius: 15px; */
 }
 
-#personale::-webkit-scrollbar-thumb:hover {
+#attributi::-webkit-scrollbar-thumb:hover {
     background-color: var(--colore4);
 }
 
@@ -220,8 +220,8 @@ a:active {
 
 #attributi::-webkit-scrollbar-thumb {
     background-color: #011538;
-    border: 1px white solid;
-    border-radius: 15px;
+    /* border: 1px white solid;
+    border-radius: 15px; */
 }
 
 #attributi::-webkit-scrollbar-thumb:hover {
@@ -234,8 +234,8 @@ a:active {
 
 #ricadute::-webkit-scrollbar-thumb {
     background-color: #011538;
-    border: 1px white solid;
-    border-radius: 15px;
+    /* border: 1px white solid;
+    border-radius: 15px; */
 }
 
 #ricadute::-webkit-scrollbar-thumb:hover {
@@ -264,7 +264,7 @@ a:active {
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 400px;
+    width: auto;
     font-size: 17px;
     min-height: 200px;
     max-height: 95%;
@@ -352,21 +352,23 @@ a:active {
     background-color: #011538;
     width: 250px;
     color: var(--colore3);
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
     border-color: var(--colore3);
-    border-radius: 30px;
+    /* border-radius: 30px; */
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
     cursor: pointer;
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     /* box-shadow: 5px 5px 14px 7px var(--coloreOmbra); */
     box-shadow: 0px 5px 10px black;
-    transition: 0.1s ease-in-out;
+    transition: 0.2s;
     font-family: CaviarDreamsB;
 }
 
@@ -386,8 +388,8 @@ a:active {
     margin-bottom: 20px;
     text-align: center;
     color: 00225a;
-    box-shadow: 0px 5px 20px black;
-    transform: scale(1.2);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.15);
 }
 
 .attributo {
@@ -413,7 +415,7 @@ a:active {
     cursor: pointer;
     /* box-shadow: 5px 5px 14px 7px var(--coloreOmbra); */
     box-shadow: 0 0 20px black;
-    transition: 0.1s ease-in-out;
+    transition: 0.2s;
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
