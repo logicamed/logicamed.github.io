@@ -361,6 +361,7 @@ body{
   left: 300px;
   bottom: 100px;
   right: 350px;
+  z-index: 1000;
 
   font-size: 19px;
   font-family: CaviarDreamsB;

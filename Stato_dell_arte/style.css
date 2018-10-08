@@ -31,7 +31,6 @@ a:visited {
 }
 
 /* mouse over link */
-
 a:hover {
   color: #c49000;
 }
@@ -214,6 +213,7 @@ body {
 
 #utility {
   position: fixed;
+  z-index: 1990;
   left: 0px;
   bottom: 50px;
   width: 290px;
@@ -285,6 +285,7 @@ body {
   left: 300px;
   bottom: 100px;
   right: 350px;
+  z-index: 1000;
   font-size: 19px;
   font-family: CaviarDreamsB;
   background-color: white;
@@ -490,4 +491,58 @@ body {
   grid-area: dxI;
   text-align: left;
   width: 90%;
+}
+
+
+#divTitolo{
+
+  position: fixed;
+
+  top:0%;
+  left: 0%;
+  z-index: 2000;
+
+  background-color: rgb(1, 21, 56);
+  width:100%;
+  height: 100%;
+  color:rgb(196, 144, 0);
+  font-size:90px;
+  font-family: CaviarDreams;
+
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+
+  display: grid;
+
+  grid-template-areas: "titolo" "plt";
+  grid-template-columns: auto ;
+  grid-template-rows: auto  100px;
+
+
+  align-items: center;
+  justify-items: center;
+
+}
+
+#divTit{
+
+    grid-area: titolo;
+
+}
+#divPltClose{
+
+    grid-area: plt;
+
+    border-style: solid;
+    border-color: rgb(196, 144, 0);
+    border-radius: 0%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    height: 100px;
+    width:  100px;
+    transform: translateY(0%);
+
+    text-align: center;
+
 }
