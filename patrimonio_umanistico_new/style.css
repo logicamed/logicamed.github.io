@@ -392,6 +392,11 @@ a:active {
     transform: scale(1.15);
 }
 
+.dipendente:active{
+    background-color: #7c6033;
+    transform: scale(1);
+}
+
 .attributo {
     display: grid;
     margin: 20px;
