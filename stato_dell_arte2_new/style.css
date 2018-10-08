@@ -380,8 +380,8 @@ body{
     "coef1    valS      coef2       "
     "valM     v2        valutazione "; */
    grid-template-areas:
-      "close    titolo    logoDA      "
-      "rag      rag      logoDA      "
+      "close    titolo    vuoto      "
+      "rag      rag      rag      "
       "dip      inizio    fine         "
       "rep      valS      dxI         "
       "v1       info      v2        ";
@@ -433,8 +433,8 @@ body{
       "coef1    valS      coef2       "
       "valM     v2        valutazione "; */
      grid-template-areas:
-        "close    titolo    logoDA      "
-        "rag      rag      logoDA      "
+        "close    titolo    vuoto      "
+        "rag      rag      rag      "
         "dip      inizio    fine         "
         "rep      valS      dxI         "
         "v1       info      v2        ";
