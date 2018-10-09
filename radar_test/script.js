@@ -181,22 +181,21 @@ function selezionaPeriodi(p, visibile, ordineCrescente) {
 }
 
 function aggiornaPulsantiPeriodi(p) {
-    console.log(p.stats);
     p.stats.forEach(stat => {
 
 
-        creaPulsantePeriodo(stat.id, stat.nome, stat.colore);
+        creaPulsantePeriodo(stat.id, stat.nome);
+        calcolaColorePulsanti(p);
 
     });
 
 }
 
-function creaPulsantePeriodo(id, nome, colore) {
+function creaPulsantePeriodo(id, nome) {
 
     d3.select("#contenitorePulsanti").append("button")
         .attr("id", id)
         .attr("class", "pulsantePeriodo")
-        .style("background-color", colore)
         .text(nome);
     abilitaPulsanti();
     if (p.numeroPeriodiVisibili == 1) {
@@ -205,11 +204,32 @@ function creaPulsantePeriodo(id, nome, colore) {
 
 }
 
-function aggiornaGestoreEventi(p) {
+function calcolaColorePulsanti(p) {
+    p.stats.forEach(stat => {
+        if (stat.visibile) {
+            aggiornaColoriPulsanti(stat.id, stat.colore);
+        }
+        else {
+            aggiornaColoriPulsanti(stat.id, "gray");
+        }
+    });
+}
 
+function aggiornaColoriPulsanti(id, colore) {
     var pulsanti = document.querySelectorAll(".pulsantePeriodo");
 
-    pulsanti.forEach(pul => {
+    pulsanti.forEach(pulsante => {
+        if (pulsante.getAttribute("id") == id) {
+            pulsante.setAttribute("style", "--colore-sfondo: " + colore);
+        }
+    });
+}
+
+function aggiornaGestoreEventi(p) {
+
+    var pulsantiPerido = document.querySelectorAll(".pulsantePeriodo");
+
+    pulsantiPerido.forEach(pul => {
 
         pul.addEventListener("click", (e) => {
 
@@ -221,6 +241,7 @@ function aggiornaGestoreEventi(p) {
             resettaRadar();
             aggiornaRadar(p);
             abilitaPulsanti();
+            calcolaColorePulsanti(p);
             if (p.numeroPeriodiVisibili == 1) {
                 disabilitaPulsanti(p.ottieniPeriodiVisibili()[0].id);
             }
@@ -258,3 +279,13 @@ function resettaRadar() {
     d3.select(".radarChart").text("");
 
 }
+
+var LightenColor = function (color, percent) {
+    var num = parseInt(color, 16),
+        amt = Math.round(2.55 * percent),
+        R = (num >> 16) + amt,
+        B = (num >> 8 & 0x00FF) + amt,
+        G = (num & 0x0000FF) + amt;
+
+    return (0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 + (B < 255 ? B < 1 ? 0 : B : 255) * 0x100 + (G < 255 ? G < 1 ? 0 : G : 255)).toString(16).slice(1);
+};

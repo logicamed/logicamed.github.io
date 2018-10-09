@@ -113,10 +113,12 @@ var visibilitaGraph = true;
 var visibilitaDati = false;
 
 plt_menu.addEventListener("click", (e) => {
+    console.log("click");
     var contenitoreDatiAziendali = document.querySelector("#datiAziendali");
     var radar = document.querySelector(".radarChart");
-    visibilitaGraph != visibilitaGraph;
+    visibilitaGraph = !visibilitaGraph;
     visibilitaDati = !visibilitaDati;
+    console.log(visibilitaGraph);
     contenitoreDatiAziendali.setAttribute("visibile", visibilitaDati);
     radar.setAttribute("visibile", visibilitaGraph);
 });
