@@ -21,9 +21,10 @@
       <div id="divTit">
         Stato dell'arte aziendale
       </div>
-      <div id="divPltClose">
-        
-      </div>
+      <!-- <img id="divPltClose" src="imm/pltClose.svg"></img> -->
+      <svg id="divPltClose" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="657.5 321.5 403 203" width="403" height="203">
+        <path d=" M 659 523 C 659 412.617 748.617 323 859 323 L 859 323 L 859 323 C 969.383 323 1059 412.617 1059 523 L 1059 523 L 659 523 Z  M 944.723 490.768 L 901.862 446.384 L 859 402 L 816.138 446.384 L 773.277 490.768 L 816.138 472.884 L 859 455 L 901.862 472.884 L 944.723 490.768 Z " fill-rule="evenodd" fill="rgb(196,144,0)" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(196,144,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+      </svg>
     </div>
 
     <div id="logoAzienda">
@@ -497,6 +498,33 @@
 
     }
 
+
+    var divPltClose = document.getElementById("divPltClose");
+    var divTitolo = document.getElementById("divTitolo");
+
+    divPltClose.addEventListener("click", function () {
+      closeCopertina();
+    });
+    divTitolo.addEventListener("mousewheel", function (e) {
+
+      if(e.deltaY<0){
+
+        closeCopertina();
+
+      }
+
+    });
+
+    function closeCopertina(){
+
+      divTitolo.style.transform = 'translatey(-100%)';
+      setTimeout(function(){
+
+        divTitolo.style.opacity = 0;
+
+  		}, 1000);
+
+    }
 
   </script>
 
