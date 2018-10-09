@@ -16,7 +16,7 @@ aggiungiVoce(pSupporto, new Voce("Disponibilità alla Ricollocazione – Turnove
 aggiungiVoce(pSupporto, new Voce("Meritocrazia", 33.33 ));
 aggiungiVoce(pSupporto, new Voce("Spazi nel presentare o partecipare a processi innovativi", 13.33 ));
 aggiungiVoce(pSupporto, new Voce("Gestione del personale", 13.33 ));
-aggiungiVoce(pSupporto, new Voce("Gestione dei conflitti – dissidi – contrasti tra colleghi", 113.33 ));
+aggiungiVoce(pSupporto, new Voce("Gestione dei conflitti – dissidi – contrasti tra colleghi", 16.67 ));
 aggiungiVoce(pSupporto, new Voce("Crescita e nuovi input positivi – spazi di miglioramenti", 26.67 ));
 aggiungiVoce(pSupporto, new Voce("Corporate Wellness", 46.67 ));
 aggiungiVoce(pSupporto, new Voce("Controllo e verifica – gestione organizzativa migliorabile", 26.67 ));

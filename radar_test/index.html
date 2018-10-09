@@ -35,16 +35,16 @@
 
 		#contenitorePulsanti {
 
-			position: relative;
-			/* right: 20px;
+			position: fixed;
+			right: 20px;
 			top: 50%;
-			transform: translateY(-50%); */
-			width: auto;
+			transform: translateY(-50%);
+			/* width: auto; */
 
 		}
 
 		.pulsantePeriodo {
-			display: inline-block;
+			display: block;
 			position: relative;
 			width: 130px;
 			height: auto;
@@ -74,6 +74,7 @@
 		.pulsantePeriodo:disabled {
 			transform: scale(0.9);
 			color: #5f5f5f;
+			background-color: rgb(211, 211, 211);
 			box-shadow: none;
 		}
 	</style>

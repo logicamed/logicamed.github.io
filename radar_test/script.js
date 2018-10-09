@@ -80,17 +80,17 @@ function aggiornaRadar(p) {
 
     /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
 
-    ////////////////////////////////////////////////////////////// 
-    //////////////////////// Set-Up ////////////////////////////// 
-    ////////////////////////////////////////////////////////////// 
+    //////////////////////////////////////////////////////////////
+    //////////////////////// Set-Up //////////////////////////////
+    //////////////////////////////////////////////////////////////
 
     var margin = { top: 70, right: 100, bottom: 125, left: 100 },
         width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
         height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 
-    ////////////////////////////////////////////////////////////// 
-    //////////////////// Draw the Chart ////////////////////////// 
-    ////////////////////////////////////////////////////////////// 
+    //////////////////////////////////////////////////////////////
+    //////////////////// Draw the Chart //////////////////////////
+    //////////////////////////////////////////////////////////////
 
     var color = d3.scale.ordinal()
         .range(p.ottieniColoriAttivi());
@@ -185,17 +185,18 @@ function aggiornaPulsantiPeriodi(p) {
     p.stats.forEach(stat => {
 
 
-        creaPulsantePeriodo(stat.id, stat.nome);
+        creaPulsantePeriodo(stat.id, stat.nome, stat.colore);
 
     });
 
 }
 
-function creaPulsantePeriodo(id, nome) {
+function creaPulsantePeriodo(id, nome, colore) {
 
     d3.select("#contenitorePulsanti").append("button")
         .attr("id", id)
         .attr("class", "pulsantePeriodo")
+        .style("background-color", colore)
         .text(nome);
     abilitaPulsanti();
     if (p.numeroPeriodiVisibili == 1) {
