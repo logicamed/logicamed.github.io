@@ -98,3 +98,71 @@ p.calcolaNumeroPeriodiVisibili();
 aggiornaPulsantiPeriodi(p);
 aggiornaGestoreEventi(p);
 aggiornaRadar(p);
+
+
+//CODICE LEGACY
+var plt_indietro = document.getElementById("imm_indietro");
+plt_indietro.addEventListener("click", function () {
+    window.history.back();
+});
+
+var plt_menu = document.getElementById("imm_mostraDati");
+var plt_grafico = document.getElementById("imm_mostraGrafico");
+
+var visibilitaGraph = true;
+var visibilitaDati = false;
+
+plt_menu.addEventListener("click", (e) => {
+    var contenitoreDatiAziendali = document.querySelector("#datiAziendali");
+    var radar = document.querySelector(".radarChart");
+    visibilitaGraph != visibilitaGraph;
+    visibilitaDati = !visibilitaDati;
+    contenitoreDatiAziendali.setAttribute("visibile", visibilitaDati);
+    radar.setAttribute("visibile", visibilitaGraph);
+});
+
+
+
+/////SCROLLING DATIAZIENDALI FIREFOX////////
+var isFirefox = typeof InstallTrigger !== 'undefined';
+
+if (isFirefox) {
+
+    var moltiplicatoreScorrimento = 5;
+    var datiAziendali = document.querySelector("#datiAziendali");
+
+    datiAziendali.addEventListener("wheel", (e) => {
+
+        datiAziendali.scrollBy(0, e.deltaY * moltiplicatoreScorrimento);
+
+    });
+
+}
+
+
+var divPltClose = document.getElementById("divPltClose");
+var divTitolo = document.getElementById("divTitolo");
+
+divPltClose.addEventListener("click", function () {
+    closeCopertina();
+});
+divTitolo.addEventListener("mousewheel", function (e) {
+
+    if (e.deltaY < 0) {
+
+        closeCopertina();
+
+    }
+
+});
+
+function closeCopertina() {
+
+    divTitolo.style.transform = 'translatey(-100%)';
+    setTimeout(function () {
+
+        divTitolo.style.opacity = 0;
+
+    }, 1000);
+
+}

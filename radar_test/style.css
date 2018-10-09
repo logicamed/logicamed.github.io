@@ -1,0 +1,526 @@
+@font-face {
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: CaviarDreamsB;
+  src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+  font-family: Gravity;
+  src: url(fonts/Gravity-Light.otf);
+}
+
+@font-face {
+  font-family: GravityB;
+  src: url(fonts/Gravity-Bold.otf);
+}
+
+/* unvisited link */
+
+a:link {
+  color: #011538;
+}
+
+/* visited link */
+
+a:visited {
+  color: #011538;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c49000;
+}
+
+/* selected link */
+
+a:active {
+  color: blue;
+}
+
+.fontDati {
+  font-family: CaviarDreams;
+  font-size: 15px;
+  border-color: #011538;
+  border-width: 1px;
+  border-radius: 7px;
+  border-style: solid;
+  padding: 5px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  transition: 0.1s ease-in-out;
+  background-color: white;
+}
+
+.fontDati:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
+}
+
+#numeroLogicamed {
+  grid-area: numero;
+  transform: scaleY(0);
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+#logoLogicamed {
+  background-color: white;
+  grid-area: logoLogica;
+  display: grid;
+  margin-bottom: 0px;
+  justify-items: center;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 60px;
+  position: fixed;
+  z-index: 100;
+  grid-template-areas: "logo" "link" "numero" "frase";
+  grid-template-rows: auto auto auto auto;
+  max-width: 200px;
+  height: 100px;
+  padding: 5px;
+  bottom: 50px;
+  right: 50px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#logoLogicamed:hover>#numeroLogicamed, #logoLogicamed:hover>#linkLogicamed, #logoLogicamed:hover>#fraseLogicamed {
+  transform: scaleY(1);
+}
+
+#logoLogicamed:hover {
+  height: 600px;
+  /* transform: translate(0, -40%); */
+}
+
+#fraseLogicamed {
+  text-align: center;
+  font-family: CaviarDreamsB;
+  transform: scaleY(0);
+  grid-area: frase;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+#logoLogicamed img {
+  grid-area: logo;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  width: auto;
+  height: 60px;
+  margin: 20px;
+}
+
+#linkLogicamed {
+  transform: scaleY(0);
+  grid-area: link;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  margin-top: 20px;
+  grid-area: link;
+  transition: 0.5s;
+}
+
+#caratteristicheAzienda {
+  background-color: #383838;
+  position: fixed;
+  right: 50px;
+  top: 40px;
+  width: auto;
+  height: 140px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 3px 3px 10px black;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+
+#logoAzienda {
+  position: fixed;
+  left: 50px;
+  top: 40px;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+
+#immagineLogoAzienda {
+  width: auto;
+  height: 140px;
+  box-shadow: 3px 3px 10px black;
+}
+
+#utility {
+  position: fixed;
+  z-index: 1990;
+  left: 0px;
+  bottom: 50px;
+  width: 290px;
+  height: 100px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: white;
+  display: block;
+  box-shadow: 0px 3px 10px black;
+}
+
+#utility:hover {}
+
+#imm_mostraDati {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url('imm/menu_out.svg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+#imm_mostraDati:hover {
+  background-image: url('imm/menu_over.svg');
+  background-size: cover;
+}
+
+#imm_mostraGrafico:hover {
+  background-image: url('imm/radar_over.svg');
+  background-size: cover;
+}
+
+#imm_mostraGrafico {
+  position: absolute;
+  right: 110px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url('imm/radar_out.svg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+#imm_indietro {
+  position: absolute;
+  right: 230px;
+  top: 30px;
+  width: 45px;
+  height: 45px;
+  background-image: url('imm/indietro_out_tondo.svg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+#imm_indietro:hover {
+  background-image: url('imm/indietro_over_tondo.svg');
+  background-size: cover;
+}
+
+#datiAziendali::-webkit-scrollbar {
+  display: none;
+}
+
+#datiAziendali {
+  position: fixed;
+  top: 100px;
+  left: 300px;
+  bottom: 100px;
+  right: 350px;
+  z-index: 1000;
+  font-size: 19px;
+  font-family: CaviarDreamsB;
+  background-color: white;
+  border-radius: 50px;
+  /* grid-template-areas:
+    "close    titolo    logoDA      "
+    "rag      sede      logoDA      "
+    "inizio   fine      dip         "
+    "rep      rep       rep         "
+    "sur1     valS      sur2        "
+    "coef1    valS      coef2       "
+    "valM     v2        valutazione "; */
+  grid-template-areas: "close    titolo    vuoto      " "rag      rag      rag      " "dip      inizio    fine         " "rep      valS      dxI         " "v1       info      v2        ";
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  align-items: center;
+  justify-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  box-shadow: 3px 3px 10px black;
+  padding: 20px;
+  user-select: none;
+  transform: scale(0);
+  transition: 0.2s;
+}
+
+@media screen and (max-width:1558px) {
+  #datiAziendali {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    bottom: 160px;
+    right: 10px;
+    z-index: 30;
+    font-size: 19px;
+    font-family: CaviarDreamsB;
+    background-color: white;
+    border-radius: 50px;
+    display: none;
+    /* grid-template-areas:
+      "close    titolo    logoDA      "
+      "rag      sede      logoDA      "
+      "inizio   fine      dip         "
+      "rep      rep       rep         "
+      "sur1     valS      sur2        "
+      "coef1    valS      coef2       "
+      "valM     v2        valutazione "; */
+    grid-template-areas: "close    titolo    vuoto      " "rag      rag      rag      " "dip      inizio    fine         " "rep      valS      dxI         " "v1       info      v2        ";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px;
+    user-select: none;
+  }
+}
+
+@-moz-document url-prefix() {
+  #datiAziendali {
+    overflow-y: hidden;
+  }
+}
+
+#datiAziendali[visibile="true"]{
+  transform: scale(1);
+}
+
+#titDatiAziendali {
+  grid-area: titolo;
+  font-size: 40px;
+  font-family: CaviarDreamsB;
+}
+
+#logoAziendaDA {
+  grid-area: logoDA;
+  background-image: url('imm/gm.png');
+  background-size: cover;
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+#close {
+  grid-area: close;
+  background-image: url('imm/close_out.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#close:hover {
+  grid-area: close;
+  background-image: url('imm/close_over.svg');
+  background-size: cover;
+}
+
+#titInizioLavori {
+  grid-area: inizio;
+  text-align: right;
+  width: 90%;
+}
+
+#ragione {
+  grid-area: rag;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 2px;
+}
+
+#sede {
+  grid-area: sede;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-left-width: 0px;
+}
+
+#titFineLavori {
+  grid-area: fine;
+  text-align: left;
+  width: 90%;
+}
+
+#dip {
+  grid-area: dip;
+  text-align: right;
+  width: 70%;
+  height: auto;
+}
+
+#reparti {
+  grid-area: rep;
+  text-align: right;
+  width: 70%;
+}
+
+#valoreStato {
+  grid-area: valS;
+  text-align: center;
+}
+
+#tabValSta .trTabVS td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #011538;
+  padding: 15px;
+  padding-top: 10px;
+}
+
+#tabValSta {
+  box-shadow: 0px 4px 15px black;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.6);
+  background-color: white;
+}
+
+#tabValSta:hover {
+  box-shadow: 0px 3px 11px 3px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
+}
+
+#sur1 {
+  grid-area: sur1;
+  text-align: center;
+}
+
+#sur2 {
+  grid-area: sur2;
+  text-align: center;
+}
+
+#coef1 {
+  grid-area: coef1;
+  text-align: center;
+}
+
+#coef2 {
+  grid-area: info;
+  text-align: center;
+}
+
+#valutazione {
+  grid-area: v1;
+  text-align: center;
+}
+
+#valMedio {
+  grid-area: v2;
+  text-align: center;
+}
+
+#dxCol {
+  grid-area: dxI;
+  text-align: left;
+  width: 90%;
+}
+
+
+#divTitolo{
+
+  position: fixed;
+
+  top:0%;
+  left: 0%;
+  z-index: 2000;
+
+  background-color: rgb(1, 21, 56);
+  width:100%;
+  height: 100%;
+  color:rgb(196, 144, 0);
+  font-size:90px;
+  font-family: CaviarDreams;
+
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+
+  display: grid;
+
+  grid-template-areas: "titolo" "plt";
+  grid-template-columns: auto ;
+  grid-template-rows: auto  75px;
+
+
+  align-items: center;
+  justify-items: center;
+
+  transition: 0.5s;
+
+}
+
+#divTit{
+
+    grid-area: titolo;
+
+}
+#divPltClose{
+
+    grid-area: plt;
+
+    height: auto;
+    width:  150px;
+    transform: translateY(0%);
+    text-align: center;
+
+      transition: 0.2s;
+
+}
+
+#divPltClose:hover{
+
+  transform: scale(1.3) translateY(-14%) ;
+  cursor: pointer;
+
+}
+
+#divPltClose path{
+
+  transition: 0.2s;
+
+}
+
+#divPltClose:hover path{
+
+  fill:rgb(145,106,0);
+  stroke:rgb(145,106,0);
+
+}
