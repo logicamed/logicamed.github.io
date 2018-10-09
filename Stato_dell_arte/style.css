@@ -61,10 +61,12 @@ a:active {
 }
 
 body {
-  background-color: #000000/*rgb(1, 21, 56)  #3b3b3b*/
-  ;
-  font-size: 20px;
+  background-color: #000000/*rgb(1, 21, 56)  #3b3b3b*/;
   font-family: CaviarDreams, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  fill: #242424;
+  cursor: default;
 }
 
 .container {
