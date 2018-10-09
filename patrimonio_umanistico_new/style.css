@@ -119,7 +119,7 @@ body {
     margin-bottom: 0px;
     justify-items: center;
     box-shadow: 0px 3px 10px black;
-     border-radius: 60px; 
+     border-radius: 60px;
     position: absolute;
     z-index: 100;
     grid-template-areas: "logo" "link" "numero" "frase";
@@ -249,7 +249,7 @@ a:active {
     left: 0px;
     right: 0px;
     display: grid;
-    grid-template-areas: "vuoto vuoto pulsanti" "titolo titolo titolo" "titRicadute logoAzienda titAttributi" "ricadute dipendenti attributi" "ricadute dipendenti logoLogica";
+    grid-template-areas: "indietro vuoto ricarica" "titolo titolo titolo" "titRicadute logoAzienda titAttributi" "ricadute dipendenti attributi" "ricadute dipendenti logoLogica";
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 0px 50px 80px auto 100px;
     grid-column-gap: 10px;
@@ -328,17 +328,38 @@ a:active {
 #plt_ricarica {
     position: relative;
     margin-top: 50px;
-    grid-area: pulsanti;
+    grid-area: ricarica;
     background-image: url(imm/ricarica_out_tondo.svg);
     background-size: cover;
     top: 10px;
-    right: 10px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
 }
 
 #plt_ricarica:hover {
     background-image: url(imm/ricarica_over_tondo.svg);
     background-size: cover;
     cursor: pointer;
+}
+
+#imm_indietro{
+
+  position: relative;
+  top: 10px;
+  right: 0px;
+  grid-area: indietro;
+  margin-top: 50px;
+  width: 40px;
+  height: 40px;
+  background-image: url('imm/indietro_out_tondo.svg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+#imm_indietro:hover {
+  background-image: url('imm/indietro_over_tondo.svg');
+  background-size: cover;
 }
 
 .pulsante {
