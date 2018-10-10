@@ -1,6 +1,8 @@
 //VARIABILI
 
 var dati = [];
+var visibilitaGraph = true;
+var visibilitaDati = false;
 
 
 //CLASSI
@@ -197,9 +199,9 @@ function creaPulsantePeriodo(id, nome) {
         .attr("id", id)
         .attr("class", "pulsantePeriodo")
         .text(nome);
-    abilitaPulsanti();
+    abilitaPulsantiPeriodo();
     if (p.numeroPeriodiVisibili == 1) {
-        disabilitaPulsanti(p.ottieniPeriodiVisibili()[0].id);
+        disabilitaPulsantiPeriodo(p.ottieniPeriodiVisibili()[0].id);
     }
 
 }
@@ -228,6 +230,9 @@ function aggiornaColoriPulsanti(id, colore) {
 function aggiornaGestoreEventi(p) {
 
     var pulsantiPerido = document.querySelectorAll(".pulsantePeriodo");
+    var plt_menu = document.getElementById("imm_mostraDati");
+    var plt_grafico = document.getElementById("imm_mostraGrafico");
+    var plt_indietro = document.getElementById("imm_indietro");
 
     pulsantiPerido.forEach(pul => {
 
@@ -240,25 +245,43 @@ function aggiornaGestoreEventi(p) {
             resettaArrayDati();
             resettaRadar();
             aggiornaRadar(p);
-            abilitaPulsanti();
+            abilitaPulsantiPeriodo();
             calcolaColorePulsanti(p);
             if (p.numeroPeriodiVisibili == 1) {
-                disabilitaPulsanti(p.ottieniPeriodiVisibili()[0].id);
+                disabilitaPulsantiPeriodo(p.ottieniPeriodiVisibili()[0].id);
             }
         });
 
     });
 
+    plt_indietro.addEventListener("click", function () {
+        window.history.back();
+    });
+
+    plt_menu.addEventListener("click", (e) => {
+        invertiVisibilitaGrafico();
+    });
+
 }
 
-function abilitaPulsanti() {
+function invertiVisibilitaGrafico() {
+    visibilitaGraph = !visibilitaGraph;
+    visibilitaDati = !visibilitaDati;
+    var contenitoreDatiAziendali = document.querySelector("#datiAziendali");
+    var radar = document.querySelector(".radarChart");
+
+    contenitoreDatiAziendali.setAttribute("visibile", visibilitaDati);
+    radar.setAttribute("visibile", visibilitaGraph);
+}
+
+function abilitaPulsantiPeriodo() {
     var pulsanti = document.querySelectorAll(".pulsantePeriodo");
     pulsanti.forEach(pulsante => {
         pulsante.removeAttribute("disabled");
     });
 }
 
-function disabilitaPulsanti(id) {
+function disabilitaPulsantiPeriodo(id) {
     var pulsanti = document.querySelectorAll(".pulsantePeriodo");
 
     pulsanti.forEach(pulsante => {
@@ -279,13 +302,3 @@ function resettaRadar() {
     d3.select(".radarChart").text("");
 
 }
-
-var LightenColor = function (color, percent) {
-    var num = parseInt(color, 16),
-        amt = Math.round(2.55 * percent),
-        R = (num >> 16) + amt,
-        B = (num >> 8 & 0x00FF) + amt,
-        G = (num & 0x0000FF) + amt;
-
-    return (0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 + (B < 255 ? B < 1 ? 0 : B : 255) * 0x100 + (G < 255 ? G < 1 ? 0 : G : 255)).toString(16).slice(1);
-};

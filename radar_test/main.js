@@ -98,30 +98,7 @@ p.calcolaNumeroPeriodiVisibili();
 aggiornaPulsantiPeriodi(p);
 aggiornaGestoreEventi(p);
 aggiornaRadar(p);
-
-
-//CODICE LEGACY
-var plt_indietro = document.getElementById("imm_indietro");
-plt_indietro.addEventListener("click", function () {
-    window.history.back();
-});
-
-var plt_menu = document.getElementById("imm_mostraDati");
-var plt_grafico = document.getElementById("imm_mostraGrafico");
-
-var visibilitaGraph = true;
-var visibilitaDati = false;
-
-plt_menu.addEventListener("click", (e) => {
-    console.log("click");
-    var contenitoreDatiAziendali = document.querySelector("#datiAziendali");
-    var radar = document.querySelector(".radarChart");
-    visibilitaGraph = !visibilitaGraph;
-    visibilitaDati = !visibilitaDati;
-    console.log(visibilitaGraph);
-    contenitoreDatiAziendali.setAttribute("visibile", visibilitaDati);
-    radar.setAttribute("visibile", visibilitaGraph);
-});
+invertiVisibilitaGrafico();
 
 
 
