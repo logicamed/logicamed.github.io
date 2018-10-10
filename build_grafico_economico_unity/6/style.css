@@ -1,0 +1,46 @@
+#avvia{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    position: relative;
+    display: inline-block;
+    background-color: #1eaed3;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+    font-size: 16px;
+    height: 38px;
+    width: 120px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+#avvia:hover{
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.15);
+}
+
+#avvia:active{
+    transform: scale(1);
+}
+
+#avvia:disabled{
+    color: gainsboro;
+    transform: scale(1);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fullscreen{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+.fullscreen:hover{
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.15);
+}
+
+.title{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
