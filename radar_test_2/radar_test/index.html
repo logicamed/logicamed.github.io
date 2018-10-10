@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>RadarTest</title>
+
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	<!-- D3.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+	<!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+	<div id="divTitolo">
+		<div id="divTit">
+			Stato dell'arte aziendale
+		</div>
+		<!-- <img id="divPltClose" src="imm/pltClose.svg"></img> -->
+		<svg id="divPltClose" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+		 viewBox="657.5 321.5 403 203" width="403" height="203">
+			<path d=" M 659 523 C 659 412.617 748.617 323 859 323 L 859 323 L 859 323 C 969.383 323 1059 412.617 1059 523 L 1059 523 L 659 523 Z  M 944.723 490.768 L 901.862 446.384 L 859 402 L 816.138 446.384 L 773.277 490.768 L 816.138 472.884 L 859 455 L 901.862 472.884 L 944.723 490.768 Z "
+			 fill-rule="evenodd" fill="rgb(196,144,0)" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(196,144,0)"
+			 stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+		</svg>
+	</div>
+	<div id="logoAzienda">
+		<img id="immagineLogoAzienda" src="imm/abb.png" alt="">
+	</div>
+
+	<div id="utility">
+
+		<div id="imm_mostraDati"></div>
+		<!-- <div id="imm_mostraGrafico"></div> -->
+		<div id="imm_indietro"></div>
+
+	</div>
+
+	<div id="datiAziendali">
+
+		<!-- <div id="close"></div> -->
+
+		<div id="titDatiAziendali">
+			Dati Aziendali
+		</div>
+
+		<!-- <div id="logoAziendaDA">
+		  <img id="immagineLogoAzienda" src="imm/abb.png" alt="">
+		</div> -->
+
+		<div id="ragione">
+			Rag. Soc.&nbsp;
+			<span class="fontDati">Power-One Italy</span>&nbsp;&nbsp;&nbsp;
+			Sede&nbsp;
+			<span class="fontDati">Arezzo</span>
+		</div>
+
+		<!-- <div id="sede">
+				Sede:&nbsp;
+				<span class="fontDati" >Roma, Fiumicino</span>
+			</div> -->
+
+		<div id="titInizioLavori">
+			Check IN
+			<span class="fontDati" style="width:60px;">04/17</span>
+		</div>
+
+		<div id="titFineLavori">
+			<span class="fontDati" style="width:60px;">06/17</span>
+			Check OUT
+		</div>
+
+		<div id="dip">
+			Dipendenti
+			<span class="fontDati" style="width:50px;">404</span>
+		</div>
+
+		<div id="reparti">
+
+			<!-- Reparto A <span class="fontDati" >65</span>&emsp;  Reparto B <span class="fontDati" >138</span>&emsp;  Reparto C <span class="fontDati" >94</span>&emsp;  Reparto D <span class="fontDati" >107</span>&emsp; Reparto E <span class="fontDati" >0</span> -->
+			Reparto A <span class="fontDati" style="width:50px;">65</span><br>
+			Reparto B <span class="fontDati" style="width:50px;">138</span><br>
+			Reparto C <span class="fontDati" style="width:50px;">94</span><br>
+			Reparto D <span class="fontDati" style="width:50px;">107</span><br>
+			Reparto E <span class="fontDati" style="width:50px;">0</span><br>
+
+		</div>
+
+		<!-- <div id="sur1">
+				Survey ONE to ONE<br>
+				<span class="fontDati" >398</span>
+			</div> -->
+
+		<div id="valoreStato">
+			VALORE STATO<br><br>
+			<!-- <table id="tabValSta">
+
+				<tr class="trTabVS">
+				  <td>Valore<br>Partenza</td><td>0/660</td><td rowspan="2">01/17</td>
+				</tr>
+
+				<tr class="trTabVS">
+				  <td>Valore<br>Lettura</td><td>255/660</td>
+				</tr>
+
+			  </table> -->
+			<table id="tabValSta">
+
+				<tr class="trTabVS">
+					<td>Valore<br>Partenza</td>
+					<td>0/2200</td>
+				</tr>
+
+				<tr class="trTabVS">
+					<td>Lettura<br>06/17</td>
+					<td>853/2200</td>
+				</tr>
+
+			</table>
+		</div>
+
+		<!-- <div id="sur2">
+			  Survey WIN to WIN<br>
+			  <span class="fontDati" >401</span>
+			</div> -->
+
+		<!-- <div id="coef1">
+				Sincerity<br>
+				<span class="fontDati" >94,8%</span>
+			</div> -->
+
+		<div id="coef2">
+			Rating<br>
+			<image src="imm/intera.png" style="
+					  position:relative;
+					  width:20px;
+					  height:20px;
+					  top:3px;
+				  " />
+			<image src="imm/intera.png" style="
+					  position:relative;
+					  width:20px;
+					  height:20px;
+					  top:3px;
+				  " />
+			<image src="imm/mezza.png" style="
+					  position:relative;
+					  width:20px;
+					  height:20px;
+					  top:3px;
+				  " />
+			<image src="imm/vuota.png" style="
+					  position:relative;
+					  width:20px;
+					  height:20px;
+					  top:3px;
+				  " />
+			<image src="imm/vuota.png" style="
+					  position:relative;
+					  width:20px;
+					  height:20px;
+					  top:3px;
+				  " />
+
+		</div>
+
+		<div id="valMedio">
+			Valore Medio R.U.<br>
+			<span class="fontDati" style="width:70px;">7,3/12</span>
+		</div>
+
+		<div id="valutazione">
+			Benchmark<br>
+			<span class="fontDati" style="width:70px;">46/110</span>
+		</div>
+
+		<div id="dxCol">
+
+			<span class="fontDati" style="width:60px;">398</span> Survey ONE to ONE<br><br>
+			<span class="fontDati" style="width:60px;">94,8%</span> Sincerity<br><br><br><br>
+			<span class="fontDati" style="width:60px;">401</span> Survey WIN to WIN
+			<!-- <br><br>
+			  <span class="fontDati" >7,3/12</span> Valore Medio R.U.<br><br>
+			  <span class="fontDati" >46/110</span> Benchmark<br><br> -->
+
+		</div>
+
+	</div>
+	<div id="logoLogicamed">
+
+		<img src="imm/logo_logicamed.png" />
+		<p id="linkLogicamed">
+			<a href="http://www.logicamed.it" target="_blank">www.logicamed.it</a>
+		</p>
+		<p id="numeroLogicamed">
+
+			Tel. <a href="tel:+390744800257" style="font-size: 16px;">+39 0744 800257</a> <br>
+			Email <a href="mailto:info@logicamed.it" style="font-size: 16px;">info@logicamed.it</a>
+
+		</p>
+
+		<p id="fraseLogicamed">
+
+			<span style="font-style: italic;">"Investire sul bene pi&ugrave prezioso che abbiamo, significa creare un
+				avvenire migliore per tutti"</span><br><br>
+			Adriano Olivetti
+
+		</p>
+
+	</div>
+
+	</div>
+
+	<div id="caratteristicheAzienda">
+
+		<p id="testoLogoAzienda">
+
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left: 0px;width:50px;">Settore:</span> <span style="font-family:calibri;color:#8d9497; display:block;margin-top:-25px;margin-left: 80px;width:120px;" dir="rtl">Fabb. Schede Elettroniche</span><br>
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left:0px;width:100px;">Num. Dip. :</span> <span style="font-family:calibri;color:#8d9497;  display:block;margin-top:-25px;margin-left: 150px;width:50px;"  dir="rtl">404</span><br>
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left:0px;width:50px;">Rating:</span>
+			<span style="font-family:calibri;color:#8d9497;  display:block;margin-top:-25px;margin-left: 85px;width:150px;"  dir="ltr">
+				<image src="imm/intera.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/intera.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/mezza.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/vuota.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/vuota.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+			</span>
+		</p>
+
+	</div>
+
+		<div class="radarChart"></div>
+		<div id="contenitorePulsanti" visibile="false"></div>
+
+
+	<script src="radarChart.js"></script>
+	<script src="script.js"></script>
+	<script src="main.js"></script>
+
+</body>
+
+</html>
