@@ -106,13 +106,14 @@ function aggiornaRadar(p) {
         maxValue: 1,
         levels: 5,
         roundStrokes: false,
-        opacityCircles: 0.7,
+        opacityCircles: 0.1,
         wrapWidth: 60,
         color: color,
         sfondoRadar:  '#00042c',
     		bordoRadar:   '#989898',
         raggiRadar:   '#989898',
-        coloreLabel:   'white'
+        coloreLabel:  'white',
+    		coloreLegend: 'white'
     };
 
     elaboraDati(p);

@@ -231,7 +231,8 @@ function RadarChart(id, data, options) {
 				.attr('y', newY)
 				.text(Format(d.value))
 				.transition().duration(200)
-				.style('opacity', 1);
+				.style('opacity', 1)
+				.attr("stroke", cfg.coloreLegend);
 		})
 		.on("mouseout", function () {
 			tooltip.transition().duration(200)
