@@ -17,6 +17,9 @@
 </head>
 
 <body>
+
+
+
 	<div id="divTitolo">
 		<div id="divTit">
 			Stato dell'arte aziendale
@@ -36,14 +39,14 @@
 	<div id="utility">
 
 		<div id="imm_mostraDati"></div>
-		<div id="imm_mostraGrafico"></div>
+		<!-- <div id="imm_mostraGrafico"></div> -->
 		<div id="imm_indietro"></div>
 
 	</div>
 
 	<div id="datiAziendali">
 
-		<div id="close"></div>
+		<!-- <div id="close"></div> -->
 
 		<div id="titDatiAziendali">
 			Dati Aziendali
@@ -99,15 +102,15 @@
 		<div id="valoreStato">
 			VALORE STATO<br><br>
 			<!-- <table id="tabValSta">
-  
+
 				<tr class="trTabVS">
 				  <td>Valore<br>Partenza</td><td>0/660</td><td rowspan="2">01/17</td>
 				</tr>
-  
+
 				<tr class="trTabVS">
 				  <td>Valore<br>Lettura</td><td>255/660</td>
 				</tr>
-  
+
 			  </table> -->
 			<table id="tabValSta">
 
@@ -220,47 +223,47 @@
 
 		<p id="testoLogoAzienda">
 
-			<span style="font-family:CaviarDreamsB;color: white;">Settore:</span> <span style="font-family:calibri;color:#8d9497; ">Fabb.
-				Schede Elettroniche </span><br>
-			<span style="font-family:CaviarDreamsB;color: white;">Num. Dip. :</span> <span style="font-family:calibri;color:#8d9497;">404</span><br>
-			<span style="font-family:CaviarDreamsB;color: white;">Rating:</span>
-			<image src="imm/intera.png" style="
-						  position:relative;
-						  width:20px;
-						  height:20px;
-						  top:3px;
-					  " />
-			<image src="imm/intera.png" style="
-						  position:relative;
-						  width:20px;
-						  height:20px;
-						  top:3px;
-					  " />
-			<image src="imm/mezza.png" style="
-						  position:relative;
-						  width:20px;
-						  height:20px;
-						  top:3px;
-					  " />
-			<image src="imm/vuota.png" style="
-						  position:relative;
-						  width:20px;
-						  height:20px;
-						  top:3px;
-					  " />
-			<image src="imm/vuota.png" style="
-						  position:relative;
-						  width:20px;
-						  height:20px;
-						  top:3px;
-					  " />
-
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left: 0px;width:50px;">Settore:</span> <span style="font-family:calibri;color:#8d9497; display:block;margin-top:-25px;margin-left: 80px;width:120px;" dir="rtl">Fabb. Schede Elettroniche</span><br>
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left:0px;width:100px;">Num. Dip. :</span> <span style="font-family:calibri;color:#8d9497;  display:block;margin-top:-25px;margin-left: 150px;width:50px;"  dir="rtl">404</span><br>
+			<span style="font-family:CaviarDreamsB;color: white; display:block;margin-top:0px;margin-left:0px;width:50px;">Rating:</span>
+			<span style="font-family:calibri;color:#8d9497;  display:block;margin-top:-25px;margin-left: 85px;width:150px;"  dir="ltr">
+				<image src="imm/intera.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/intera.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/mezza.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/vuota.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+				<image src="imm/vuota.png" style="
+					position:relative;
+					width:20px;
+					height:20px;
+					top:3px;
+				" />
+			</span>
 		</p>
 
 	</div>
-	<div class="radarChart">
-		<div id="contenitorePulsanti"></div>
-	</div>
+
+		<div class="radarChart"></div>
+		<div id="contenitorePulsanti" visibile="false"></div>
 
 
 	<script src="radarChart.js"></script>

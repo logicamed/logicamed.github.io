@@ -87,6 +87,7 @@ function aggiornaRadar(p) {
     //////////////////////////////////////////////////////////////
 
     var margin = { top: 70, right: 100, bottom: 125, left: 100 },
+    // width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
         width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
         height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 
@@ -104,8 +105,14 @@ function aggiornaRadar(p) {
         margin: margin,
         maxValue: 1,
         levels: 5,
-        roundStrokes: true,
-        color: color
+        roundStrokes: false,
+        opacityCircles: 0.7,
+        wrapWidth: 60,
+        color: color,
+        sfondoRadar:  '#00042c',
+    		bordoRadar:   '#989898',
+        raggiRadar:   '#989898',
+        coloreLabel:   'white'
     };
 
     elaboraDati(p);
@@ -269,9 +276,11 @@ function invertiVisibilitaGrafico() {
     visibilitaDati = !visibilitaDati;
     var contenitoreDatiAziendali = document.querySelector("#datiAziendali");
     var radar = document.querySelector(".radarChart");
+    var pulsantiP = document.querySelector("#contenitorePulsanti");
 
     contenitoreDatiAziendali.setAttribute("visibile", visibilitaDati);
     radar.setAttribute("visibile", visibilitaGraph);
+    pulsantiP.setAttribute("visibile", visibilitaGraph);
 }
 
 function abilitaPulsantiPeriodo() {
